@@ -1,0 +1,37 @@
+-------------Error at 06/16/2020 09:54:39------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/16/2020 09:54:39------------- 
+
+-------------Fatal at 06/16/2020 10:14:44------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : There is already an open DataReader associated with this Connection which must be closed first.
+ Source: MySql.Data -> Void Throw(System.Exception)
+ Stack Trace:
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   à Stump.ORM.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1457
+   à Stump.ORM.Database.Update(Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1488
+   à Stump.ORM.Database.Update(Object poco) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1478
+   à Stump.Server.AuthServer.Managers.WorldServerManager.RemoveWorld(WorldServer world) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\Managers\WorldServerManager.cs:ligne 267
+   à Stump.Server.AuthServer.IPC.IPCClient.Disconnect() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 363
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 172
+   à System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   à System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   à System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   à System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncFailure(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   à System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   à System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP) 
+-------------Fatal at 06/16/2020 10:14:44------------- 
+
+-------------Error at 06/16/2020 10:19:11------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/16/2020 10:19:11------------- 
+

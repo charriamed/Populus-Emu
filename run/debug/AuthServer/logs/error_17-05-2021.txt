@@ -1,0 +1,18 @@
+-------------Error at 05/17/2021 13:02:17------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void TimerTick(), Delay = 4500) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Stump.Server.AuthServer.Managers.AccountManager.TimerTick() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\Managers\AccountManager.cs:line 81
+   at Stump.Core.Timers.TimedTimerEntry.Trigger() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Timers\TimedTimerEntry.cs:line 128
+   at Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:line 223. 
+-------------Error at 05/17/2021 13:02:17------------- 
+
+-------------Error at 05/17/2021 14:10:09------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 71 
+-------------Error at 05/17/2021 14:10:09------------- 
+

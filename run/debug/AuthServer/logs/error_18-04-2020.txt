@@ -1,0 +1,2637 @@
+-------------Error at 04/18/2020 11:27:48------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 11:27:48------------- 
+
+-------------Error at 04/18/2020 11:59:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 11:59:00------------- 
+
+-------------Warn at 04/18/2020 11:59:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 11:59:00------------- 
+
+-------------Error at 04/18/2020 11:59:15------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 11:59:15------------- 
+
+-------------Error at 04/18/2020 11:59:15------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 11:59:15------------- 
+
+-------------Error at 04/18/2020 11:59:15------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 11:59:15------------- 
+
+-------------Error at 04/18/2020 11:59:37------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 04/18/2020 11:59:37------------- 
+
+-------------Error at 04/18/2020 12:00:10------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 12:00:10------------- 
+
+-------------Error at 04/18/2020 12:13:51------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 12:13:51------------- 
+
+-------------Error at 04/18/2020 12:14:42------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 04/18/2020 12:14:42------------- 
+
+-------------Error at 04/18/2020 12:15:24------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 04/18/2020 12:15:24------------- 
+
+-------------Error at 04/18/2020 12:28:15------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 12:28:15------------- 
+
+-------------Error at 04/18/2020 12:43:37------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 12:43:37------------- 
+
+-------------Error at 04/18/2020 12:43:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 12:43:56------------- 
+
+-------------Warn at 04/18/2020 12:43:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 12:43:56------------- 
+
+-------------Error at 04/18/2020 12:44:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 12:44:11------------- 
+
+-------------Error at 04/18/2020 12:44:11------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 12:44:11------------- 
+
+-------------Error at 04/18/2020 12:44:11------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 12:44:11------------- 
+
+-------------Error at 04/18/2020 12:44:30------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 12:44:30------------- 
+
+-------------Error at 04/18/2020 12:44:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 12:44:45------------- 
+
+-------------Warn at 04/18/2020 12:44:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 12:44:45------------- 
+
+-------------Error at 04/18/2020 12:44:54------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 04/18/2020 12:44:54------------- 
+
+-------------Error at 04/18/2020 12:45:37------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 12:45:37------------- 
+
+-------------Error at 04/18/2020 13:22:26------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 13:22:26------------- 
+
+-------------Error at 04/18/2020 15:46:16------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 15:46:16------------- 
+
+-------------Error at 04/18/2020 16:14:50------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 16:14:50------------- 
+
+-------------Error at 04/18/2020 16:51:39------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 16:51:39------------- 
+
+-------------Error at 04/18/2020 16:59:08------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 04/18/2020 16:59:08------------- 
+
+-------------Error at 04/18/2020 16:59:08------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 04/18/2020 16:59:08------------- 
+
+-------------Error at 04/18/2020 16:59:12------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 16:59:12------------- 
+
+-------------Fatal at 04/18/2020 16:59:25------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible d'appeler la méthode Read lorsqu'une autre opération read est en attente.
+ Source: System -> Int32 ProcessRead(Byte[], Int32, Int32, System.Net.AsyncProtocolRequest)
+ Stack Trace:
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.Close()
+   à MySql.Data.MySqlClient.MySqlCommand.ResetReader()
+   à MySql.Data.MySqlClient.MySqlCommand.Dispose(Boolean disposing)
+   à MySql.Data.MySqlClient.MySqlCommand.Dispose()
+   à Stump.ORM.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1457
+   à Stump.ORM.Database.Update(Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1488
+   à Stump.ORM.Database.Update(Object poco) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1478
+   à Stump.Server.AuthServer.Managers.WorldServerManager.RemoveWorld(WorldServer world) dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\WorldServerManager.cs:ligne 267
+   à Stump.Server.AuthServer.IPC.IPCClient.Disconnect() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 363
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 172
+   à System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   à System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   à System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   à System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncFailure(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   à System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   à System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP) 
+-------------Fatal at 04/18/2020 16:59:25------------- 
+
+-------------Error at 04/18/2020 17:01:12------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 17:01:12------------- 
+
+-------------Error at 04/18/2020 18:19:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:19:16------------- 
+
+-------------Warn at 04/18/2020 18:19:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:19:16------------- 
+
+-------------Error at 04/18/2020 18:19:27------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:19:27------------- 
+
+-------------Error at 04/18/2020 18:19:46------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:19:46------------- 
+
+-------------Error at 04/18/2020 18:20:06------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:20:06------------- 
+
+-------------Error at 04/18/2020 18:20:25------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:20:25------------- 
+
+-------------Error at 04/18/2020 18:20:25------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:20:25------------- 
+
+-------------Error at 04/18/2020 18:20:25------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:20:25------------- 
+
+-------------Error at 04/18/2020 18:20:44------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:20:44------------- 
+
+-------------Error at 04/18/2020 18:20:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:20:44------------- 
+
+-------------Warn at 04/18/2020 18:20:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:20:44------------- 
+
+-------------Error at 04/18/2020 18:20:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:20:44------------- 
+
+-------------Error at 04/18/2020 18:22:08------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Ordinateur\Desktop\Decay 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 04/18/2020 18:22:08------------- 
+
+-------------Error at 04/18/2020 18:22:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:08------------- 
+
+-------------Warn at 04/18/2020 18:22:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:22:08------------- 
+
+-------------Error at 04/18/2020 18:22:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:08------------- 
+
+-------------Error at 04/18/2020 18:22:18------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:18------------- 
+
+-------------Warn at 04/18/2020 18:22:18------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:22:18------------- 
+
+-------------Error at 04/18/2020 18:22:18------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:18------------- 
+
+-------------Error at 04/18/2020 18:22:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:28------------- 
+
+-------------Warn at 04/18/2020 18:22:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:22:28------------- 
+
+-------------Error at 04/18/2020 18:22:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:28------------- 
+
+-------------Error at 04/18/2020 18:22:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:39------------- 
+
+-------------Warn at 04/18/2020 18:22:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:22:39------------- 
+
+-------------Error at 04/18/2020 18:22:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:39------------- 
+
+-------------Error at 04/18/2020 18:22:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:49------------- 
+
+-------------Warn at 04/18/2020 18:22:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:22:49------------- 
+
+-------------Error at 04/18/2020 18:22:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:22:49------------- 
+
+-------------Error at 04/18/2020 18:23:10------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:10------------- 
+
+-------------Warn at 04/18/2020 18:23:10------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:23:10------------- 
+
+-------------Error at 04/18/2020 18:23:10------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:10------------- 
+
+-------------Error at 04/18/2020 18:23:21------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:21------------- 
+
+-------------Warn at 04/18/2020 18:23:21------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:23:21------------- 
+
+-------------Error at 04/18/2020 18:23:21------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:21------------- 
+
+-------------Error at 04/18/2020 18:23:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:31------------- 
+
+-------------Warn at 04/18/2020 18:23:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:23:31------------- 
+
+-------------Error at 04/18/2020 18:23:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:31------------- 
+
+-------------Error at 04/18/2020 18:23:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:52------------- 
+
+-------------Warn at 04/18/2020 18:23:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:23:52------------- 
+
+-------------Error at 04/18/2020 18:23:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:23:52------------- 
+
+-------------Error at 04/18/2020 18:24:02------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:02------------- 
+
+-------------Warn at 04/18/2020 18:24:02------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:24:02------------- 
+
+-------------Error at 04/18/2020 18:24:02------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:02------------- 
+
+-------------Error at 04/18/2020 18:24:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:12------------- 
+
+-------------Warn at 04/18/2020 18:24:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:24:12------------- 
+
+-------------Error at 04/18/2020 18:24:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:12------------- 
+
+-------------Error at 04/18/2020 18:24:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:22------------- 
+
+-------------Warn at 04/18/2020 18:24:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:24:22------------- 
+
+-------------Error at 04/18/2020 18:24:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:22------------- 
+
+-------------Error at 04/18/2020 18:24:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:32------------- 
+
+-------------Warn at 04/18/2020 18:24:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:24:32------------- 
+
+-------------Error at 04/18/2020 18:24:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:32------------- 
+
+-------------Error at 04/18/2020 18:24:42------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:42------------- 
+
+-------------Warn at 04/18/2020 18:24:42------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:24:42------------- 
+
+-------------Error at 04/18/2020 18:24:42------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:24:42------------- 
+
+-------------Error at 04/18/2020 18:25:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:03------------- 
+
+-------------Warn at 04/18/2020 18:25:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:25:03------------- 
+
+-------------Error at 04/18/2020 18:25:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:03------------- 
+
+-------------Error at 04/18/2020 18:25:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:14------------- 
+
+-------------Warn at 04/18/2020 18:25:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:25:14------------- 
+
+-------------Error at 04/18/2020 18:25:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:14------------- 
+
+-------------Error at 04/18/2020 18:25:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:24------------- 
+
+-------------Warn at 04/18/2020 18:25:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:25:24------------- 
+
+-------------Error at 04/18/2020 18:25:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:24------------- 
+
+-------------Error at 04/18/2020 18:25:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:45------------- 
+
+-------------Warn at 04/18/2020 18:25:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:25:45------------- 
+
+-------------Error at 04/18/2020 18:25:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:45------------- 
+
+-------------Error at 04/18/2020 18:25:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:55------------- 
+
+-------------Warn at 04/18/2020 18:25:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:25:55------------- 
+
+-------------Error at 04/18/2020 18:25:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:25:55------------- 
+
+-------------Error at 04/18/2020 18:26:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:06------------- 
+
+-------------Warn at 04/18/2020 18:26:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:26:06------------- 
+
+-------------Error at 04/18/2020 18:26:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:06------------- 
+
+-------------Error at 04/18/2020 18:26:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:17------------- 
+
+-------------Warn at 04/18/2020 18:26:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:26:17------------- 
+
+-------------Error at 04/18/2020 18:26:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:17------------- 
+
+-------------Error at 04/18/2020 18:26:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:28------------- 
+
+-------------Warn at 04/18/2020 18:26:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:26:28------------- 
+
+-------------Error at 04/18/2020 18:26:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:28------------- 
+
+-------------Error at 04/18/2020 18:26:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:39------------- 
+
+-------------Warn at 04/18/2020 18:26:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:26:39------------- 
+
+-------------Error at 04/18/2020 18:26:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:39------------- 
+
+-------------Error at 04/18/2020 18:26:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:51------------- 
+
+-------------Warn at 04/18/2020 18:26:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:26:51------------- 
+
+-------------Error at 04/18/2020 18:26:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:26:51------------- 
+
+-------------Error at 04/18/2020 18:27:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:01------------- 
+
+-------------Warn at 04/18/2020 18:27:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:27:01------------- 
+
+-------------Error at 04/18/2020 18:27:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:01------------- 
+
+-------------Error at 04/18/2020 18:27:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:22------------- 
+
+-------------Warn at 04/18/2020 18:27:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:27:22------------- 
+
+-------------Error at 04/18/2020 18:27:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:22------------- 
+
+-------------Error at 04/18/2020 18:27:33------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:33------------- 
+
+-------------Warn at 04/18/2020 18:27:33------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:27:33------------- 
+
+-------------Error at 04/18/2020 18:27:33------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:33------------- 
+
+-------------Error at 04/18/2020 18:27:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:44------------- 
+
+-------------Warn at 04/18/2020 18:27:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:27:44------------- 
+
+-------------Error at 04/18/2020 18:27:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:44------------- 
+
+-------------Error at 04/18/2020 18:27:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:55------------- 
+
+-------------Warn at 04/18/2020 18:27:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:27:55------------- 
+
+-------------Error at 04/18/2020 18:27:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:27:55------------- 
+
+-------------Error at 04/18/2020 18:28:05------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:05------------- 
+
+-------------Warn at 04/18/2020 18:28:05------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:28:05------------- 
+
+-------------Error at 04/18/2020 18:28:05------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:05------------- 
+
+-------------Error at 04/18/2020 18:28:26------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:26------------- 
+
+-------------Warn at 04/18/2020 18:28:26------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:28:26------------- 
+
+-------------Error at 04/18/2020 18:28:26------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:26------------- 
+
+-------------Error at 04/18/2020 18:28:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:47------------- 
+
+-------------Warn at 04/18/2020 18:28:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:28:47------------- 
+
+-------------Error at 04/18/2020 18:28:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:47------------- 
+
+-------------Error at 04/18/2020 18:28:58------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:58------------- 
+
+-------------Warn at 04/18/2020 18:28:58------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:28:58------------- 
+
+-------------Error at 04/18/2020 18:28:58------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:28:58------------- 
+
+-------------Error at 04/18/2020 18:29:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:09------------- 
+
+-------------Warn at 04/18/2020 18:29:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:29:09------------- 
+
+-------------Error at 04/18/2020 18:29:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:09------------- 
+
+-------------Error at 04/18/2020 18:29:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:20------------- 
+
+-------------Warn at 04/18/2020 18:29:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:29:20------------- 
+
+-------------Error at 04/18/2020 18:29:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:20------------- 
+
+-------------Error at 04/18/2020 18:29:30------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:30------------- 
+
+-------------Warn at 04/18/2020 18:29:30------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:29:30------------- 
+
+-------------Error at 04/18/2020 18:29:30------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:30------------- 
+
+-------------Error at 04/18/2020 18:29:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:51------------- 
+
+-------------Warn at 04/18/2020 18:29:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:29:51------------- 
+
+-------------Error at 04/18/2020 18:29:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:29:52------------- 
+
+-------------Error at 04/18/2020 18:30:02------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:02------------- 
+
+-------------Warn at 04/18/2020 18:30:02------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:30:02------------- 
+
+-------------Error at 04/18/2020 18:30:02------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:02------------- 
+
+-------------Error at 04/18/2020 18:30:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:12------------- 
+
+-------------Warn at 04/18/2020 18:30:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:30:12------------- 
+
+-------------Error at 04/18/2020 18:30:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:12------------- 
+
+-------------Error at 04/18/2020 18:30:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:22------------- 
+
+-------------Warn at 04/18/2020 18:30:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:30:22------------- 
+
+-------------Error at 04/18/2020 18:30:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:22------------- 
+
+-------------Error at 04/18/2020 18:30:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:43------------- 
+
+-------------Warn at 04/18/2020 18:30:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:30:43------------- 
+
+-------------Error at 04/18/2020 18:30:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:43------------- 
+
+-------------Error at 04/18/2020 18:30:54------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:54------------- 
+
+-------------Warn at 04/18/2020 18:30:54------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:30:54------------- 
+
+-------------Error at 04/18/2020 18:30:54------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:30:54------------- 
+
+-------------Error at 04/18/2020 18:31:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:04------------- 
+
+-------------Warn at 04/18/2020 18:31:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:31:04------------- 
+
+-------------Error at 04/18/2020 18:31:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:04------------- 
+
+-------------Error at 04/18/2020 18:31:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:25------------- 
+
+-------------Warn at 04/18/2020 18:31:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:31:25------------- 
+
+-------------Error at 04/18/2020 18:31:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:25------------- 
+
+-------------Error at 04/18/2020 18:31:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:35------------- 
+
+-------------Warn at 04/18/2020 18:31:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:31:35------------- 
+
+-------------Error at 04/18/2020 18:31:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:35------------- 
+
+-------------Error at 04/18/2020 18:31:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:45------------- 
+
+-------------Warn at 04/18/2020 18:31:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:31:45------------- 
+
+-------------Error at 04/18/2020 18:31:45------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:45------------- 
+
+-------------Error at 04/18/2020 18:31:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:55------------- 
+
+-------------Warn at 04/18/2020 18:31:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:31:55------------- 
+
+-------------Error at 04/18/2020 18:31:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:31:55------------- 
+
+-------------Error at 04/18/2020 18:32:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:06------------- 
+
+-------------Warn at 04/18/2020 18:32:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:32:06------------- 
+
+-------------Error at 04/18/2020 18:32:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:06------------- 
+
+-------------Error at 04/18/2020 18:32:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:16------------- 
+
+-------------Warn at 04/18/2020 18:32:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:32:16------------- 
+
+-------------Error at 04/18/2020 18:32:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:16------------- 
+
+-------------Error at 04/18/2020 18:32:26------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:26------------- 
+
+-------------Warn at 04/18/2020 18:32:26------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:32:26------------- 
+
+-------------Error at 04/18/2020 18:32:26------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:26------------- 
+
+-------------Error at 04/18/2020 18:32:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:47------------- 
+
+-------------Warn at 04/18/2020 18:32:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:32:47------------- 
+
+-------------Error at 04/18/2020 18:32:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:47------------- 
+
+-------------Error at 04/18/2020 18:32:57------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:57------------- 
+
+-------------Warn at 04/18/2020 18:32:57------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:32:57------------- 
+
+-------------Error at 04/18/2020 18:32:57------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:32:57------------- 
+
+-------------Error at 04/18/2020 18:33:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:08------------- 
+
+-------------Warn at 04/18/2020 18:33:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:33:08------------- 
+
+-------------Error at 04/18/2020 18:33:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:09------------- 
+
+-------------Error at 04/18/2020 18:33:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:20------------- 
+
+-------------Warn at 04/18/2020 18:33:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:33:20------------- 
+
+-------------Error at 04/18/2020 18:33:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:20------------- 
+
+-------------Error at 04/18/2020 18:33:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:31------------- 
+
+-------------Warn at 04/18/2020 18:33:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:33:31------------- 
+
+-------------Error at 04/18/2020 18:33:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:31------------- 
+
+-------------Error at 04/18/2020 18:33:42------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:42------------- 
+
+-------------Warn at 04/18/2020 18:33:42------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:33:42------------- 
+
+-------------Error at 04/18/2020 18:33:42------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:42------------- 
+
+-------------Error at 04/18/2020 18:33:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:52------------- 
+
+-------------Warn at 04/18/2020 18:33:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:33:52------------- 
+
+-------------Error at 04/18/2020 18:33:52------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:33:52------------- 
+
+-------------Error at 04/18/2020 18:34:13------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:13------------- 
+
+-------------Warn at 04/18/2020 18:34:13------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:34:13------------- 
+
+-------------Error at 04/18/2020 18:34:13------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:13------------- 
+
+-------------Error at 04/18/2020 18:34:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:24------------- 
+
+-------------Warn at 04/18/2020 18:34:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:34:24------------- 
+
+-------------Error at 04/18/2020 18:34:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:24------------- 
+
+-------------Error at 04/18/2020 18:34:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:34------------- 
+
+-------------Warn at 04/18/2020 18:34:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:34:34------------- 
+
+-------------Error at 04/18/2020 18:34:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:34------------- 
+
+-------------Error at 04/18/2020 18:34:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:55------------- 
+
+-------------Warn at 04/18/2020 18:34:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:34:55------------- 
+
+-------------Error at 04/18/2020 18:34:55------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:34:55------------- 
+
+-------------Error at 04/18/2020 18:35:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:06------------- 
+
+-------------Warn at 04/18/2020 18:35:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:35:06------------- 
+
+-------------Error at 04/18/2020 18:35:06------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:06------------- 
+
+-------------Error at 04/18/2020 18:35:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:16------------- 
+
+-------------Warn at 04/18/2020 18:35:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:35:16------------- 
+
+-------------Error at 04/18/2020 18:35:16------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:16------------- 
+
+-------------Error at 04/18/2020 18:35:37------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:37------------- 
+
+-------------Warn at 04/18/2020 18:35:37------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:35:37------------- 
+
+-------------Error at 04/18/2020 18:35:37------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:37------------- 
+
+-------------Error at 04/18/2020 18:35:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:47------------- 
+
+-------------Warn at 04/18/2020 18:35:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:35:47------------- 
+
+-------------Error at 04/18/2020 18:35:47------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:47------------- 
+
+-------------Error at 04/18/2020 18:35:58------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:58------------- 
+
+-------------Warn at 04/18/2020 18:35:58------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:35:58------------- 
+
+-------------Error at 04/18/2020 18:35:58------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:35:58------------- 
+
+-------------Error at 04/18/2020 18:36:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:36:08------------- 
+
+-------------Warn at 04/18/2020 18:36:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:36:08------------- 
+
+-------------Error at 04/18/2020 18:36:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:36:08------------- 
+
+-------------Error at 04/18/2020 18:36:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:36:29------------- 
+
+-------------Warn at 04/18/2020 18:36:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:36:29------------- 
+
+-------------Error at 04/18/2020 18:36:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:36:29------------- 
+
+-------------Error at 04/18/2020 18:36:40------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:36:40------------- 
+
+-------------Warn at 04/18/2020 18:36:40------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:36:40------------- 
+
+-------------Error at 04/18/2020 18:36:40------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:36:40------------- 
+
+-------------Error at 04/18/2020 18:37:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:01------------- 
+
+-------------Warn at 04/18/2020 18:37:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:37:01------------- 
+
+-------------Error at 04/18/2020 18:37:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:01------------- 
+
+-------------Error at 04/18/2020 18:37:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:22------------- 
+
+-------------Warn at 04/18/2020 18:37:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:37:22------------- 
+
+-------------Error at 04/18/2020 18:37:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:22------------- 
+
+-------------Error at 04/18/2020 18:37:33------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:33------------- 
+
+-------------Warn at 04/18/2020 18:37:33------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:37:33------------- 
+
+-------------Error at 04/18/2020 18:37:33------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:33------------- 
+
+-------------Error at 04/18/2020 18:37:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:43------------- 
+
+-------------Warn at 04/18/2020 18:37:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:37:43------------- 
+
+-------------Error at 04/18/2020 18:37:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:37:43------------- 
+
+-------------Error at 04/18/2020 18:38:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:04------------- 
+
+-------------Warn at 04/18/2020 18:38:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:38:04------------- 
+
+-------------Error at 04/18/2020 18:38:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:04------------- 
+
+-------------Error at 04/18/2020 18:38:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:14------------- 
+
+-------------Warn at 04/18/2020 18:38:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:38:14------------- 
+
+-------------Error at 04/18/2020 18:38:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:14------------- 
+
+-------------Error at 04/18/2020 18:38:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:35------------- 
+
+-------------Warn at 04/18/2020 18:38:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:38:35------------- 
+
+-------------Error at 04/18/2020 18:38:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:35------------- 
+
+-------------Error at 04/18/2020 18:38:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:46------------- 
+
+-------------Warn at 04/18/2020 18:38:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:38:46------------- 
+
+-------------Error at 04/18/2020 18:38:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:46------------- 
+
+-------------Error at 04/18/2020 18:38:57------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:57------------- 
+
+-------------Warn at 04/18/2020 18:38:57------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:38:57------------- 
+
+-------------Error at 04/18/2020 18:38:57------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:38:57------------- 
+
+-------------Error at 04/18/2020 18:39:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:08------------- 
+
+-------------Warn at 04/18/2020 18:39:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:39:08------------- 
+
+-------------Error at 04/18/2020 18:39:08------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:08------------- 
+
+-------------Error at 04/18/2020 18:39:18------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:18------------- 
+
+-------------Warn at 04/18/2020 18:39:18------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:39:18------------- 
+
+-------------Error at 04/18/2020 18:39:18------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:18------------- 
+
+-------------Error at 04/18/2020 18:39:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:39------------- 
+
+-------------Warn at 04/18/2020 18:39:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:39:39------------- 
+
+-------------Error at 04/18/2020 18:39:39------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:39------------- 
+
+-------------Error at 04/18/2020 18:39:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:49------------- 
+
+-------------Warn at 04/18/2020 18:39:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:39:49------------- 
+
+-------------Error at 04/18/2020 18:39:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:39:49------------- 
+
+-------------Error at 04/18/2020 18:40:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:00------------- 
+
+-------------Warn at 04/18/2020 18:40:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:40:00------------- 
+
+-------------Error at 04/18/2020 18:40:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:00------------- 
+
+-------------Error at 04/18/2020 18:40:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:12------------- 
+
+-------------Warn at 04/18/2020 18:40:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:40:12------------- 
+
+-------------Error at 04/18/2020 18:40:12------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:12------------- 
+
+-------------Error at 04/18/2020 18:40:23------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:23------------- 
+
+-------------Warn at 04/18/2020 18:40:23------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:40:23------------- 
+
+-------------Error at 04/18/2020 18:40:23------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:23------------- 
+
+-------------Error at 04/18/2020 18:40:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:34------------- 
+
+-------------Warn at 04/18/2020 18:40:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:40:34------------- 
+
+-------------Error at 04/18/2020 18:40:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:34------------- 
+
+-------------Error at 04/18/2020 18:40:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:44------------- 
+
+-------------Warn at 04/18/2020 18:40:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:40:44------------- 
+
+-------------Error at 04/18/2020 18:40:44------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:44------------- 
+
+-------------Error at 04/18/2020 18:40:54------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:54------------- 
+
+-------------Warn at 04/18/2020 18:40:54------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:40:54------------- 
+
+-------------Error at 04/18/2020 18:40:54------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:40:54------------- 
+
+-------------Error at 04/18/2020 18:41:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:04------------- 
+
+-------------Warn at 04/18/2020 18:41:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:41:04------------- 
+
+-------------Error at 04/18/2020 18:41:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:04------------- 
+
+-------------Error at 04/18/2020 18:41:15------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:15------------- 
+
+-------------Warn at 04/18/2020 18:41:15------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:41:15------------- 
+
+-------------Error at 04/18/2020 18:41:15------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:15------------- 
+
+-------------Error at 04/18/2020 18:41:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:25------------- 
+
+-------------Warn at 04/18/2020 18:41:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:41:25------------- 
+
+-------------Error at 04/18/2020 18:41:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:25------------- 
+
+-------------Error at 04/18/2020 18:41:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:46------------- 
+
+-------------Warn at 04/18/2020 18:41:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:41:46------------- 
+
+-------------Error at 04/18/2020 18:41:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:46------------- 
+
+-------------Error at 04/18/2020 18:41:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:56------------- 
+
+-------------Warn at 04/18/2020 18:41:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:41:56------------- 
+
+-------------Error at 04/18/2020 18:41:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:41:56------------- 
+
+-------------Error at 04/18/2020 18:42:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:42:17------------- 
+
+-------------Warn at 04/18/2020 18:42:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:42:17------------- 
+
+-------------Error at 04/18/2020 18:42:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:42:17------------- 
+
+-------------Error at 04/18/2020 18:42:38------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:42:38------------- 
+
+-------------Warn at 04/18/2020 18:42:38------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:42:38------------- 
+
+-------------Error at 04/18/2020 18:42:38------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:42:38------------- 
+
+-------------Error at 04/18/2020 18:42:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:42:49------------- 
+
+-------------Warn at 04/18/2020 18:42:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:42:49------------- 
+
+-------------Error at 04/18/2020 18:42:49------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:42:49------------- 
+
+-------------Error at 04/18/2020 18:43:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:00------------- 
+
+-------------Warn at 04/18/2020 18:43:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:43:00------------- 
+
+-------------Error at 04/18/2020 18:43:00------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:00------------- 
+
+-------------Error at 04/18/2020 18:43:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:11------------- 
+
+-------------Warn at 04/18/2020 18:43:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:43:11------------- 
+
+-------------Error at 04/18/2020 18:43:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:11------------- 
+
+-------------Error at 04/18/2020 18:43:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:22------------- 
+
+-------------Warn at 04/18/2020 18:43:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:43:22------------- 
+
+-------------Error at 04/18/2020 18:43:22------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:22------------- 
+
+-------------Error at 04/18/2020 18:43:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:32------------- 
+
+-------------Warn at 04/18/2020 18:43:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:43:32------------- 
+
+-------------Error at 04/18/2020 18:43:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:32------------- 
+
+-------------Error at 04/18/2020 18:43:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:43------------- 
+
+-------------Warn at 04/18/2020 18:43:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:43:43------------- 
+
+-------------Error at 04/18/2020 18:43:43------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:43------------- 
+
+-------------Error at 04/18/2020 18:43:53------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:53------------- 
+
+-------------Warn at 04/18/2020 18:43:53------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:43:53------------- 
+
+-------------Error at 04/18/2020 18:43:53------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:43:53------------- 
+
+-------------Error at 04/18/2020 18:44:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:03------------- 
+
+-------------Warn at 04/18/2020 18:44:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:44:03------------- 
+
+-------------Error at 04/18/2020 18:44:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:03------------- 
+
+-------------Error at 04/18/2020 18:44:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:24------------- 
+
+-------------Warn at 04/18/2020 18:44:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:44:24------------- 
+
+-------------Error at 04/18/2020 18:44:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:24------------- 
+
+-------------Error at 04/18/2020 18:44:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:35------------- 
+
+-------------Warn at 04/18/2020 18:44:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:44:35------------- 
+
+-------------Error at 04/18/2020 18:44:35------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:35------------- 
+
+-------------Error at 04/18/2020 18:44:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:46------------- 
+
+-------------Warn at 04/18/2020 18:44:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:44:46------------- 
+
+-------------Error at 04/18/2020 18:44:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:46------------- 
+
+-------------Error at 04/18/2020 18:44:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:56------------- 
+
+-------------Warn at 04/18/2020 18:44:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:44:56------------- 
+
+-------------Error at 04/18/2020 18:44:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:44:56------------- 
+
+-------------Error at 04/18/2020 18:45:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:17------------- 
+
+-------------Warn at 04/18/2020 18:45:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:45:17------------- 
+
+-------------Error at 04/18/2020 18:45:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:17------------- 
+
+-------------Error at 04/18/2020 18:45:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:28------------- 
+
+-------------Warn at 04/18/2020 18:45:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:45:28------------- 
+
+-------------Error at 04/18/2020 18:45:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:28------------- 
+
+-------------Error at 04/18/2020 18:45:38------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:38------------- 
+
+-------------Warn at 04/18/2020 18:45:38------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:45:38------------- 
+
+-------------Error at 04/18/2020 18:45:38------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:38------------- 
+
+-------------Error at 04/18/2020 18:45:59------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:59------------- 
+
+-------------Warn at 04/18/2020 18:45:59------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:45:59------------- 
+
+-------------Error at 04/18/2020 18:45:59------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:45:59------------- 
+
+-------------Error at 04/18/2020 18:46:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:09------------- 
+
+-------------Warn at 04/18/2020 18:46:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:46:09------------- 
+
+-------------Error at 04/18/2020 18:46:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:09------------- 
+
+-------------Error at 04/18/2020 18:46:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:20------------- 
+
+-------------Warn at 04/18/2020 18:46:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:46:20------------- 
+
+-------------Error at 04/18/2020 18:46:20------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:20------------- 
+
+-------------Error at 04/18/2020 18:46:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:31------------- 
+
+-------------Warn at 04/18/2020 18:46:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:46:31------------- 
+
+-------------Error at 04/18/2020 18:46:31------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:31------------- 
+
+-------------Error at 04/18/2020 18:46:41------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:41------------- 
+
+-------------Warn at 04/18/2020 18:46:41------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:46:41------------- 
+
+-------------Error at 04/18/2020 18:46:41------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:46:41------------- 
+
+-------------Error at 04/18/2020 18:47:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:03------------- 
+
+-------------Warn at 04/18/2020 18:47:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:47:03------------- 
+
+-------------Error at 04/18/2020 18:47:03------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:03------------- 
+
+-------------Error at 04/18/2020 18:47:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:14------------- 
+
+-------------Warn at 04/18/2020 18:47:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:47:14------------- 
+
+-------------Error at 04/18/2020 18:47:14------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:14------------- 
+
+-------------Error at 04/18/2020 18:47:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:25------------- 
+
+-------------Warn at 04/18/2020 18:47:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:47:25------------- 
+
+-------------Error at 04/18/2020 18:47:25------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:25------------- 
+
+-------------Error at 04/18/2020 18:47:36------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:36------------- 
+
+-------------Warn at 04/18/2020 18:47:36------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:47:36------------- 
+
+-------------Error at 04/18/2020 18:47:36------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:36------------- 
+
+-------------Error at 04/18/2020 18:47:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:46------------- 
+
+-------------Warn at 04/18/2020 18:47:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:47:46------------- 
+
+-------------Error at 04/18/2020 18:47:46------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:46------------- 
+
+-------------Error at 04/18/2020 18:47:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:56------------- 
+
+-------------Warn at 04/18/2020 18:47:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:47:56------------- 
+
+-------------Error at 04/18/2020 18:47:56------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:47:56------------- 
+
+-------------Error at 04/18/2020 18:48:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:17------------- 
+
+-------------Warn at 04/18/2020 18:48:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:48:17------------- 
+
+-------------Error at 04/18/2020 18:48:17------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:17------------- 
+
+-------------Error at 04/18/2020 18:48:27------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:27------------- 
+
+-------------Warn at 04/18/2020 18:48:27------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:48:27------------- 
+
+-------------Error at 04/18/2020 18:48:27------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:27------------- 
+
+-------------Error at 04/18/2020 18:48:48------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:48------------- 
+
+-------------Warn at 04/18/2020 18:48:48------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:48:48------------- 
+
+-------------Error at 04/18/2020 18:48:48------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:48------------- 
+
+-------------Error at 04/18/2020 18:48:59------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:59------------- 
+
+-------------Warn at 04/18/2020 18:48:59------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:48:59------------- 
+
+-------------Error at 04/18/2020 18:48:59------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:48:59------------- 
+
+-------------Error at 04/18/2020 18:49:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:09------------- 
+
+-------------Warn at 04/18/2020 18:49:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:49:09------------- 
+
+-------------Error at 04/18/2020 18:49:09------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:09------------- 
+
+-------------Error at 04/18/2020 18:49:30------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:30------------- 
+
+-------------Warn at 04/18/2020 18:49:30------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:49:30------------- 
+
+-------------Error at 04/18/2020 18:49:30------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:30------------- 
+
+-------------Error at 04/18/2020 18:49:41------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:41------------- 
+
+-------------Warn at 04/18/2020 18:49:41------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:49:41------------- 
+
+-------------Error at 04/18/2020 18:49:41------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:41------------- 
+
+-------------Error at 04/18/2020 18:49:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:51------------- 
+
+-------------Warn at 04/18/2020 18:49:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:49:51------------- 
+
+-------------Error at 04/18/2020 18:49:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:49:51------------- 
+
+-------------Error at 04/18/2020 18:50:13------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:50:13------------- 
+
+-------------Warn at 04/18/2020 18:50:13------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:50:13------------- 
+
+-------------Error at 04/18/2020 18:50:13------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:50:13------------- 
+
+-------------Error at 04/18/2020 18:50:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:50:24------------- 
+
+-------------Warn at 04/18/2020 18:50:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:50:24------------- 
+
+-------------Error at 04/18/2020 18:50:24------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:50:24------------- 
+
+-------------Error at 04/18/2020 18:50:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 04/18/2020 18:50:34------------- 
+
+-------------Warn at 04/18/2020 18:50:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 04/18/2020 18:50:34------------- 
+
+-------------Error at 04/18/2020 18:50:34------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 04/18/2020 18:50:34------------- 
+
+-------------Error at 04/18/2020 20:10:30------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/18/2020 20:10:30------------- 
+

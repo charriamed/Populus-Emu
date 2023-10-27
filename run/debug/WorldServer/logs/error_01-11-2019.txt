@@ -1,0 +1,634 @@
+-------------Error at 11/01/2019 16:50:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 16:50:29------------- 
+
+-------------Error at 11/01/2019 16:50:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 16:50:29------------- 
+
+-------------Error at 11/01/2019 16:50:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 16:50:29------------- 
+
+-------------Error at 11/01/2019 16:50:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 16:50:29------------- 
+
+-------------Error at 11/01/2019 16:50:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 16:50:29------------- 
+
+-------------Error at 11/01/2019 16:50:38------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 16:50:38------------- 
+
+-------------Error at 11/01/2019 16:50:47------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Impossible de lire au-delà de la fin du flux. 
+-------------Error at 11/01/2019 16:50:47------------- 
+
+-------------Fatal at 11/01/2019 16:50:47------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une exception a été levée par la cible d'un appel.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   à System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 125
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 138
+   à Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 157
+   à Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 149
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\WorldServer.cs:ligne 128
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 11/01/2019 16:50:47------------- 
+
+-------------Fatal at 11/01/2019 16:50:47------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de lire au-delà de la fin du flux.
+ Source: mscorlib -> System.String ReadString()
+ Stack Trace:
+   à System.IO.BinaryReader.ReadString()
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 649
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 85
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectDice.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectDice.cs:ligne 159
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase.DeSerialize(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 626
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffect(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 455
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffects(Byte[] buffer) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 404
+   à Stump.Server.WorldServer.Database.Spells.SpellLevelTemplate.set_EffectsBin(Byte[] value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Database\Spells\SpellLevelTemplate.cs:ligne 228
+   à petapoco_factory_0(IDataReader )
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 800
+   à System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   à System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   à Stump.ORM.Database.Fetch[T](String sql, Object[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 621
+   à Stump.Server.WorldServer.Game.Spells.SpellManager.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Spells\SpellManager.cs:ligne 48 
+-------------Fatal at 11/01/2019 16:50:47------------- 
+
+-------------Error at 11/01/2019 16:55:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 16:55:02------------- 
+
+-------------Error at 11/01/2019 16:55:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 16:55:02------------- 
+
+-------------Error at 11/01/2019 16:55:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 16:55:02------------- 
+
+-------------Error at 11/01/2019 16:55:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 16:55:02------------- 
+
+-------------Error at 11/01/2019 16:55:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 16:55:02------------- 
+
+-------------Error at 11/01/2019 16:55:26------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 16:55:26------------- 
+
+-------------Error at 11/01/2019 16:55:33------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Impossible de lire au-delà de la fin du flux. 
+-------------Error at 11/01/2019 16:55:33------------- 
+
+-------------Fatal at 11/01/2019 16:55:34------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une exception a été levée par la cible d'un appel.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   à System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 125
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 138
+   à Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 157
+   à Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 149
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\WorldServer.cs:ligne 128
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 11/01/2019 16:55:34------------- 
+
+-------------Fatal at 11/01/2019 16:55:34------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de lire au-delà de la fin du flux.
+ Source: mscorlib -> System.String ReadString()
+ Stack Trace:
+   à System.IO.BinaryReader.ReadString()
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 649
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 85
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectDice.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectDice.cs:ligne 159
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase.DeSerialize(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 626
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffect(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 455
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffects(Byte[] buffer) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 404
+   à Stump.Server.WorldServer.Database.Spells.SpellLevelTemplate.set_EffectsBin(Byte[] value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Database\Spells\SpellLevelTemplate.cs:ligne 228
+   à petapoco_factory_0(IDataReader )
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 800
+   à System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   à System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   à Stump.ORM.Database.Fetch[T](String sql, Object[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 621
+   à Stump.Server.WorldServer.Game.Spells.SpellManager.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Spells\SpellManager.cs:ligne 48 
+-------------Fatal at 11/01/2019 16:55:34------------- 
+
+-------------Warn at 11/01/2019 17:13:00------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 11/01/2019 17:13:00------------- 
+
+-------------Error at 11/01/2019 17:13:06------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:13:06------------- 
+
+-------------Error at 11/01/2019 17:13:07------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:13:07------------- 
+
+-------------Error at 11/01/2019 17:13:07------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:13:07------------- 
+
+-------------Error at 11/01/2019 17:13:07------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:13:07------------- 
+
+-------------Error at 11/01/2019 17:13:07------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:13:07------------- 
+
+-------------Error at 11/01/2019 17:13:15------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:13:15------------- 
+
+-------------Error at 11/01/2019 17:13:44------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Impossible de lire au-delà de la fin du flux. 
+-------------Error at 11/01/2019 17:13:44------------- 
+
+-------------Error at 11/01/2019 17:14:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:14:11------------- 
+
+-------------Error at 11/01/2019 17:14:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:14:11------------- 
+
+-------------Error at 11/01/2019 17:14:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:14:11------------- 
+
+-------------Error at 11/01/2019 17:14:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:14:11------------- 
+
+-------------Error at 11/01/2019 17:14:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:14:11------------- 
+
+-------------Error at 11/01/2019 17:14:17------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:14:17------------- 
+
+-------------Error at 11/01/2019 17:14:20------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Impossible de lire au-delà de la fin du flux. 
+-------------Error at 11/01/2019 17:14:20------------- 
+
+-------------Fatal at 11/01/2019 17:14:20------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une exception a été levée par la cible d'un appel.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   à System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 125
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 138
+   à Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 157
+   à Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 149
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\WorldServer.cs:ligne 128
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 11/01/2019 17:14:20------------- 
+
+-------------Fatal at 11/01/2019 17:14:20------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de lire au-delà de la fin du flux.
+ Source: mscorlib -> System.String ReadString()
+ Stack Trace:
+   à System.IO.BinaryReader.ReadString()
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 649
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 85
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectDice.InternalDeserialize(BinaryReader& reader) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectDice.cs:ligne 161
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase.DeSerialize(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 626
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffect(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 455
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffects(Byte[] buffer) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 404
+   à Stump.Server.WorldServer.Database.Spells.SpellLevelTemplate.set_EffectsBin(Byte[] value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Database\Spells\SpellLevelTemplate.cs:ligne 228
+   à petapoco_factory_0(IDataReader )
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 800
+   à System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   à System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   à Stump.ORM.Database.Fetch[T](String sql, Object[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 621
+   à Stump.Server.WorldServer.Game.Spells.SpellManager.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Spells\SpellManager.cs:ligne 48 
+-------------Fatal at 11/01/2019 17:14:20------------- 
+
+-------------Error at 11/01/2019 17:14:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:14:33------------- 
+
+-------------Error at 11/01/2019 17:14:34------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:14:34------------- 
+
+-------------Error at 11/01/2019 17:14:34------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:14:34------------- 
+
+-------------Error at 11/01/2019 17:14:34------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:14:34------------- 
+
+-------------Error at 11/01/2019 17:14:34------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:14:34------------- 
+
+-------------Error at 11/01/2019 17:30:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:30:13------------- 
+
+-------------Error at 11/01/2019 17:30:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:30:13------------- 
+
+-------------Error at 11/01/2019 17:30:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:30:13------------- 
+
+-------------Error at 11/01/2019 17:30:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:30:13------------- 
+
+-------------Error at 11/01/2019 17:30:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:30:13------------- 
+
+-------------Error at 11/01/2019 17:30:25------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:30:25------------- 
+
+-------------Error at 11/01/2019 17:30:30------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Incorrect identifier : 0 
+-------------Error at 11/01/2019 17:30:30------------- 
+
+-------------Fatal at 11/01/2019 17:30:30------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une exception a été levée par la cible d'un appel.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   à System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 125
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 138
+   à Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 157
+   à Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 149
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\WorldServer.cs:ligne 128
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 11/01/2019 17:30:30------------- 
+
+-------------Fatal at 11/01/2019 17:30:30------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Incorrect identifier : 0
+ Source: Stump.Server.WorldServer -> Stump.Server.WorldServer.Game.Effects.Instances.EffectBase DeserializeEffect(Byte[], Int32 ByRef)
+ Stack Trace:
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffect(Byte[] buffer, Int32& index) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 451
+   à Stump.Server.WorldServer.Game.Effects.EffectManager.DeserializeEffects(Byte[] buffer) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 404
+   à Stump.Server.WorldServer.Database.Spells.SpellLevelTemplate.set_EffectsBin(Byte[] value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Database\Spells\SpellLevelTemplate.cs:ligne 228
+   à petapoco_factory_0(IDataReader )
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 800
+   à System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   à System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   à Stump.ORM.Database.Fetch[T](String sql, Object[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 621
+   à Stump.Server.WorldServer.Game.Spells.SpellManager.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Spells\SpellManager.cs:ligne 48 
+-------------Fatal at 11/01/2019 17:30:30------------- 
+
+-------------Error at 11/01/2019 17:30:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:30:45------------- 
+
+-------------Error at 11/01/2019 17:30:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:30:45------------- 
+
+-------------Error at 11/01/2019 17:30:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:30:45------------- 
+
+-------------Error at 11/01/2019 17:30:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:30:45------------- 
+
+-------------Error at 11/01/2019 17:30:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:30:45------------- 
+
+-------------Warn at 11/01/2019 17:33:33------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 11/01/2019 17:33:33------------- 
+
+-------------Error at 11/01/2019 17:33:40------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:33:40------------- 
+
+-------------Error at 11/01/2019 17:33:40------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:33:40------------- 
+
+-------------Error at 11/01/2019 17:33:40------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:33:40------------- 
+
+-------------Error at 11/01/2019 17:33:40------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:33:40------------- 
+
+-------------Error at 11/01/2019 17:33:40------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:33:40------------- 
+
+-------------Error at 11/01/2019 17:33:50------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:33:50------------- 
+
+-------------Warn at 11/01/2019 17:42:46------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 11/01/2019 17:42:46------------- 
+
+-------------Error at 11/01/2019 17:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:42:54------------- 
+
+-------------Error at 11/01/2019 17:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:42:54------------- 
+
+-------------Error at 11/01/2019 17:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:42:54------------- 
+
+-------------Error at 11/01/2019 17:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:42:54------------- 
+
+-------------Error at 11/01/2019 17:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:42:54------------- 
+
+-------------Error at 11/01/2019 17:43:08------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:43:08------------- 
+
+-------------Error at 11/01/2019 17:44:22------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Incorrect identifier : 0 
+-------------Error at 11/01/2019 17:44:22------------- 
+
+-------------Warn at 11/01/2019 17:53:55------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 11/01/2019 17:53:55------------- 
+
+-------------Error at 11/01/2019 17:54:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:54:02------------- 
+
+-------------Error at 11/01/2019 17:54:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:54:02------------- 
+
+-------------Error at 11/01/2019 17:54:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:54:02------------- 
+
+-------------Error at 11/01/2019 17:54:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:54:02------------- 
+
+-------------Error at 11/01/2019 17:54:02------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:54:02------------- 
+
+-------------Error at 11/01/2019 17:54:12------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:54:12------------- 
+
+-------------Error at 11/01/2019 17:57:19------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Incorrect identifier : 0 
+-------------Error at 11/01/2019 17:57:19------------- 
+
+-------------Warn at 11/01/2019 17:57:29------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 11/01/2019 17:57:29------------- 
+
+-------------Error at 11/01/2019 17:57:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 17:57:33------------- 
+
+-------------Error at 11/01/2019 17:57:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 17:57:33------------- 
+
+-------------Error at 11/01/2019 17:57:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 17:57:33------------- 
+
+-------------Error at 11/01/2019 17:57:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 17:57:33------------- 
+
+-------------Error at 11/01/2019 17:57:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 17:57:33------------- 
+
+-------------Error at 11/01/2019 17:57:41------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 17:57:41------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'FeuillageCastHandler' -> Spell 5567 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'SacrifiedDeadSpellCastHandler' -> Spell 6718 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'Vertigo' -> Spell 694 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'FateOfEcaflipCastHandler' -> Spell 120 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'FriendshipWordCastHandler' -> Spell 129 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'ExcursionGlyphCastHandler' -> Spell 9537 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'ActivatedExcursionGlyphCastHandler' -> Spell 9537 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:57:45------------- 
+ Stump.Server.WorldServer.Game.Spells.SpellManager.InitializeHandlers -> 
+	SpellCastHandler 'ActivatedExcursionGlyphCastHandler' -> Spell 9610 not found 
+-------------Error at 11/01/2019 17:57:45------------- 
+
+-------------Error at 11/01/2019 17:58:15------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	La table '247world.pack_parabiote' n'existe pas 
+-------------Error at 11/01/2019 17:58:15------------- 
+
+-------------Error at 11/01/2019 18:04:16------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 11/01/2019 18:04:16------------- 
+
+-------------Error at 11/01/2019 18:04:16------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 11/01/2019 18:04:16------------- 
+
+-------------Error at 11/01/2019 18:04:16------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 11/01/2019 18:04:16------------- 
+
+-------------Error at 11/01/2019 18:04:16------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 11/01/2019 18:04:16------------- 
+
+-------------Error at 11/01/2019 18:04:16------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 11/01/2019 18:04:16------------- 
+
+-------------Error at 11/01/2019 18:04:24------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/01/2019 18:04:24------------- 
+
+-------------Error at 11/01/2019 18:04:28------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Un élément avec la même clé a déjà été ajouté. 
+-------------Error at 11/01/2019 18:04:28------------- 
+
+-------------Fatal at 11/01/2019 18:04:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une exception a été levée par la cible d'un appel.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   à System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 125
+   à Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 157
+   à Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 149
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\WorldServer.cs:ligne 128
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 11/01/2019 18:04:28------------- 
+
+-------------Fatal at 11/01/2019 18:04:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Un élément avec la même clé a déjà été ajouté.
+ Source: mscorlib -> Void ThrowArgumentException(System.ExceptionResource)
+ Stack Trace:
+   à System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   à System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   à Stump.Server.WorldServer.Game.Breeds.BreedManager.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Breeds\BreedManager.cs:ligne 65 
+-------------Fatal at 11/01/2019 18:04:28------------- 
+

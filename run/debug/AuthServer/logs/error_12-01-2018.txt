@@ -1,0 +1,140 @@
+-------------Warn at 01/12/2018 06:07:45------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/12/2018 06:07:45------------- 
+
+-------------Error at 01/12/2018 06:07:48------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 06:07:48------------- 
+
+-------------Error at 01/12/2018 06:07:48------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 06:07:48------------- 
+
+-------------Error at 01/12/2018 06:07:53------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/12/2018 06:07:53------------- 
+
+-------------Error at 01/12/2018 06:14:27------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : Cannot add 13762 character to 367 account 
+-------------Error at 01/12/2018 06:14:27------------- 
+
+-------------Error at 01/12/2018 06:14:42------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '13763' for key 'PRIMARY'
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   à Stump.ORM.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco) dans E:\Erosis\new server\Core\Stump.ORM\PetaPoco.cs:ligne 1354
+   à Stump.ORM.Database.Insert(Object poco) dans E:\Erosis\new server\Core\Stump.ORM\PetaPoco.cs:ligne 1362
+   à Stump.Server.AuthServer.Managers.AccountManager.CreateAccountCharacter(Account account, WorldServer world, Int32 characterId) dans E:\Erosis\new server\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 248
+   à Stump.Server.AuthServer.Managers.AccountManager.AddAccountCharacter(Account account, WorldServer world, Int32 characterId) dans E:\Erosis\new server\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 254
+   à Stump.Server.AuthServer.IPC.IPCOperations.Handle(AddCharacterMessage message) dans E:\Erosis\new server\server\Stump.Server.AuthServer\IPC\IPCOperations.cs:ligne 304
+   à (Object , IPCMessage )
+   à Stump.Server.AuthServer.IPC.IPCOperations.HandleMessage(IPCMessage message) dans E:\Erosis\new server\server\Stump.Server.AuthServer\IPC\IPCOperations.cs:ligne 110
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessRequest(IPCMessage request) dans E:\Erosis\new server\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 337 
+-------------Error at 01/12/2018 06:14:42------------- 
+
+-------------Error at 01/12/2018 06:14:45------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '13764' for key 'PRIMARY'
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   à Stump.ORM.Database.Insert(String tableName, String primaryKeyName, Boolean autoIncrement, Object poco) dans E:\Erosis\new server\Core\Stump.ORM\PetaPoco.cs:ligne 1354
+   à Stump.ORM.Database.Insert(Object poco) dans E:\Erosis\new server\Core\Stump.ORM\PetaPoco.cs:ligne 1362
+   à Stump.Server.AuthServer.Managers.AccountManager.CreateAccountCharacter(Account account, WorldServer world, Int32 characterId) dans E:\Erosis\new server\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 248
+   à Stump.Server.AuthServer.Managers.AccountManager.AddAccountCharacter(Account account, WorldServer world, Int32 characterId) dans E:\Erosis\new server\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 254
+   à Stump.Server.AuthServer.IPC.IPCOperations.Handle(AddCharacterMessage message) dans E:\Erosis\new server\server\Stump.Server.AuthServer\IPC\IPCOperations.cs:ligne 304
+   à (Object , IPCMessage )
+   à Stump.Server.AuthServer.IPC.IPCOperations.HandleMessage(IPCMessage message) dans E:\Erosis\new server\server\Stump.Server.AuthServer\IPC\IPCOperations.cs:ligne 110
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessRequest(IPCMessage request) dans E:\Erosis\new server\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 337 
+-------------Error at 01/12/2018 06:14:45------------- 
+
+-------------Warn at 01/12/2018 06:16:21------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/12/2018 06:16:21------------- 
+
+-------------Error at 01/12/2018 06:16:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 06:16:23------------- 
+
+-------------Error at 01/12/2018 06:16:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 06:16:23------------- 
+
+-------------Error at 01/12/2018 06:16:28------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/12/2018 06:16:28------------- 
+
+-------------Warn at 01/12/2018 15:12:02------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/12/2018 15:12:02------------- 
+
+-------------Error at 01/12/2018 15:12:04------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 15:12:04------------- 
+
+-------------Error at 01/12/2018 15:12:04------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 15:12:04------------- 
+
+-------------Error at 01/12/2018 15:12:10------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/12/2018 15:12:10------------- 
+
+-------------Warn at 01/12/2018 15:16:47------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/12/2018 15:16:47------------- 
+
+-------------Error at 01/12/2018 15:16:50------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 15:16:50------------- 
+
+-------------Error at 01/12/2018 15:16:50------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 15:16:50------------- 
+
+-------------Error at 01/12/2018 15:16:55------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/12/2018 15:16:55------------- 
+
+-------------Warn at 01/12/2018 15:20:24------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/12/2018 15:20:24------------- 
+
+-------------Error at 01/12/2018 15:20:27------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 15:20:27------------- 
+
+-------------Error at 01/12/2018 15:20:27------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 01/12/2018 15:20:27------------- 
+

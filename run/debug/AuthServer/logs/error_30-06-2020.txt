@@ -1,0 +1,33 @@
+-------------Error at 06/30/2020 14:33:48------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/30/2020 14:33:48------------- 
+
+-------------Error at 06/30/2020 16:28:42------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/30/2020 16:28:42------------- 
+
+-------------Error at 06/30/2020 16:33:32------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 06/30/2020 16:33:32------------- 
+
+-------------Error at 06/30/2020 16:41:04------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/30/2020 16:41:04------------- 
+

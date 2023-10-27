@@ -1,0 +1,138 @@
+-------------Error at 02/05/2018 00:19:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/05/2018 00:19:45------------- 
+
+-------------Error at 02/05/2018 00:19:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/05/2018 00:19:45------------- 
+
+-------------Error at 02/05/2018 00:20:07------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/05/2018 00:20:07------------- 
+
+-------------Error at 02/05/2018 09:39:27------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <71.6.146.186> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 09:39:27------------- 
+
+-------------Error at 02/05/2018 11:08:50------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/05/2018 11:08:50------------- 
+
+-------------Error at 02/05/2018 11:08:50------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/05/2018 11:08:50------------- 
+
+-------------Error at 02/05/2018 11:09:10------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/05/2018 11:09:10------------- 
+
+-------------Error at 02/05/2018 15:41:48------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <74.82.47.2> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 15:41:48------------- 
+
+-------------Error at 02/05/2018 19:55:26------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 95
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 02/05/2018 19:55:26------------- 
+
+-------------Error at 02/05/2018 21:12:15------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <185.35.63.68> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:4294959116> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 21:12:15------------- 
+
+-------------Error at 02/05/2018 21:22:12------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <66.240.205.34> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:4570> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 21:22:12------------- 
+
+-------------Error at 02/05/2018 22:01:05------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <185.35.63.91> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 22:01:05------------- 
+
+-------------Error at 02/05/2018 22:58:23------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <117.50.7.159> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 22:58:23------------- 
+
+-------------Error at 02/05/2018 22:58:36------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <117.50.7.159> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 22:58:36------------- 
+
+-------------Error at 02/05/2018 22:58:36------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <117.50.7.159> : System.ArgumentOutOfRangeException: L'argument spécifié n'était pas dans les limites de la plage des valeurs valides.
+Nom du paramètre : Required buffer is way too big: 7237493
+   à Stump.Core.Pool.BufferManager.GetSegment(Int32 payloadSize, Boolean allowExceed) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.Core\Pool\BufferManager.cs:ligne 479
+   à Stump.Server.BaseServer.Network.BaseClient.EnsureBuffer(Int32 length) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 326
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 314
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 22:58:36------------- 
+
+-------------Error at 02/05/2018 23:29:56------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <164.132.91.3> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 23:29:56------------- 
+
+-------------Error at 02/05/2018 23:29:56------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <164.132.91.3> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 23:29:56------------- 
+
+-------------Error at 02/05/2018 23:29:57------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <164.132.91.3> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:4561> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/05/2018 23:29:57------------- 
+

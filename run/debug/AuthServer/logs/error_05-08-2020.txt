@@ -1,0 +1,328 @@
+-------------Error at 08/05/2020 10:25:07------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 08/05/2020 10:25:07------------- 
+
+-------------Error at 08/05/2020 13:24:24------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 08/05/2020 13:24:24------------- 
+
+-------------Error at 08/05/2020 13:28:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:28:04------------- 
+
+-------------Warn at 08/05/2020 13:28:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:28:04------------- 
+
+-------------Error at 08/05/2020 13:28:19------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:28:19------------- 
+
+-------------Error at 08/05/2020 13:28:49------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu. ---> System.Net.Sockets.SocketException: Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   à System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   à System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 08/05/2020 13:28:49------------- 
+
+-------------Error at 08/05/2020 13:29:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:04------------- 
+
+-------------Warn at 08/05/2020 13:29:04------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:29:04------------- 
+
+-------------Error at 08/05/2020 13:29:19------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:19------------- 
+
+-------------Error at 08/05/2020 13:29:19------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 08/05/2020 13:29:19------------- 
+
+-------------Error at 08/05/2020 13:29:19------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Connection must be valid and open.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   à System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   à Stump.ORM.Database.<Query>d__71`1.MoveNext() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 783
+   à System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   à System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   à Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 96
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 08/05/2020 13:29:19------------- 
+
+-------------Error at 08/05/2020 13:29:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:29------------- 
+
+-------------Warn at 08/05/2020 13:29:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:29:29------------- 
+
+-------------Error at 08/05/2020 13:29:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:29------------- 
+
+-------------Error at 08/05/2020 13:29:40------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:40------------- 
+
+-------------Warn at 08/05/2020 13:29:40------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:29:40------------- 
+
+-------------Error at 08/05/2020 13:29:40------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:40------------- 
+
+-------------Error at 08/05/2020 13:29:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:51------------- 
+
+-------------Warn at 08/05/2020 13:29:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:29:51------------- 
+
+-------------Error at 08/05/2020 13:29:51------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:29:51------------- 
+
+-------------Error at 08/05/2020 13:30:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:30:01------------- 
+
+-------------Warn at 08/05/2020 13:30:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:30:01------------- 
+
+-------------Error at 08/05/2020 13:30:01------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:30:01------------- 
+
+-------------Error at 08/05/2020 13:30:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:30:11------------- 
+
+-------------Warn at 08/05/2020 13:30:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:30:11------------- 
+
+-------------Error at 08/05/2020 13:30:11------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:30:11------------- 
+
+-------------Error at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : {0} 
+-------------Error at 08/05/2020 13:30:32------------- 
+
+-------------Warn at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 08/05/2020 13:30:32------------- 
+
+-------------Error at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : {0} 
+-------------Error at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune exception de tâche n'a été observée en attendant la tâche ou en accédant à sa propriété Exception. Par conséquent, l'exception non prise en charge a été à nouveau levée par le thread finaliseur.
+ Source:  -> 
+ Stack Trace:
+ 
+-------------Fatal at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu 185.31.40.59:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune exception de tâche n'a été observée en attendant la tâche ou en accédant à sa propriété Exception. Par conséquent, l'exception non prise en charge a été à nouveau levée par le thread finaliseur.
+ Source:  -> 
+ Stack Trace:
+ 
+-------------Fatal at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu 185.31.40.59:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune exception de tâche n'a été observée en attendant la tâche ou en accédant à sa propriété Exception. Par conséquent, l'exception non prise en charge a été à nouveau levée par le thread finaliseur.
+ Source:  -> 
+ Stack Trace:
+ 
+-------------Fatal at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu 185.31.40.59:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 08/05/2020 13:30:32------------- 
+
+-------------Fatal at 08/05/2020 13:30:51------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Connection must be valid and open.
+ Source: MySql.Data -> Void Throw(System.Exception)
+ Stack Trace:
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   à Stump.ORM.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1457
+   à Stump.ORM.Database.Update(Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1488
+   à Stump.ORM.Database.Update(Object poco) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 1478
+   à Stump.Server.AuthServer.Managers.WorldServerManager.RemoveWorld(WorldServer world) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\Managers\WorldServerManager.cs:ligne 267
+   à Stump.Server.AuthServer.IPC.IPCClient.Disconnect() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 363
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 172
+   à System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   à System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object ignored)
+   à System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   à System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncFailure(SocketError socketError, Int32 bytesTransferred, SocketFlags flags)
+   à System.Net.Sockets.SocketAsyncEventArgs.CompletionPortCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   à System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP) 
+-------------Fatal at 08/05/2020 13:30:51------------- 
+
+-------------Error at 08/05/2020 14:23:10------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 08/05/2020 14:23:10------------- 
+
+-------------Error at 08/05/2020 14:40:31------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 08/05/2020 14:40:31------------- 
+
+-------------Fatal at 08/05/2020 14:40:36------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 08/05/2020 14:40:36------------- 
+
+-------------Error at 08/05/2020 14:40:56------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 08/05/2020 14:40:56------------- 
+
+-------------Fatal at 08/05/2020 14:41:03------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 08/05/2020 14:41:03------------- 
+
+-------------Error at 08/05/2020 14:41:22------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 08/05/2020 14:41:22------------- 
+

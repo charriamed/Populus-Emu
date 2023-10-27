@@ -1,0 +1,219 @@
+-------------Warn at 10/31/2019 00:22:21------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 10/31/2019 00:22:21------------- 
+
+-------------Error at 10/31/2019 00:22:39------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 00:22:39------------- 
+
+-------------Warn at 10/31/2019 00:24:49------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 10/31/2019 00:24:49------------- 
+
+-------------Error at 10/31/2019 00:25:03------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 00:25:03------------- 
+
+-------------Error at 10/31/2019 00:25:35------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:25:35------------- 
+
+-------------Error at 10/31/2019 00:25:39------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:25:39------------- 
+
+-------------Error at 10/31/2019 00:25:44------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:25:44------------- 
+
+-------------Warn at 10/31/2019 00:29:49------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 10/31/2019 00:29:49------------- 
+
+-------------Error at 10/31/2019 00:30:07------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 00:30:07------------- 
+
+-------------Error at 10/31/2019 00:30:14------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:30:14------------- 
+
+-------------Error at 10/31/2019 00:30:18------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:30:18------------- 
+
+-------------Warn at 10/31/2019 00:31:52------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 10/31/2019 00:31:52------------- 
+
+-------------Error at 10/31/2019 00:32:08------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 00:32:08------------- 
+
+-------------Error at 10/31/2019 00:32:14------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:32:14------------- 
+
+-------------Warn at 10/31/2019 00:37:39------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 10/31/2019 00:37:39------------- 
+
+-------------Error at 10/31/2019 00:38:00------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 00:38:00------------- 
+
+-------------Error at 10/31/2019 00:38:08------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:38:08------------- 
+
+-------------Error at 10/31/2019 00:38:12------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:38:12------------- 
+
+-------------Error at 10/31/2019 00:38:16------------- 
+ Stump.Server.BaseServer.Network.ClientManager.ProcessAccept -> 
+	Cannot accept a connection from . Exception : System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.DofusProtocol.Messages.Message'. ---> System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+   à Stump.DofusProtocol.Messages.Message..cctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.DofusProtocol.Messages.Message..ctor()
+   à Stump.DofusProtocol.Messages.ProtocolRequired..ctor(Int32 requiredVersion, Int32 currentVersion) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\DofusProtocol\Messages\Messages\Handshake\ProtocolRequired.cs:ligne 20
+   à Stump.Server.AuthServer.Network.AuthClient..ctor(Socket socket) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\Network\AuthClient.cs:ligne 28
+   à Stump.Server.AuthServer.AuthServer.CreateClient(Socket s) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 190
+   à Stump.Server.BaseServer.Network.ClientManager.ProcessAccept(SocketAsyncEventArgs e) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 278 
+-------------Error at 10/31/2019 00:38:16------------- 
+
+-------------Warn at 10/31/2019 10:00:23------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 10/31/2019 10:00:23------------- 
+
+-------------Error at 10/31/2019 10:00:39------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 10:00:39------------- 
+
+-------------Error at 10/31/2019 10:04:14------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 10:04:14------------- 
+
+-------------Error at 10/31/2019 10:08:50------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 10:08:50------------- 
+
+-------------Fatal at 10/31/2019 10:08:54------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 10/31/2019 10:08:54------------- 
+
+-------------Error at 10/31/2019 10:09:14------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 10:09:14------------- 
+
+-------------Error at 10/31/2019 22:47:51------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 10/31/2019 22:47:51------------- 
+
+-------------Fatal at 10/31/2019 22:47:53------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 10/31/2019 22:47:53------------- 
+

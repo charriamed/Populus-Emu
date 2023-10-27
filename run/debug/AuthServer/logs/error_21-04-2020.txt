@@ -1,0 +1,57 @@
+-------------Error at 04/21/2020 10:17:58------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 10:17:58------------- 
+
+-------------Error at 04/21/2020 12:00:33------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 12:00:33------------- 
+
+-------------Error at 04/21/2020 15:41:40------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 15:41:40------------- 
+
+-------------Error at 04/21/2020 16:12:43------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 16:12:43------------- 
+
+-------------Error at 04/21/2020 17:03:41------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 17:03:41------------- 
+
+-------------Error at 04/21/2020 18:47:59------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 18:47:59------------- 
+
+-------------Error at 04/21/2020 19:00:34------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 19:00:34------------- 
+
+-------------Error at 04/21/2020 21:41:13------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 21:41:13------------- 
+
+-------------Error at 04/21/2020 21:41:19------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/21/2020 21:41:19------------- 
+
+-------------Fatal at 04/21/2020 21:41:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final - Copie - Copie\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final - Copie - Copie\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51 - Final - Copie - Copie\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 04/21/2020 21:41:23------------- 
+

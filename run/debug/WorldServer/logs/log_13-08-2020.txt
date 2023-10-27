@@ -1,0 +1,1921 @@
+[Info] <08/13/2020 10:35:34> Initializing Configuration...
+[Warn] <08/13/2020 10:35:34> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 10:35:34> Initialize Task Pool
+[Info] <08/13/2020 10:35:34> Initializing Network Interfaces...
+[Info] <08/13/2020 10:35:34> Register Plugins...
+[Info] <08/13/2020 10:35:44> Loading Plugins...
+[Info] <08/13/2020 10:35:44> Initializing Database...
+[Info] <08/13/2020 10:35:44> Opening Database...
+[Info] <08/13/2020 10:35:45> Register Messages...
+[Info] <08/13/2020 10:35:46> Register Packet Handlers...
+[Info] <08/13/2020 10:35:46> Register Commands...
+[Info] <08/13/2020 10:35:46> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 10:35:46> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 10:35:46> Initialize 'ApproachHandler'
+[Info] <08/13/2020 10:35:46> Initialize 'ChatManager'
+[Info] <08/13/2020 10:35:46> Register id providers
+[Info] <08/13/2020 10:35:46> Initialize 'TextManager'
+[Info] <08/13/2020 10:35:47> Initialize DataManagers
+[Info] <08/13/2020 10:35:48> Initialize 'BreedManager'
+[Info] <08/13/2020 10:35:48> Initialize 'EffectManager'
+[Info] <08/13/2020 10:35:48> Initialize 'SpellManager'
+[Info] <08/13/2020 10:35:49> Initialize 'IncarnationManager'
+[Info] <08/13/2020 10:35:49> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 10:35:49> Initialize 'CranioManager'
+[Info] <08/13/2020 10:35:49> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 10:35:49> Initialize 'PlacementManager'
+[Info] <08/13/2020 10:35:49> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 10:35:49> Initialize 'ItemManager'
+[Info] <08/13/2020 10:35:51> Initialize 'PetManager'
+[Info] <08/13/2020 10:35:52> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 10:35:52> Initialize 'BidHouseManager'
+[Info] <08/13/2020 10:35:52> Initialize 'RuneManager'
+[Info] <08/13/2020 10:35:52> Initialize 'InteractiveManager'
+[Info] <08/13/2020 10:35:53> Initialize 'IdolManager'
+[Info] <08/13/2020 10:35:53> Initialize 'ChallengeManager'
+[Info] <08/13/2020 10:35:53> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 10:35:53> Initialize 'RankRewardManager'
+[Info] <08/13/2020 10:35:53> Initialize 'RankManager'
+[Info] <08/13/2020 10:35:53> Initialize 'ExperienceManager'
+[Info] <08/13/2020 10:35:53> Initialize 'TinselManager'
+[Info] <08/13/2020 10:35:53> Initialize 'BrainManager'
+[Info] <08/13/2020 10:35:54> Initialize 'Looger'
+[Info] <08/13/2020 10:35:54> Initialize 'MongoLogger'
+[Info] <08/13/2020 10:35:54> Initialize 'JobManager'
+[Info] <08/13/2020 10:35:54> Initialize 'RuneManager'
+[Info] <08/13/2020 10:35:54> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 10:35:54> Initialize 'ArenaManager'
+[Info] <08/13/2020 10:35:54> Initialize 'VersusManager'
+[Info] <08/13/2020 10:35:54> Initialize 'NpcManager'
+[Info] <08/13/2020 10:35:55> Initialize 'GuildManager'
+[Info] <08/13/2020 10:35:55> Initialize 'MountManager'
+[Info] <08/13/2020 10:35:55> Initialize 'MonsterManager'
+[Info] <08/13/2020 10:35:56> Initialize 'MerchantManager'
+[Info] <08/13/2020 10:35:56> Initialize 'AchievementManager'
+[Info] <08/13/2020 10:35:56> Initialize 'World'
+[Info] <08/13/2020 10:35:56> Load maps...
+[Info] <08/13/2020 10:36:04> Load sub areas...
+[Info] <08/13/2020 10:36:04> Load areas...
+[Info] <08/13/2020 10:36:05> Load super areas...
+[Info] <08/13/2020 10:36:05> Load graveyards...
+[Info] <08/13/2020 10:36:05> Spawn npcs ...
+[Info] <08/13/2020 10:36:05> Spawn interactives ...
+[Info] <08/13/2020 10:36:13> Spawn cell triggers ...
+[Info] <08/13/2020 10:36:13> Spawn monsters ...
+[Info] <08/13/2020 10:36:15> Spawn merchants ...
+[Info] <08/13/2020 10:36:15> Initialize 'HavenBagManager'
+[Info] <08/13/2020 10:36:15> Initialize 'PaddockManager'
+[Info] <08/13/2020 10:36:15> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 10:36:15> Synchronize id providers
+[Info] <08/13/2020 10:36:15> Initialize 'QuestManager'
+[Info] <08/13/2020 10:36:18> Initialize 'WebServer'
+[Info] <08/13/2020 10:36:19> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 10:36:19> Starting Console Handler Interface...
+[Info] <08/13/2020 10:36:19> Starting IPC Communications ...
+[Info] <08/13/2020 10:36:19> Start listening on port : 5556...
+[Info] <08/13/2020 10:36:29> Attempt connection
+[Info] <08/13/2020 10:36:29> IPC connection etablished
+[Debug] <08/13/2020 10:36:29> TaskPool 'IPCAccessor Task Pool' update lagged (159ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 10:36:29> Access to auth. server granted
+[Debug] <08/13/2020 10:36:29> TaskPool 'IPCAccessor Task Pool' update lagged (220ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 10:36:29> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 10:36:30> TaskPool 'IO Task Pool' update lagged (205ms) (msg:1, timers:1/4)
+[Debug] <08/13/2020 10:36:30> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 10:36:47> Client <127.0.0.1> connected
+[Debug] <08/13/2020 10:36:47> Client request ticket JSUEJEZLUOIVUZMVBOEPMQOHPPYDTPGW
+[Debug] <08/13/2020 10:36:48> TaskPool 'IO Task Pool' update lagged (119ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 10:36:48> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 10:36:48> TaskPool 'IO Task Pool' update lagged (83ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 10:36:48> CharactersListRequestMessage
+[Info] <08/13/2020 10:36:50> Client <127.0.0.1> connected
+[Debug] <08/13/2020 10:36:50> Client request ticket JZNYRGGWKCKRDHVOLKLSEJJTOLWYTHYD
+[Debug] <08/13/2020 10:36:50> TaskPool 'IO Task Pool' update lagged (136ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 10:36:50> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Info] <08/13/2020 10:39:19> Saving world ...
+[Info] <08/13/2020 10:39:20> World server saved ! (257 ms)
+[Debug] <08/13/2020 10:39:20> TaskPool 'IO Task Pool' update lagged (317ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 10:39:20> TaskPool 'IO Task Pool' update lagged (104ms) (msg:102, timers:0/4)
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Debug] <08/13/2020 10:39:20> Stump.Server.WorldServer.Game.Items.BidHouse.BidHouseItem+<>c__DisplayClass13_0.<Save>b__0
+[Info] <08/13/2020 10:42:20> Saving world ...
+[Info] <08/13/2020 10:42:20> World server saved ! (147 ms)
+[Debug] <08/13/2020 10:42:20> TaskPool 'IO Task Pool' update lagged (198ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 10:45:20> Saving world ...
+[Info] <08/13/2020 10:45:20> World server saved ! (142 ms)
+[Debug] <08/13/2020 10:45:20> TaskPool 'IO Task Pool' update lagged (189ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 10:48:20> Saving world ...
+[Info] <08/13/2020 10:48:20> World server saved ! (63 ms)
+[Debug] <08/13/2020 10:48:20> TaskPool 'IO Task Pool' update lagged (92ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 10:50:06> Character Redgeek created
+[Debug] <08/13/2020 10:50:06> TaskPool 'IO Task Pool' update lagged (218ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 10:50:06> CharacterCreationRequestMessage
+[Debug] <08/13/2020 10:50:07> TaskPool 'IO Task Pool' update lagged (711ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 10:50:07> CharacterSelectionMessage
+[Info] <08/13/2020 10:50:10> Area '(not found) (45)' started
+[Debug] <08/13/2020 10:50:10> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 10:50:10> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 10:50:10> Area '(not found) (45)' update lagged (51ms) (msg:19ms, timers:32ms, timerProc:127/120)
+[Debug] <08/13/2020 10:50:10> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 10:50:11> Area '(not found) (45)' update lagged (199ms) (msg:199ms, timers:0ms, timerProc:0/120)
+[Debug] <08/13/2020 10:50:11> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 10:50:18> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 10:51:20> Saving world ...
+[Info] <08/13/2020 10:51:21> World server saved ! (232 ms)
+[Debug] <08/13/2020 10:51:21> TaskPool 'IO Task Pool' update lagged (278ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 10:53:16> Character Maskey created
+[Debug] <08/13/2020 10:53:19> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 10:53:19> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 10:53:19> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 10:53:21> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 10:53:21> Area '(not found) (45)' update lagged (74ms) (msg:75ms, timers:0ms, timerProc:0/120)
+[Debug] <08/13/2020 10:53:24> Received Unknown packet : HaapiApiKeyRequestMessage
+[Debug] <08/13/2020 10:54:08> Area '(not found) (45)' update lagged (52ms) (msg:52ms, timers:0ms, timerProc:0/120)
+[Debug] <08/13/2020 10:54:12> Area '(not found) (45)' update lagged (117ms) (msg:117ms, timers:0ms, timerProc:0/120)
+[Info] <08/13/2020 10:54:21> Saving world ...
+[Info] <08/13/2020 10:54:21> World server saved ! (55 ms)
+[Debug] <08/13/2020 10:54:21> TaskPool 'IO Task Pool' update lagged (72ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 10:54:40> Area '(not found) (45)' update lagged (234ms) (msg:234ms, timers:0ms, timerProc:0/122)
+[Debug] <08/13/2020 10:54:51> Area '(not found) (45)' update lagged (53ms) (msg:54ms, timers:0ms, timerProc:0/121)
+[Debug] <08/13/2020 10:55:04> Area '(not found) (45)' update lagged (208ms) (msg:208ms, timers:0ms, timerProc:0/121)
+[Debug] <08/13/2020 10:55:15> Area '(not found) (45)' update lagged (115ms) (msg:115ms, timers:0ms, timerProc:0/120)
+[Debug] <08/13/2020 10:56:43> Area '(not found) (45)' update lagged (65ms) (msg:66ms, timers:0ms, timerProc:0/123)
+[Info] <08/13/2020 10:57:21> Saving world ...
+[Info] <08/13/2020 10:57:21> World server saved ! (78 ms)
+[Debug] <08/13/2020 10:57:21> TaskPool 'IO Task Pool' update lagged (111ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 10:57:30> Area '(not found) (45)' update lagged (82ms) (msg:82ms, timers:0ms, timerProc:0/118)
+[Info] <08/13/2020 11:00:21> Saving world ...
+[Info] <08/13/2020 11:00:21> World server saved ! (78 ms)
+[Debug] <08/13/2020 11:00:21> TaskPool 'IO Task Pool' update lagged (113ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:02:09> Area '(not found) (45)' update lagged (69ms) (msg:70ms, timers:0ms, timerProc:0/118)
+[Debug] <08/13/2020 11:02:59> Area '(not found) (45)' update lagged (112ms) (msg:112ms, timers:0ms, timerProc:0/118)
+[Info] <08/13/2020 11:03:21> Saving world ...
+[Info] <08/13/2020 11:03:21> World server saved ! (100 ms)
+[Debug] <08/13/2020 11:03:21> TaskPool 'IO Task Pool' update lagged (134ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:05:00> Area '(not found) (45)' update lagged (96ms) (msg:97ms, timers:0ms, timerProc:0/121)
+[Info] <08/13/2020 11:06:21> Saving world ...
+[Info] <08/13/2020 11:06:21> World server saved ! (82 ms)
+[Debug] <08/13/2020 11:06:21> TaskPool 'IO Task Pool' update lagged (101ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:06:24> Area '(not found) (45)' update lagged (102ms) (msg:103ms, timers:0ms, timerProc:0/120)
+[Debug] <08/13/2020 11:06:48> Area '(not found) (45)' update lagged (64ms) (msg:65ms, timers:0ms, timerProc:0/123)
+[Debug] <08/13/2020 11:06:51> Area '(not found) (45)' update lagged (58ms) (msg:58ms, timers:0ms, timerProc:0/125)
+[Debug] <08/13/2020 11:07:05> Area '(not found) (45)' update lagged (61ms) (msg:62ms, timers:0ms, timerProc:0/128)
+[Debug] <08/13/2020 11:07:57> Area '(not found) (45)' update lagged (66ms) (msg:65ms, timers:1ms, timerProc:35/118)
+[Info] <08/13/2020 11:08:22> Area '(not found) (50)' started
+[Info] <08/13/2020 11:08:22> Area '(not found) (45)' stopped
+[Info] <08/13/2020 11:08:22> Area (not found) (45) exit callback since it's disposed
+[Debug] <08/13/2020 11:08:23> Area '(not found) (50)' update lagged (95ms) (msg:69ms, timers:26ms, timerProc:254/253)
+[Debug] <08/13/2020 11:08:29> Area '(not found) (50)' update lagged (65ms) (msg:66ms, timers:0ms, timerProc:0/253)
+[Info] <08/13/2020 11:09:21> Saving world ...
+[Info] <08/13/2020 11:09:21> World server saved ! (110 ms)
+[Debug] <08/13/2020 11:09:21> TaskPool 'IO Task Pool' update lagged (131ms) (msg:0, timers:1/4)
+[Warn] <08/13/2020 11:10:00> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:01> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:01> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:31> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:31> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:38> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:51> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:51> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:51> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:10:57> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:01> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:05> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:07> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:11> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:14> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:16> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:16> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:19> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:31> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:11:31> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Info] <08/13/2020 11:12:22> Saving world ...
+[Info] <08/13/2020 11:12:22> World server saved ! (157 ms)
+[Debug] <08/13/2020 11:12:22> TaskPool 'IO Task Pool' update lagged (186ms) (msg:0, timers:1/4)
+[Warn] <08/13/2020 11:13:52> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:14:12> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:14:32> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:14:35> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Info] <08/13/2020 11:15:22> Saving world ...
+[Info] <08/13/2020 11:15:22> World server saved ! (158 ms)
+[Debug] <08/13/2020 11:15:22> TaskPool 'IO Task Pool' update lagged (183ms) (msg:0, timers:1/4)
+[Warn] <08/13/2020 11:15:22> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:15:30> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:16:03> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:16:33> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:16:40> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Info] <08/13/2020 11:16:52> Client <127.0.0.1> (zer) disconnected
+[Warn] <08/13/2020 11:16:53> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Warn] <08/13/2020 11:16:53> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Info] <08/13/2020 11:16:55> Client <127.0.0.1> connected
+[Debug] <08/13/2020 11:16:55> Client request ticket XKPMKYKFVWECWABMCIMIUTKPDFFRBGTR
+[Debug] <08/13/2020 11:16:55> TaskPool 'IO Task Pool' update lagged (57ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 11:16:55> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 11:16:56> TaskPool 'IO Task Pool' update lagged (80ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 11:16:56> CharacterSelectionMessage
+[Debug] <08/13/2020 11:16:56> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 11:16:56> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 11:16:56> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 11:16:56> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 11:16:57> Received Unknown packet : HaapiApiKeyRequestMessage
+[Warn] <08/13/2020 11:17:13> IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out 
+[Info] <08/13/2020 11:18:22> Saving world ...
+[Info] <08/13/2020 11:18:22> World server saved ! (179 ms)
+[Debug] <08/13/2020 11:18:22> TaskPool 'IO Task Pool' update lagged (205ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:18:43> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Info] <08/13/2020 11:18:56> Area '(not found) (18)' started
+[Info] <08/13/2020 11:18:56> Area '(not found) (50)' stopped
+[Info] <08/13/2020 11:18:56> Area (not found) (50) exit callback since it's disposed
+[Debug] <08/13/2020 11:18:56> Area '(not found) (18)' update lagged (96ms) (msg:24ms, timers:72ms, timerProc:801/781)
+[Debug] <08/13/2020 11:18:56> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 11:19:00> Area '(not found) (18)' update lagged (101ms) (msg:102ms, timers:0ms, timerProc:0/781)
+[Info] <08/13/2020 11:21:22> Saving world ...
+[Info] <08/13/2020 11:21:22> World server saved ! (104 ms)
+[Debug] <08/13/2020 11:21:22> TaskPool 'IO Task Pool' update lagged (130ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:22:50> Area '(not found) (18)' update lagged (1370ms) (msg:1359ms, timers:11ms, timerProc:405/781)
+[Debug] <08/13/2020 11:23:04> Area '(not found) (18)' update lagged (1409ms) (msg:1409ms, timers:0ms, timerProc:0/781)
+[Info] <08/13/2020 11:24:22> Saving world ...
+[Info] <08/13/2020 11:24:23> World server saved ! (139 ms)
+[Debug] <08/13/2020 11:24:23> TaskPool 'IO Task Pool' update lagged (166ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:25:13> TaskPool 'IO Task Pool' update lagged (65ms) (msg:2, timers:0/4)
+[Debug] <08/13/2020 11:25:14> Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.SaveNow
+[Debug] <08/13/2020 11:25:14> Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.SaveNow
+[Info] <08/13/2020 11:27:23> Saving world ...
+[Info] <08/13/2020 11:27:23> World server saved ! (121 ms)
+[Debug] <08/13/2020 11:27:23> TaskPool 'IO Task Pool' update lagged (146ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 11:27:46> Area '(not found) (45)' started
+[Info] <08/13/2020 11:27:46> Area '(not found) (18)' stopped
+[Info] <08/13/2020 11:27:47> Area (not found) (18) exit callback since it's disposed
+[Debug] <08/13/2020 11:27:59> Area '(not found) (45)' update lagged (51ms) (msg:52ms, timers:0ms, timerProc:0/118)
+[Debug] <08/13/2020 11:28:18> Area '(not found) (45)' update lagged (54ms) (msg:54ms, timers:0ms, timerProc:0/122)
+[Debug] <08/13/2020 11:29:52> Area '(not found) (45)' update lagged (59ms) (msg:60ms, timers:0ms, timerProc:0/123)
+[Debug] <08/13/2020 11:29:53> Area '(not found) (45)' update lagged (166ms) (msg:166ms, timers:0ms, timerProc:0/123)
+[Debug] <08/13/2020 11:29:58> Area '(not found) (45)' update lagged (126ms) (msg:126ms, timers:0ms, timerProc:0/123)
+[Info] <08/13/2020 11:30:23> Saving world ...
+[Info] <08/13/2020 11:30:23> World server saved ! (137 ms)
+[Debug] <08/13/2020 11:30:23> TaskPool 'IO Task Pool' update lagged (164ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:31:06> Area '(not found) (45)' update lagged (51ms) (msg:51ms, timers:0ms, timerProc:29/118)
+[Debug] <08/13/2020 11:32:47> Area '(not found) (45)' update lagged (266ms) (msg:266ms, timers:0ms, timerProc:0/119)
+[Info] <08/13/2020 11:33:23> Saving world ...
+[Info] <08/13/2020 11:33:23> World server saved ! (151 ms)
+[Debug] <08/13/2020 11:33:23> TaskPool 'IO Task Pool' update lagged (181ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 11:34:49> Client <127.0.0.1> (zer) disconnected
+[Debug] <08/13/2020 11:34:49> Area '(not found) (45)' update lagged (119ms) (msg:119ms, timers:0ms, timerProc:0/116)
+[Debug] <08/13/2020 11:34:49> TaskPool 'IO Task Pool' update lagged (54ms) (msg:2, timers:0/4)
+[Debug] <08/13/2020 11:34:49> Stump.Server.WorldServer.Core.Network.WorldClient.<OnDisconnect>b__46_0
+[Debug] <08/13/2020 11:34:49> Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.<PerformLoggout>b__863_0
+[Info] <08/13/2020 11:35:00> Client <127.0.0.1> (aze) disconnected
+[Info] <08/13/2020 11:35:00> Area '(not found) (45)' stopped
+[Info] <08/13/2020 11:35:01> Client <127.0.0.1> connected
+[Debug] <08/13/2020 11:35:01> Client request ticket KNORKREEXHDZZHITRBPYEISTDXMMGXLW
+[Debug] <08/13/2020 11:35:01> TaskPool 'IO Task Pool' update lagged (52ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 11:35:01> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Info] <08/13/2020 11:35:02> Area '(not found) (45)' started
+[Debug] <08/13/2020 11:35:02> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 11:35:02> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 11:35:02> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 11:35:02> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 11:35:05> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 11:35:09> Client <127.0.0.1> connected
+[Debug] <08/13/2020 11:35:09> Client request ticket OSMUGRQPEENNKMJEVBSPFMXZOULFAMWP
+[Debug] <08/13/2020 11:35:11> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 11:35:11> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 11:35:11> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 11:35:11> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 11:35:13> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 11:36:23> Saving world ...
+[Info] <08/13/2020 11:36:23> World server saved ! (172 ms)
+[Debug] <08/13/2020 11:36:23> TaskPool 'IO Task Pool' update lagged (195ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:36:40> Area '(not found) (45)' update lagged (57ms) (msg:56ms, timers:1ms, timerProc:57/119)
+[Debug] <08/13/2020 11:37:19> Area '(not found) (45)' update lagged (57ms) (msg:56ms, timers:1ms, timerProc:57/123)
+[Debug] <08/13/2020 11:38:14> Area '(not found) (45)' update lagged (57ms) (msg:58ms, timers:0ms, timerProc:0/125)
+[Info] <08/13/2020 11:39:23> Saving world ...
+[Info] <08/13/2020 11:39:23> World server saved ! (136 ms)
+[Debug] <08/13/2020 11:39:23> TaskPool 'IO Task Pool' update lagged (154ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 11:39:30> Client <127.0.0.1> (zer) disconnected
+[Info] <08/13/2020 11:39:36> Client <127.0.0.1> (aze) disconnected
+[Info] <08/13/2020 11:39:36> Area '(not found) (45)' stopped
+[Info] <08/13/2020 11:39:39> Client <127.0.0.1> connected
+[Debug] <08/13/2020 11:39:39> Client request ticket QUMCBJSILLSWVSZPMUUTSBNMTITHDFHN
+[Debug] <08/13/2020 11:39:39> TaskPool 'IO Task Pool' update lagged (71ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 11:39:39> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 11:39:40> TaskPool 'IO Task Pool' update lagged (137ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 11:39:40> CharacterSelectionMessage
+[Info] <08/13/2020 11:39:40> Area '(not found) (18)' started
+[Debug] <08/13/2020 11:39:40> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 11:39:40> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 11:39:40> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 11:39:40> Area '(not found) (18)' update lagged (59ms) (msg:4ms, timers:55ms, timerProc:780/780)
+[Debug] <08/13/2020 11:39:42> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 11:39:44> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 11:42:08> Area '(not found) (18)' stopped
+[Info] <08/13/2020 11:42:08> Area '(not found) (48)' started
+[Debug] <08/13/2020 11:42:08> Area '(not found) (48)' update lagged (246ms) (msg:23ms, timers:222ms, timerProc:2511/2427)
+[Debug] <08/13/2020 11:42:17> Area '(not found) (48)' update lagged (51ms) (msg:52ms, timers:0ms, timerProc:0/2429)
+[Info] <08/13/2020 11:42:24> Saving world ...
+[Info] <08/13/2020 11:42:24> World server saved ! (184 ms)
+[Debug] <08/13/2020 11:42:24> TaskPool 'IO Task Pool' update lagged (205ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:43:58> Area '(not found) (48)' update lagged (67ms) (msg:66ms, timers:0ms, timerProc:8/2439)
+[Debug] <08/13/2020 11:44:20> Area '(not found) (48)' update lagged (67ms) (msg:68ms, timers:0ms, timerProc:0/2436)
+[Debug] <08/13/2020 11:44:29> Area '(not found) (48)' update lagged (139ms) (msg:139ms, timers:0ms, timerProc:0/2433)
+[Info] <08/13/2020 11:45:24> Saving world ...
+[Info] <08/13/2020 11:45:24> World server saved ! (100 ms)
+[Debug] <08/13/2020 11:45:24> TaskPool 'IO Task Pool' update lagged (118ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:45:30> Area '(not found) (48)' update lagged (52ms) (msg:53ms, timers:0ms, timerProc:0/2440)
+[Debug] <08/13/2020 11:45:49> Area '(not found) (48)' update lagged (113ms) (msg:113ms, timers:0ms, timerProc:5/2438)
+[Debug] <08/13/2020 11:45:57> Area '(not found) (48)' update lagged (201ms) (msg:201ms, timers:0ms, timerProc:3/2436)
+[Debug] <08/13/2020 11:46:59> Area '(not found) (48)' update lagged (51ms) (msg:51ms, timers:0ms, timerProc:4/2442)
+[Debug] <08/13/2020 11:47:57> Area '(not found) (48)' update lagged (111ms) (msg:111ms, timers:0ms, timerProc:0/2435)
+[Info] <08/13/2020 11:48:24> Saving world ...
+[Info] <08/13/2020 11:48:24> World server saved ! (88 ms)
+[Debug] <08/13/2020 11:48:24> TaskPool 'IO Task Pool' update lagged (108ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 11:48:32> Area '(not found) (48)' update lagged (58ms) (msg:58ms, timers:0ms, timerProc:1/2440)
+[Debug] <08/13/2020 11:48:47> Area '(not found) (48)' update lagged (67ms) (msg:68ms, timers:0ms, timerProc:1/2439)
+[Debug] <08/13/2020 11:49:12> Area '(not found) (48)' update lagged (61ms) (msg:62ms, timers:0ms, timerProc:5/2437)
+[Debug] <08/13/2020 11:49:15> Area '(not found) (48)' update lagged (52ms) (msg:39ms, timers:14ms, timerProc:612/2438)
+[Debug] <08/13/2020 11:49:23> Area '(not found) (48)' update lagged (53ms) (msg:54ms, timers:0ms, timerProc:1/2434)
+[Debug] <08/13/2020 11:49:30> Area '(not found) (48)' update lagged (78ms) (msg:79ms, timers:0ms, timerProc:2/2437)
+[Debug] <08/13/2020 11:49:44> Area '(not found) (48)' update lagged (53ms) (msg:53ms, timers:0ms, timerProc:0/2433)
+[Debug] <08/13/2020 11:49:56> Area '(not found) (48)' update lagged (73ms) (msg:74ms, timers:0ms, timerProc:0/2438)
+[Debug] <08/13/2020 11:50:21> Area '(not found) (48)' update lagged (56ms) (msg:0ms, timers:56ms, timerProc:2/2430)
+[Info] <08/13/2020 11:50:44> Client <127.0.0.1> (aze) disconnected
+[Info] <08/13/2020 11:50:44> Area '(not found) (48)' stopped
+[Debug] <08/13/2020 11:50:45> TaskPool 'IO Task Pool' update lagged (79ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 11:50:45> Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.<PerformLoggout>b__863_0
+[Info] <08/13/2020 11:50:49> Saving world ...
+[Info] <08/13/2020 11:50:49> World server saved ! (113 ms)
+[Warn] <08/13/2020 11:50:49> Pause state. Connection pending ...
+[Info] <08/13/2020 13:37:07> Initializing Configuration...
+[Warn] <08/13/2020 13:37:08> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 13:37:08> Initialize Task Pool
+[Info] <08/13/2020 13:37:08> Initializing Network Interfaces...
+[Info] <08/13/2020 13:37:08> Register Plugins...
+[Info] <08/13/2020 13:37:19> Loading Plugins...
+[Info] <08/13/2020 13:37:19> Initializing Database...
+[Info] <08/13/2020 13:37:19> Opening Database...
+[Info] <08/13/2020 13:37:21> Register Messages...
+[Info] <08/13/2020 13:37:21> Register Packet Handlers...
+[Info] <08/13/2020 13:37:21> Register Commands...
+[Info] <08/13/2020 13:37:21> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 13:37:21> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 13:37:21> Initialize 'ApproachHandler'
+[Info] <08/13/2020 13:37:21> Initialize 'ChatManager'
+[Info] <08/13/2020 13:37:21> Register id providers
+[Info] <08/13/2020 13:37:21> Initialize 'TextManager'
+[Info] <08/13/2020 13:37:23> Initialize DataManagers
+[Info] <08/13/2020 13:37:23> Initialize 'BreedManager'
+[Info] <08/13/2020 13:37:23> Initialize 'EffectManager'
+[Info] <08/13/2020 13:37:23> Initialize 'SpellManager'
+[Info] <08/13/2020 13:37:24> Initialize 'IncarnationManager'
+[Info] <08/13/2020 13:37:24> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 13:37:24> Initialize 'CranioManager'
+[Info] <08/13/2020 13:37:24> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 13:37:24> Initialize 'PlacementManager'
+[Info] <08/13/2020 13:37:24> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 13:37:24> Initialize 'ItemManager'
+[Info] <08/13/2020 13:37:26> Initialize 'PetManager'
+[Info] <08/13/2020 13:37:26> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 13:37:26> Initialize 'BidHouseManager'
+[Info] <08/13/2020 13:37:26> Initialize 'RuneManager'
+[Info] <08/13/2020 13:37:26> Initialize 'InteractiveManager'
+[Info] <08/13/2020 13:37:27> Initialize 'IdolManager'
+[Info] <08/13/2020 13:37:27> Initialize 'ChallengeManager'
+[Info] <08/13/2020 13:37:27> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 13:37:27> Initialize 'RankRewardManager'
+[Info] <08/13/2020 13:37:27> Initialize 'RankManager'
+[Info] <08/13/2020 13:37:27> Initialize 'ExperienceManager'
+[Info] <08/13/2020 13:37:27> Initialize 'TinselManager'
+[Info] <08/13/2020 13:37:27> Initialize 'BrainManager'
+[Info] <08/13/2020 13:37:27> Initialize 'Looger'
+[Info] <08/13/2020 13:37:27> Initialize 'MongoLogger'
+[Info] <08/13/2020 13:37:27> Initialize 'JobManager'
+[Info] <08/13/2020 13:37:28> Initialize 'RuneManager'
+[Info] <08/13/2020 13:37:28> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 13:37:28> Initialize 'ArenaManager'
+[Info] <08/13/2020 13:37:28> Initialize 'VersusManager'
+[Info] <08/13/2020 13:37:28> Initialize 'NpcManager'
+[Info] <08/13/2020 13:37:29> Initialize 'GuildManager'
+[Info] <08/13/2020 13:37:29> Initialize 'MountManager'
+[Info] <08/13/2020 13:37:30> Initialize 'MonsterManager'
+[Info] <08/13/2020 13:37:33> Initialize 'MerchantManager'
+[Info] <08/13/2020 13:37:33> Initialize 'AchievementManager'
+[Info] <08/13/2020 13:37:33> Initialize 'World'
+[Info] <08/13/2020 13:37:33> Load maps...
+[Info] <08/13/2020 13:37:40> Load sub areas...
+[Info] <08/13/2020 13:37:40> Load areas...
+[Info] <08/13/2020 13:37:40> Load super areas...
+[Info] <08/13/2020 13:37:40> Load graveyards...
+[Info] <08/13/2020 13:37:40> Spawn npcs ...
+[Info] <08/13/2020 13:37:40> Spawn interactives ...
+[Info] <08/13/2020 13:37:44> Spawn cell triggers ...
+[Info] <08/13/2020 13:37:44> Spawn monsters ...
+[Info] <08/13/2020 13:37:46> Spawn merchants ...
+[Info] <08/13/2020 13:37:46> Initialize 'HavenBagManager'
+[Info] <08/13/2020 13:37:46> Initialize 'PaddockManager'
+[Info] <08/13/2020 13:37:46> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 13:37:46> Synchronize id providers
+[Info] <08/13/2020 13:37:46> Initialize 'QuestManager'
+[Info] <08/13/2020 13:37:49> Initialize 'WebServer'
+[Info] <08/13/2020 13:37:50> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 13:37:50> Starting Console Handler Interface...
+[Info] <08/13/2020 13:37:50> Starting IPC Communications ...
+[Info] <08/13/2020 13:37:50> Start listening on port : 5556...
+[Info] <08/13/2020 13:38:00> Attempt connection
+[Info] <08/13/2020 13:38:00> IPC connection etablished
+[Debug] <08/13/2020 13:38:00> TaskPool 'IPCAccessor Task Pool' update lagged (198ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 13:38:00> Access to auth. server granted
+[Debug] <08/13/2020 13:38:01> TaskPool 'IPCAccessor Task Pool' update lagged (217ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 13:38:01> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 13:38:01> TaskPool 'IO Task Pool' update lagged (175ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:38:01> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 13:38:02> Client <127.0.0.1> connected
+[Debug] <08/13/2020 13:38:02> Client request ticket KHECTTYQYUHUUSDGTUMEVDKUJVSLHICN
+[Debug] <08/13/2020 13:38:03> TaskPool 'IO Task Pool' update lagged (183ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:38:03> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 13:38:03> TaskPool 'IO Task Pool' update lagged (89ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:38:03> CharactersListRequestMessage
+[Debug] <08/13/2020 13:38:35> TaskPool 'IO Task Pool' update lagged (681ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:38:35> CharacterSelectionMessage
+[Info] <08/13/2020 13:38:37> Area '(not found) (48)' started
+[Debug] <08/13/2020 13:38:37> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 13:38:37> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 13:38:37> Area '(not found) (48)' update lagged (116ms) (msg:27ms, timers:88ms, timerProc:1340/2427)
+[Debug] <08/13/2020 13:38:37> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 13:38:37> Area '(not found) (48)' update lagged (127ms) (msg:127ms, timers:0ms, timerProc:0/2427)
+[Debug] <08/13/2020 13:38:39> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 13:38:47> Received Unknown packet : HaapiApiKeyRequestMessage
+[Debug] <08/13/2020 13:38:53> Area '(not found) (48)' update lagged (57ms) (msg:57ms, timers:0ms, timerProc:0/2427)
+[Debug] <08/13/2020 13:38:58> Area '(not found) (48)' update lagged (57ms) (msg:0ms, timers:57ms, timerProc:1255/2427)
+[Debug] <08/13/2020 13:39:09> Area '(not found) (48)' update lagged (60ms) (msg:61ms, timers:0ms, timerProc:0/2426)
+[Debug] <08/13/2020 13:39:18> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:39:18> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Debug] <08/13/2020 13:39:26> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:40:02> Area '(not found) (48)' update lagged (64ms) (msg:0ms, timers:65ms, timerProc:1110/2426)
+[Debug] <08/13/2020 13:40:27> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:40:27> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Info] <08/13/2020 13:40:29> Area '(not found) (48)' stopped
+[Info] <08/13/2020 13:40:29> Area '(not found) (18)' started
+[Debug] <08/13/2020 13:40:29> Area '(not found) (18)' update lagged (126ms) (msg:7ms, timers:118ms, timerProc:801/781)
+[Debug] <08/13/2020 13:40:31> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:40:48> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:40:48> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Info] <08/13/2020 13:40:50> Saving world ...
+[Info] <08/13/2020 13:40:51> World server saved ! (280 ms)
+[Debug] <08/13/2020 13:40:51> TaskPool 'IO Task Pool' update lagged (316ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 13:40:51> Area '(not found) (18)' stopped
+[Info] <08/13/2020 13:40:51> Area '(not found) (15)' started
+[Debug] <08/13/2020 13:40:51> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:41:25> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 13:41:25> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Debug] <08/13/2020 13:41:29> Received Unknown packet : PrismsListRegisterMessage
+[Info] <08/13/2020 13:41:50> Area '(not found) (15)' stopped
+[Info] <08/13/2020 13:41:50> Area '(not found) (8)' started
+[Debug] <08/13/2020 13:41:51> Area '(not found) (8)' update lagged (284ms) (msg:16ms, timers:268ms, timerProc:2543/2523)
+[Info] <08/13/2020 13:41:58> Area '(not found) (8)' stopped
+[Info] <08/13/2020 13:41:58> Area '(not found) (15)' started
+[Info] <08/13/2020 13:42:18> Area '(not found) (15)' stopped
+[Info] <08/13/2020 13:42:18> Area '(not found) (8)' started
+[Debug] <08/13/2020 13:42:18> Area '(not found) (8)' update lagged (164ms) (msg:8ms, timers:155ms, timerProc:1271/2523)
+[Info] <08/13/2020 13:42:23> Area '(not found) (8)' stopped
+[Info] <08/13/2020 13:42:23> Area '(not found) (15)' started
+[Info] <08/13/2020 13:43:51> Saving world ...
+[Info] <08/13/2020 13:43:51> World server saved ! (82 ms)
+[Debug] <08/13/2020 13:43:51> TaskPool 'IO Task Pool' update lagged (109ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 13:43:55> Area '(not found) (15)' stopped
+[Info] <08/13/2020 13:43:55> Area '(not found) (8)' started
+[Debug] <08/13/2020 13:43:55> Area '(not found) (8)' update lagged (284ms) (msg:8ms, timers:276ms, timerProc:2523/2525)
+[Debug] <08/13/2020 13:44:16> Area '(not found) (8)' update lagged (76ms) (msg:0ms, timers:76ms, timerProc:1113/2523)
+[Debug] <08/13/2020 13:44:23> Area '(not found) (8)' update lagged (79ms) (msg:0ms, timers:79ms, timerProc:1113/2523)
+[Debug] <08/13/2020 13:44:26> Area '(not found) (8)' update lagged (76ms) (msg:0ms, timers:76ms, timerProc:1113/2523)
+[Info] <08/13/2020 13:44:28> Area '(not found) (8)' stopped
+[Info] <08/13/2020 13:44:28> Area '(not found) (15)' started
+[Info] <08/13/2020 13:46:51> Saving world ...
+[Info] <08/13/2020 13:46:51> World server saved ! (231 ms)
+[Debug] <08/13/2020 13:46:51> TaskPool 'IO Task Pool' update lagged (271ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 13:47:01> Area '(not found) (15)' stopped
+[Info] <08/13/2020 13:47:01> Saving world ...
+[Info] <08/13/2020 13:47:01> Area (not found) (15) exit callback since it's disposed
+[Info] <08/13/2020 13:47:01> World server saved ! (66 ms)
+[Info] <08/13/2020 13:47:01> Client <127.0.0.1> (aze) disconnected
+[Warn] <08/13/2020 13:47:02> Pause state. Connection pending ...
+[Warn] <08/13/2020 13:47:20> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 13:47:25> Initializing Configuration...
+[Warn] <08/13/2020 13:47:26> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 13:47:26> Initialize Task Pool
+[Info] <08/13/2020 13:47:26> Initializing Network Interfaces...
+[Info] <08/13/2020 13:47:26> Register Plugins...
+[Info] <08/13/2020 13:47:31> Loading Plugins...
+[Info] <08/13/2020 13:47:31> Initializing Database...
+[Info] <08/13/2020 13:47:31> Opening Database...
+[Info] <08/13/2020 13:47:32> Register Messages...
+[Info] <08/13/2020 13:47:32> Register Packet Handlers...
+[Info] <08/13/2020 13:47:32> Register Commands...
+[Info] <08/13/2020 13:47:32> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 13:47:32> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 13:47:32> Initialize 'ApproachHandler'
+[Info] <08/13/2020 13:47:32> Initialize 'ChatManager'
+[Info] <08/13/2020 13:47:32> Register id providers
+[Info] <08/13/2020 13:47:32> Initialize 'TextManager'
+[Info] <08/13/2020 13:47:34> Initialize DataManagers
+[Info] <08/13/2020 13:47:34> Initialize 'BreedManager'
+[Info] <08/13/2020 13:47:34> Initialize 'EffectManager'
+[Info] <08/13/2020 13:47:34> Initialize 'SpellManager'
+[Info] <08/13/2020 13:47:35> Initialize 'IncarnationManager'
+[Info] <08/13/2020 13:47:35> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 13:47:35> Initialize 'CranioManager'
+[Info] <08/13/2020 13:47:35> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 13:47:35> Initialize 'PlacementManager'
+[Info] <08/13/2020 13:47:35> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 13:47:35> Initialize 'ItemManager'
+[Info] <08/13/2020 13:47:37> Initialize 'PetManager'
+[Info] <08/13/2020 13:47:37> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 13:47:37> Initialize 'BidHouseManager'
+[Info] <08/13/2020 13:47:37> Initialize 'RuneManager'
+[Info] <08/13/2020 13:47:37> Initialize 'InteractiveManager'
+[Info] <08/13/2020 13:47:37> Initialize 'IdolManager'
+[Info] <08/13/2020 13:47:37> Initialize 'ChallengeManager'
+[Info] <08/13/2020 13:47:37> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 13:47:37> Initialize 'RankRewardManager'
+[Info] <08/13/2020 13:47:37> Initialize 'RankManager'
+[Info] <08/13/2020 13:47:37> Initialize 'ExperienceManager'
+[Info] <08/13/2020 13:47:37> Initialize 'TinselManager'
+[Info] <08/13/2020 13:47:37> Initialize 'BrainManager'
+[Info] <08/13/2020 13:47:37> Initialize 'Looger'
+[Info] <08/13/2020 13:47:37> Initialize 'MongoLogger'
+[Info] <08/13/2020 13:47:37> Initialize 'JobManager'
+[Info] <08/13/2020 13:47:37> Initialize 'RuneManager'
+[Info] <08/13/2020 13:47:38> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 13:47:38> Initialize 'ArenaManager'
+[Info] <08/13/2020 13:47:38> Initialize 'VersusManager'
+[Info] <08/13/2020 13:47:38> Initialize 'NpcManager'
+[Info] <08/13/2020 13:47:38> Initialize 'GuildManager'
+[Info] <08/13/2020 13:47:38> Initialize 'MountManager'
+[Info] <08/13/2020 13:47:38> Initialize 'MonsterManager'
+[Info] <08/13/2020 13:47:39> Initialize 'MerchantManager'
+[Info] <08/13/2020 13:47:39> Initialize 'AchievementManager'
+[Info] <08/13/2020 13:47:39> Initialize 'World'
+[Info] <08/13/2020 13:47:39> Load maps...
+[Info] <08/13/2020 13:47:47> Load sub areas...
+[Info] <08/13/2020 13:47:47> Load areas...
+[Info] <08/13/2020 13:47:47> Load super areas...
+[Info] <08/13/2020 13:47:47> Load graveyards...
+[Info] <08/13/2020 13:47:48> Spawn npcs ...
+[Info] <08/13/2020 13:47:48> Spawn interactives ...
+[Info] <08/13/2020 13:47:54> Spawn cell triggers ...
+[Info] <08/13/2020 13:47:54> Spawn monsters ...
+[Info] <08/13/2020 13:47:56> Spawn merchants ...
+[Info] <08/13/2020 13:47:56> Initialize 'HavenBagManager'
+[Info] <08/13/2020 13:47:56> Initialize 'PaddockManager'
+[Info] <08/13/2020 13:47:56> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 13:47:56> Synchronize id providers
+[Info] <08/13/2020 13:47:56> Initialize 'QuestManager'
+[Info] <08/13/2020 13:48:01> Initialize 'WebServer'
+[Info] <08/13/2020 13:48:01> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 13:48:01> Starting Console Handler Interface...
+[Info] <08/13/2020 13:48:01> Starting IPC Communications ...
+[Info] <08/13/2020 13:48:01> Start listening on port : 5556...
+[Info] <08/13/2020 13:48:11> Attempt connection
+[Info] <08/13/2020 13:48:11> IPC connection etablished
+[Debug] <08/13/2020 13:48:11> TaskPool 'IPCAccessor Task Pool' update lagged (237ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 13:48:12> Access to auth. server granted
+[Debug] <08/13/2020 13:48:12> TaskPool 'IPCAccessor Task Pool' update lagged (212ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 13:48:12> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 13:48:12> TaskPool 'IO Task Pool' update lagged (85ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:48:12> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 13:48:24> Client <127.0.0.1> connected
+[Debug] <08/13/2020 13:48:24> Client request ticket OGMMUUQCEJUWFAYWSYIVSJAWRAJIYVWK
+[Debug] <08/13/2020 13:48:24> TaskPool 'IO Task Pool' update lagged (131ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:48:24> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 13:48:25> TaskPool 'IO Task Pool' update lagged (96ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:48:25> CharactersListRequestMessage
+[Debug] <08/13/2020 13:48:30> TaskPool 'IO Task Pool' update lagged (955ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:48:30> CharacterSelectionMessage
+[Info] <08/13/2020 13:48:30> Area '(not found) (15)' started
+[Debug] <08/13/2020 13:48:30> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 13:48:30> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 13:48:30> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 13:48:30> Area '(not found) (15)' update lagged (93ms) (msg:42ms, timers:51ms, timerProc:11/6)
+[Debug] <08/13/2020 13:48:31> Area '(not found) (15)' update lagged (426ms) (msg:426ms, timers:0ms, timerProc:0/6)
+[Debug] <08/13/2020 13:48:32> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 13:48:34> Received Unknown packet : HaapiApiKeyRequestMessage
+[Warn] <08/13/2020 13:52:14> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 13:52:17> Initializing Configuration...
+[Warn] <08/13/2020 13:52:18> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 13:52:18> Initialize Task Pool
+[Info] <08/13/2020 13:52:18> Initializing Network Interfaces...
+[Info] <08/13/2020 13:52:18> Register Plugins...
+[Info] <08/13/2020 13:52:20> Initializing Configuration...
+[Warn] <08/13/2020 13:52:20> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 13:52:20> Initialize Task Pool
+[Info] <08/13/2020 13:52:20> Initializing Network Interfaces...
+[Info] <08/13/2020 13:52:20> Register Plugins...
+[Info] <08/13/2020 13:52:24> Loading Plugins...
+[Info] <08/13/2020 13:52:24> Initializing Database...
+[Info] <08/13/2020 13:52:24> Opening Database...
+[Info] <08/13/2020 13:52:24> Register Messages...
+[Info] <08/13/2020 13:52:25> Register Packet Handlers...
+[Info] <08/13/2020 13:52:25> Register Commands...
+[Info] <08/13/2020 13:52:25> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 13:52:25> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 13:52:25> Initialize 'ApproachHandler'
+[Info] <08/13/2020 13:52:25> Initialize 'ChatManager'
+[Info] <08/13/2020 13:52:25> Register id providers
+[Info] <08/13/2020 13:52:25> Initialize 'TextManager'
+[Info] <08/13/2020 13:52:26> Loading Plugins...
+[Info] <08/13/2020 13:52:26> Initializing Database...
+[Info] <08/13/2020 13:52:26> Opening Database...
+[Info] <08/13/2020 13:52:26> Register Messages...
+[Info] <08/13/2020 13:52:27> Register Packet Handlers...
+[Info] <08/13/2020 13:52:27> Initialize DataManagers
+[Info] <08/13/2020 13:52:27> Register Commands...
+[Info] <08/13/2020 13:52:27> Initialize 'BreedManager'
+[Info] <08/13/2020 13:52:27> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 13:52:27> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 13:52:27> Initialize 'ApproachHandler'
+[Info] <08/13/2020 13:52:27> Initialize 'EffectManager'
+[Info] <08/13/2020 13:52:27> Initialize 'ChatManager'
+[Info] <08/13/2020 13:52:27> Register id providers
+[Info] <08/13/2020 13:52:27> Initialize 'TextManager'
+[Info] <08/13/2020 13:52:27> Initialize 'SpellManager'
+[Info] <08/13/2020 13:52:28> Initialize 'IncarnationManager'
+[Info] <08/13/2020 13:52:28> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 13:52:28> Initialize 'CranioManager'
+[Info] <08/13/2020 13:52:28> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 13:52:28> Initialize 'PlacementManager'
+[Info] <08/13/2020 13:52:29> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 13:52:29> Initialize 'ItemManager'
+[Info] <08/13/2020 13:52:29> Initialize DataManagers
+[Info] <08/13/2020 13:52:29> Initialize 'BreedManager'
+[Info] <08/13/2020 13:52:29> Initialize 'EffectManager'
+[Info] <08/13/2020 13:52:29> Initialize 'SpellManager'
+[Info] <08/13/2020 13:52:30> Initialize 'IncarnationManager'
+[Info] <08/13/2020 13:52:30> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 13:52:30> Initialize 'CranioManager'
+[Info] <08/13/2020 13:52:30> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 13:52:30> Initialize 'PlacementManager'
+[Info] <08/13/2020 13:52:30> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 13:52:30> Initialize 'ItemManager'
+[Info] <08/13/2020 13:52:31> Initialize 'PetManager'
+[Info] <08/13/2020 13:52:31> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 13:52:31> Initialize 'BidHouseManager'
+[Info] <08/13/2020 13:52:31> Initialize 'RuneManager'
+[Info] <08/13/2020 13:52:31> Initialize 'InteractiveManager'
+[Info] <08/13/2020 13:52:31> Initialize 'IdolManager'
+[Info] <08/13/2020 13:52:31> Initialize 'ChallengeManager'
+[Info] <08/13/2020 13:52:31> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 13:52:31> Initialize 'RankRewardManager'
+[Info] <08/13/2020 13:52:31> Initialize 'RankManager'
+[Info] <08/13/2020 13:52:32> Initialize 'ExperienceManager'
+[Info] <08/13/2020 13:52:32> Initialize 'TinselManager'
+[Info] <08/13/2020 13:52:32> Initialize 'BrainManager'
+[Info] <08/13/2020 13:52:32> Initialize 'Looger'
+[Info] <08/13/2020 13:52:32> Initialize 'MongoLogger'
+[Info] <08/13/2020 13:52:32> Initialize 'JobManager'
+[Info] <08/13/2020 13:52:32> Initialize 'RuneManager'
+[Info] <08/13/2020 13:52:32> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 13:52:32> Initialize 'ArenaManager'
+[Info] <08/13/2020 13:52:32> Initialize 'VersusManager'
+[Info] <08/13/2020 13:52:32> Initialize 'NpcManager'
+[Info] <08/13/2020 13:52:32> Initialize 'GuildManager'
+[Info] <08/13/2020 13:52:32> Initialize 'MountManager'
+[Info] <08/13/2020 13:52:33> Initialize 'MonsterManager'
+[Info] <08/13/2020 13:52:33> Initialize 'PetManager'
+[Info] <08/13/2020 13:52:33> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 13:52:33> Initialize 'BidHouseManager'
+[Info] <08/13/2020 13:52:33> Initialize 'RuneManager'
+[Info] <08/13/2020 13:52:33> Initialize 'InteractiveManager'
+[Info] <08/13/2020 13:52:33> Initialize 'IdolManager'
+[Info] <08/13/2020 13:52:33> Initialize 'ChallengeManager'
+[Info] <08/13/2020 13:52:33> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 13:52:33> Initialize 'RankRewardManager'
+[Info] <08/13/2020 13:52:33> Initialize 'RankManager'
+[Info] <08/13/2020 13:52:33> Initialize 'ExperienceManager'
+[Info] <08/13/2020 13:52:33> Initialize 'TinselManager'
+[Info] <08/13/2020 13:52:33> Initialize 'BrainManager'
+[Info] <08/13/2020 13:52:33> Initialize 'Looger'
+[Info] <08/13/2020 13:52:33> Initialize 'MongoLogger'
+[Info] <08/13/2020 13:52:33> Initialize 'JobManager'
+[Info] <08/13/2020 13:52:34> Initialize 'RuneManager'
+[Info] <08/13/2020 13:52:34> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 13:52:34> Initialize 'ArenaManager'
+[Info] <08/13/2020 13:52:34> Initialize 'VersusManager'
+[Info] <08/13/2020 13:52:34> Initialize 'NpcManager'
+[Info] <08/13/2020 13:52:34> Initialize 'MerchantManager'
+[Info] <08/13/2020 13:52:34> Initialize 'AchievementManager'
+[Info] <08/13/2020 13:52:34> Initialize 'GuildManager'
+[Info] <08/13/2020 13:52:34> Initialize 'MountManager'
+[Info] <08/13/2020 13:52:34> Initialize 'World'
+[Info] <08/13/2020 13:52:34> Load maps...
+[Info] <08/13/2020 13:52:34> Initialize 'MonsterManager'
+[Info] <08/13/2020 13:52:36> Initialize 'MerchantManager'
+[Info] <08/13/2020 13:52:36> Initialize 'AchievementManager'
+[Info] <08/13/2020 13:52:36> Initialize 'World'
+[Info] <08/13/2020 13:52:36> Load maps...
+[Info] <08/13/2020 13:52:45> Load sub areas...
+[Info] <08/13/2020 13:52:45> Load areas...
+[Info] <08/13/2020 13:52:45> Load super areas...
+[Info] <08/13/2020 13:52:45> Load graveyards...
+[Info] <08/13/2020 13:52:45> Spawn npcs ...
+[Info] <08/13/2020 13:52:45> Spawn interactives ...
+[Info] <08/13/2020 13:52:49> Spawn cell triggers ...
+[Info] <08/13/2020 13:52:49> Spawn monsters ...
+[Info] <08/13/2020 13:52:51> Spawn merchants ...
+[Info] <08/13/2020 13:52:51> Initialize 'HavenBagManager'
+[Info] <08/13/2020 13:52:51> Initialize 'PaddockManager'
+[Info] <08/13/2020 13:52:51> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 13:52:51> Synchronize id providers
+[Info] <08/13/2020 13:52:51> Initialize 'QuestManager'
+[Info] <08/13/2020 13:52:53> Initialize 'WebServer'
+[Info] <08/13/2020 13:52:53> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 13:52:53> Starting Console Handler Interface...
+[Info] <08/13/2020 13:52:53> Starting IPC Communications ...
+[Info] <08/13/2020 13:52:53> Start listening on port : 5556...
+[Info] <08/13/2020 13:53:03> Attempt connection
+[Info] <08/13/2020 13:53:03> IPC connection etablished
+[Debug] <08/13/2020 13:53:04> TaskPool 'IPCAccessor Task Pool' update lagged (154ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 13:53:04> Access to auth. server granted
+[Debug] <08/13/2020 13:53:04> TaskPool 'IPCAccessor Task Pool' update lagged (229ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 13:53:04> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 13:53:04> TaskPool 'IO Task Pool' update lagged (235ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:53:04> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 13:54:09> Initializing Configuration...
+[Warn] <08/13/2020 13:54:09> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 13:54:09> Initialize Task Pool
+[Info] <08/13/2020 13:54:09> Initializing Network Interfaces...
+[Info] <08/13/2020 13:54:09> Register Plugins...
+[Info] <08/13/2020 13:54:17> Loading Plugins...
+[Info] <08/13/2020 13:54:17> Initializing Database...
+[Info] <08/13/2020 13:54:17> Opening Database...
+[Info] <08/13/2020 13:54:17> Register Messages...
+[Info] <08/13/2020 13:54:18> Register Packet Handlers...
+[Info] <08/13/2020 13:54:18> Register Commands...
+[Info] <08/13/2020 13:54:18> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 13:54:18> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 13:54:18> Initialize 'ApproachHandler'
+[Info] <08/13/2020 13:54:18> Initialize 'ChatManager'
+[Info] <08/13/2020 13:54:18> Register id providers
+[Info] <08/13/2020 13:54:18> Initialize 'TextManager'
+[Info] <08/13/2020 13:54:19> Initialize DataManagers
+[Info] <08/13/2020 13:54:19> Initialize 'BreedManager'
+[Info] <08/13/2020 13:54:19> Initialize 'EffectManager'
+[Info] <08/13/2020 13:54:19> Initialize 'SpellManager'
+[Info] <08/13/2020 13:54:20> Initialize 'IncarnationManager'
+[Info] <08/13/2020 13:54:20> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 13:54:20> Initialize 'CranioManager'
+[Info] <08/13/2020 13:54:20> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 13:54:20> Initialize 'PlacementManager'
+[Info] <08/13/2020 13:54:21> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 13:54:21> Initialize 'ItemManager'
+[Info] <08/13/2020 13:54:22> Initialize 'PetManager'
+[Info] <08/13/2020 13:54:22> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 13:54:22> Initialize 'BidHouseManager'
+[Info] <08/13/2020 13:54:22> Initialize 'RuneManager'
+[Info] <08/13/2020 13:54:22> Initialize 'InteractiveManager'
+[Info] <08/13/2020 13:54:23> Initialize 'IdolManager'
+[Info] <08/13/2020 13:54:23> Initialize 'ChallengeManager'
+[Info] <08/13/2020 13:54:23> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 13:54:23> Initialize 'RankRewardManager'
+[Info] <08/13/2020 13:54:23> Initialize 'RankManager'
+[Info] <08/13/2020 13:54:23> Initialize 'ExperienceManager'
+[Info] <08/13/2020 13:54:23> Initialize 'TinselManager'
+[Info] <08/13/2020 13:54:23> Initialize 'BrainManager'
+[Info] <08/13/2020 13:54:23> Initialize 'Looger'
+[Info] <08/13/2020 13:54:23> Initialize 'MongoLogger'
+[Info] <08/13/2020 13:54:23> Initialize 'JobManager'
+[Info] <08/13/2020 13:54:23> Initialize 'RuneManager'
+[Info] <08/13/2020 13:54:23> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 13:54:23> Initialize 'ArenaManager'
+[Info] <08/13/2020 13:54:23> Initialize 'VersusManager'
+[Info] <08/13/2020 13:54:23> Initialize 'NpcManager'
+[Info] <08/13/2020 13:54:23> Initialize 'GuildManager'
+[Info] <08/13/2020 13:54:23> Initialize 'MountManager'
+[Info] <08/13/2020 13:54:23> Initialize 'MonsterManager'
+[Info] <08/13/2020 13:54:24> Initialize 'MerchantManager'
+[Info] <08/13/2020 13:54:24> Initialize 'AchievementManager'
+[Info] <08/13/2020 13:54:25> Initialize 'World'
+[Info] <08/13/2020 13:54:25> Load maps...
+[Info] <08/13/2020 13:54:35> Load sub areas...
+[Info] <08/13/2020 13:54:35> Load areas...
+[Info] <08/13/2020 13:54:35> Load super areas...
+[Info] <08/13/2020 13:54:35> Load graveyards...
+[Info] <08/13/2020 13:54:35> Spawn npcs ...
+[Info] <08/13/2020 13:54:35> Spawn interactives ...
+[Info] <08/13/2020 13:54:38> Spawn cell triggers ...
+[Info] <08/13/2020 13:54:38> Spawn monsters ...
+[Info] <08/13/2020 13:54:39> Spawn merchants ...
+[Info] <08/13/2020 13:54:39> Initialize 'HavenBagManager'
+[Info] <08/13/2020 13:54:40> Initialize 'PaddockManager'
+[Info] <08/13/2020 13:54:40> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 13:54:40> Synchronize id providers
+[Info] <08/13/2020 13:54:40> Initialize 'QuestManager'
+[Info] <08/13/2020 13:54:43> Initialize 'WebServer'
+[Info] <08/13/2020 13:54:44> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 13:54:44> Starting Console Handler Interface...
+[Info] <08/13/2020 13:54:44> Starting IPC Communications ...
+[Info] <08/13/2020 13:54:44> Start listening on port : 5556...
+[Info] <08/13/2020 13:54:54> Attempt connection
+[Info] <08/13/2020 13:54:54> IPC connection etablished
+[Debug] <08/13/2020 13:54:54> TaskPool 'IPCAccessor Task Pool' update lagged (423ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 13:54:55> Access to auth. server granted
+[Debug] <08/13/2020 13:54:55> TaskPool 'IPCAccessor Task Pool' update lagged (229ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 13:54:55> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 13:54:55> TaskPool 'IO Task Pool' update lagged (223ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:54:55> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 13:54:57> Client <127.0.0.1> connected
+[Debug] <08/13/2020 13:54:57> Client request ticket BYHBWCNVZPWDAIPJSSPOORWNRYAFXWVI
+[Debug] <08/13/2020 13:54:58> TaskPool 'IO Task Pool' update lagged (258ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:54:58> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 13:54:58> TaskPool 'IO Task Pool' update lagged (117ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:54:58> CharactersListRequestMessage
+[Debug] <08/13/2020 13:55:00> TaskPool 'IO Task Pool' update lagged (374ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:55:00> CharacterSelectionMessage
+[Info] <08/13/2020 13:55:01> Area '(not found) (15)' started
+[Debug] <08/13/2020 13:55:01> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 13:55:01> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 13:55:01> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 13:55:01> Area '(not found) (15)' update lagged (164ms) (msg:164ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 13:55:01> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 13:55:02> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 13:57:44> Saving world ...
+[Info] <08/13/2020 13:57:45> World server saved ! (199 ms)
+[Debug] <08/13/2020 13:57:45> TaskPool 'IO Task Pool' update lagged (228ms) (msg:0, timers:1/4)
+[Warn] <08/13/2020 13:57:47> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 13:57:51> Initializing Configuration...
+[Warn] <08/13/2020 13:57:51> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 13:57:51> Initialize Task Pool
+[Info] <08/13/2020 13:57:51> Initializing Network Interfaces...
+[Info] <08/13/2020 13:57:51> Register Plugins...
+[Info] <08/13/2020 13:57:56> Loading Plugins...
+[Info] <08/13/2020 13:57:56> Initializing Database...
+[Info] <08/13/2020 13:57:56> Opening Database...
+[Info] <08/13/2020 13:57:56> Register Messages...
+[Info] <08/13/2020 13:57:56> Register Packet Handlers...
+[Info] <08/13/2020 13:57:56> Register Commands...
+[Info] <08/13/2020 13:57:56> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 13:57:56> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 13:57:56> Initialize 'ApproachHandler'
+[Info] <08/13/2020 13:57:56> Initialize 'ChatManager'
+[Info] <08/13/2020 13:57:56> Register id providers
+[Info] <08/13/2020 13:57:56> Initialize 'TextManager'
+[Info] <08/13/2020 13:57:58> Initialize DataManagers
+[Info] <08/13/2020 13:57:58> Initialize 'BreedManager'
+[Info] <08/13/2020 13:57:58> Initialize 'EffectManager'
+[Info] <08/13/2020 13:57:58> Initialize 'SpellManager'
+[Info] <08/13/2020 13:57:59> Initialize 'IncarnationManager'
+[Info] <08/13/2020 13:57:59> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 13:57:59> Initialize 'CranioManager'
+[Info] <08/13/2020 13:57:59> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 13:57:59> Initialize 'PlacementManager'
+[Info] <08/13/2020 13:57:59> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 13:57:59> Initialize 'ItemManager'
+[Info] <08/13/2020 13:58:01> Initialize 'PetManager'
+[Info] <08/13/2020 13:58:01> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 13:58:01> Initialize 'BidHouseManager'
+[Info] <08/13/2020 13:58:01> Initialize 'RuneManager'
+[Info] <08/13/2020 13:58:01> Initialize 'InteractiveManager'
+[Info] <08/13/2020 13:58:02> Initialize 'IdolManager'
+[Info] <08/13/2020 13:58:02> Initialize 'ChallengeManager'
+[Info] <08/13/2020 13:58:02> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 13:58:02> Initialize 'RankRewardManager'
+[Info] <08/13/2020 13:58:02> Initialize 'RankManager'
+[Info] <08/13/2020 13:58:02> Initialize 'ExperienceManager'
+[Info] <08/13/2020 13:58:02> Initialize 'TinselManager'
+[Info] <08/13/2020 13:58:02> Initialize 'BrainManager'
+[Info] <08/13/2020 13:58:02> Initialize 'Looger'
+[Info] <08/13/2020 13:58:02> Initialize 'MongoLogger'
+[Info] <08/13/2020 13:58:02> Initialize 'JobManager'
+[Info] <08/13/2020 13:58:02> Initialize 'RuneManager'
+[Info] <08/13/2020 13:58:02> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 13:58:02> Initialize 'ArenaManager'
+[Info] <08/13/2020 13:58:02> Initialize 'VersusManager'
+[Info] <08/13/2020 13:58:02> Initialize 'NpcManager'
+[Info] <08/13/2020 13:58:02> Initialize 'GuildManager'
+[Info] <08/13/2020 13:58:02> Initialize 'MountManager'
+[Info] <08/13/2020 13:58:03> Initialize 'MonsterManager'
+[Info] <08/13/2020 13:58:04> Initialize 'MerchantManager'
+[Info] <08/13/2020 13:58:04> Initialize 'AchievementManager'
+[Info] <08/13/2020 13:58:04> Initialize 'World'
+[Info] <08/13/2020 13:58:04> Load maps...
+[Info] <08/13/2020 13:58:12> Load sub areas...
+[Info] <08/13/2020 13:58:12> Load areas...
+[Info] <08/13/2020 13:58:12> Load super areas...
+[Info] <08/13/2020 13:58:12> Load graveyards...
+[Info] <08/13/2020 13:58:12> Spawn npcs ...
+[Info] <08/13/2020 13:58:12> Spawn interactives ...
+[Info] <08/13/2020 13:58:17> Spawn cell triggers ...
+[Info] <08/13/2020 13:58:17> Spawn monsters ...
+[Info] <08/13/2020 13:58:19> Spawn merchants ...
+[Info] <08/13/2020 13:58:19> Initialize 'HavenBagManager'
+[Info] <08/13/2020 13:58:19> Initialize 'PaddockManager'
+[Info] <08/13/2020 13:58:19> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 13:58:19> Synchronize id providers
+[Info] <08/13/2020 13:58:19> Initialize 'QuestManager'
+[Info] <08/13/2020 13:58:22> Initialize 'WebServer'
+[Info] <08/13/2020 13:58:23> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 13:58:23> Starting Console Handler Interface...
+[Info] <08/13/2020 13:58:23> Starting IPC Communications ...
+[Info] <08/13/2020 13:58:23> Start listening on port : 5556...
+[Info] <08/13/2020 13:58:33> Attempt connection
+[Info] <08/13/2020 13:58:33> IPC connection etablished
+[Debug] <08/13/2020 13:58:33> TaskPool 'IPCAccessor Task Pool' update lagged (238ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 13:58:33> Access to auth. server granted
+[Debug] <08/13/2020 13:58:33> TaskPool 'IPCAccessor Task Pool' update lagged (229ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 13:58:33> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Info] <08/13/2020 13:58:40> Client <127.0.0.1> connected
+[Debug] <08/13/2020 13:58:41> Client request ticket LWLJKFVSDGMQYFXKADHATUSMHKCBGKYL
+[Debug] <08/13/2020 13:58:41> TaskPool 'IO Task Pool' update lagged (166ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:58:41> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 13:58:42> TaskPool 'IO Task Pool' update lagged (84ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 13:58:42> CharactersListRequestMessage
+[Debug] <08/13/2020 13:58:43> TaskPool 'IO Task Pool' update lagged (387ms) (msg:1, timers:1/4)
+[Debug] <08/13/2020 13:58:43> CharacterSelectionMessage
+[Info] <08/13/2020 13:58:44> Area '(not found) (15)' started
+[Debug] <08/13/2020 13:58:44> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 13:58:44> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 13:58:44> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 13:58:44> Area '(not found) (15)' update lagged (171ms) (msg:171ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 13:58:44> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 13:58:45> Area '(not found) (15)' update lagged (55ms) (msg:55ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 13:58:45> Received Unknown packet : HaapiApiKeyRequestMessage
+[Warn] <08/13/2020 14:10:54> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 14:11:00> Initializing Configuration...
+[Warn] <08/13/2020 14:11:01> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 14:11:01> Initialize Task Pool
+[Info] <08/13/2020 14:11:01> Initializing Network Interfaces...
+[Info] <08/13/2020 14:11:01> Register Plugins...
+[Info] <08/13/2020 14:11:10> Loading Plugins...
+[Info] <08/13/2020 14:11:10> Initializing Database...
+[Info] <08/13/2020 14:11:10> Opening Database...
+[Info] <08/13/2020 14:11:10> Register Messages...
+[Info] <08/13/2020 14:11:10> Register Packet Handlers...
+[Info] <08/13/2020 14:11:10> Register Commands...
+[Info] <08/13/2020 14:11:10> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 14:11:10> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 14:11:10> Initialize 'ApproachHandler'
+[Info] <08/13/2020 14:11:10> Initialize 'ChatManager'
+[Info] <08/13/2020 14:11:10> Register id providers
+[Info] <08/13/2020 14:11:10> Initialize 'TextManager'
+[Info] <08/13/2020 14:11:12> Initialize DataManagers
+[Info] <08/13/2020 14:11:12> Initialize 'BreedManager'
+[Info] <08/13/2020 14:11:12> Initialize 'EffectManager'
+[Info] <08/13/2020 14:11:12> Initialize 'SpellManager'
+[Info] <08/13/2020 14:11:13> Initialize 'IncarnationManager'
+[Info] <08/13/2020 14:11:13> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 14:11:13> Initialize 'CranioManager'
+[Info] <08/13/2020 14:11:13> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 14:11:13> Initialize 'PlacementManager'
+[Info] <08/13/2020 14:11:13> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 14:11:13> Initialize 'ItemManager'
+[Info] <08/13/2020 14:11:15> Initialize 'PetManager'
+[Info] <08/13/2020 14:11:15> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 14:11:15> Initialize 'BidHouseManager'
+[Info] <08/13/2020 14:11:15> Initialize 'RuneManager'
+[Info] <08/13/2020 14:11:15> Initialize 'InteractiveManager'
+[Info] <08/13/2020 14:11:16> Initialize 'IdolManager'
+[Info] <08/13/2020 14:11:16> Initialize 'ChallengeManager'
+[Info] <08/13/2020 14:11:16> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 14:11:16> Initialize 'RankRewardManager'
+[Info] <08/13/2020 14:11:16> Initialize 'RankManager'
+[Info] <08/13/2020 14:11:16> Initialize 'ExperienceManager'
+[Info] <08/13/2020 14:11:16> Initialize 'TinselManager'
+[Info] <08/13/2020 14:11:16> Initialize 'BrainManager'
+[Info] <08/13/2020 14:11:16> Initialize 'Looger'
+[Info] <08/13/2020 14:11:16> Initialize 'MongoLogger'
+[Info] <08/13/2020 14:11:16> Initialize 'JobManager'
+[Info] <08/13/2020 14:11:16> Initialize 'RuneManager'
+[Info] <08/13/2020 14:11:16> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 14:11:16> Initialize 'ArenaManager'
+[Info] <08/13/2020 14:11:16> Initialize 'VersusManager'
+[Info] <08/13/2020 14:11:16> Initialize 'NpcManager'
+[Info] <08/13/2020 14:11:16> Initialize 'GuildManager'
+[Info] <08/13/2020 14:11:16> Initialize 'MountManager'
+[Info] <08/13/2020 14:11:16> Initialize 'MonsterManager'
+[Info] <08/13/2020 14:11:18> Initialize 'MerchantManager'
+[Info] <08/13/2020 14:11:18> Initialize 'AchievementManager'
+[Info] <08/13/2020 14:11:18> Initialize 'World'
+[Info] <08/13/2020 14:11:18> Load maps...
+[Info] <08/13/2020 14:11:25> Load sub areas...
+[Info] <08/13/2020 14:11:26> Load areas...
+[Info] <08/13/2020 14:11:26> Load super areas...
+[Info] <08/13/2020 14:11:26> Load graveyards...
+[Info] <08/13/2020 14:11:26> Spawn npcs ...
+[Info] <08/13/2020 14:11:26> Spawn interactives ...
+[Info] <08/13/2020 14:11:31> Spawn cell triggers ...
+[Info] <08/13/2020 14:11:31> Spawn monsters ...
+[Info] <08/13/2020 14:11:33> Spawn merchants ...
+[Info] <08/13/2020 14:11:33> Initialize 'HavenBagManager'
+[Info] <08/13/2020 14:11:33> Initialize 'PaddockManager'
+[Info] <08/13/2020 14:11:33> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 14:11:33> Synchronize id providers
+[Info] <08/13/2020 14:11:33> Initialize 'QuestManager'
+[Info] <08/13/2020 14:11:36> Initialize 'WebServer'
+[Info] <08/13/2020 14:11:37> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 14:11:37> Starting Console Handler Interface...
+[Info] <08/13/2020 14:11:37> Starting IPC Communications ...
+[Info] <08/13/2020 14:11:37> Start listening on port : 5556...
+[Info] <08/13/2020 14:11:47> Attempt connection
+[Info] <08/13/2020 14:11:47> IPC connection etablished
+[Debug] <08/13/2020 14:11:47> TaskPool 'IPCAccessor Task Pool' update lagged (165ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 14:11:47> Access to auth. server granted
+[Debug] <08/13/2020 14:11:48> TaskPool 'IPCAccessor Task Pool' update lagged (213ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 14:11:48> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 14:11:48> TaskPool 'IO Task Pool' update lagged (211ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 14:11:48> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 14:12:35> Client <127.0.0.1> connected
+[Debug] <08/13/2020 14:12:35> Client request ticket NBAHCHRNVWXDEVIONXHTOYUEDMAIROMP
+[Debug] <08/13/2020 14:12:35> TaskPool 'IO Task Pool' update lagged (121ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 14:12:35> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 14:12:39> TaskPool 'IO Task Pool' update lagged (382ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 14:12:39> CharacterSelectionMessage
+[Info] <08/13/2020 14:12:39> Area '(not found) (15)' started
+[Debug] <08/13/2020 14:12:39> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 14:12:39> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 14:12:39> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 14:12:40> Area '(not found) (15)' update lagged (181ms) (msg:182ms, timers:0ms, timerProc:0/6)
+[Debug] <08/13/2020 14:12:40> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 14:12:41> Received Unknown packet : HaapiApiKeyRequestMessage
+[Warn] <08/13/2020 14:38:34> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 14:38:38> Initializing Configuration...
+[Warn] <08/13/2020 14:38:38> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 14:38:38> Initialize Task Pool
+[Info] <08/13/2020 14:38:38> Initializing Network Interfaces...
+[Info] <08/13/2020 14:38:38> Register Plugins...
+[Info] <08/13/2020 14:38:43> Loading Plugins...
+[Info] <08/13/2020 14:38:43> Initializing Database...
+[Info] <08/13/2020 14:38:43> Opening Database...
+[Info] <08/13/2020 14:38:44> Register Messages...
+[Info] <08/13/2020 14:38:44> Register Packet Handlers...
+[Info] <08/13/2020 14:38:44> Register Commands...
+[Info] <08/13/2020 14:38:44> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 14:38:44> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 14:38:44> Initialize 'ApproachHandler'
+[Info] <08/13/2020 14:38:44> Initialize 'ChatManager'
+[Info] <08/13/2020 14:38:44> Register id providers
+[Info] <08/13/2020 14:38:44> Initialize 'TextManager'
+[Info] <08/13/2020 14:38:46> Initialize DataManagers
+[Info] <08/13/2020 14:38:46> Initialize 'BreedManager'
+[Info] <08/13/2020 14:38:46> Initialize 'EffectManager'
+[Info] <08/13/2020 14:38:46> Initialize 'SpellManager'
+[Info] <08/13/2020 14:38:47> Initialize 'IncarnationManager'
+[Info] <08/13/2020 14:38:47> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 14:38:47> Initialize 'CranioManager'
+[Info] <08/13/2020 14:38:47> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 14:38:47> Initialize 'PlacementManager'
+[Info] <08/13/2020 14:38:47> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 14:38:47> Initialize 'ItemManager'
+[Info] <08/13/2020 14:38:49> Initialize 'PetManager'
+[Info] <08/13/2020 14:38:49> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 14:38:49> Initialize 'BidHouseManager'
+[Info] <08/13/2020 14:38:49> Initialize 'RuneManager'
+[Info] <08/13/2020 14:38:49> Initialize 'InteractiveManager'
+[Info] <08/13/2020 14:38:49> Initialize 'IdolManager'
+[Info] <08/13/2020 14:38:49> Initialize 'ChallengeManager'
+[Info] <08/13/2020 14:38:49> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 14:38:49> Initialize 'RankRewardManager'
+[Info] <08/13/2020 14:38:49> Initialize 'RankManager'
+[Info] <08/13/2020 14:38:50> Initialize 'ExperienceManager'
+[Info] <08/13/2020 14:38:50> Initialize 'TinselManager'
+[Info] <08/13/2020 14:38:50> Initialize 'BrainManager'
+[Info] <08/13/2020 14:38:50> Initialize 'Looger'
+[Info] <08/13/2020 14:38:50> Initialize 'MongoLogger'
+[Info] <08/13/2020 14:38:50> Initialize 'JobManager'
+[Info] <08/13/2020 14:38:50> Initialize 'RuneManager'
+[Info] <08/13/2020 14:38:50> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 14:38:50> Initialize 'ArenaManager'
+[Info] <08/13/2020 14:38:50> Initialize 'VersusManager'
+[Info] <08/13/2020 14:38:50> Initialize 'NpcManager'
+[Info] <08/13/2020 14:38:50> Initialize 'GuildManager'
+[Info] <08/13/2020 14:38:50> Initialize 'MountManager'
+[Info] <08/13/2020 14:38:50> Initialize 'MonsterManager'
+[Info] <08/13/2020 14:38:51> Initialize 'MerchantManager'
+[Info] <08/13/2020 14:38:51> Initialize 'AchievementManager'
+[Info] <08/13/2020 14:38:52> Initialize 'World'
+[Info] <08/13/2020 14:38:52> Load maps...
+[Info] <08/13/2020 14:39:02> Load sub areas...
+[Info] <08/13/2020 14:39:02> Load areas...
+[Info] <08/13/2020 14:39:02> Load super areas...
+[Info] <08/13/2020 14:39:02> Load graveyards...
+[Info] <08/13/2020 14:39:02> Spawn npcs ...
+[Info] <08/13/2020 14:39:02> Spawn interactives ...
+[Info] <08/13/2020 14:39:09> Spawn cell triggers ...
+[Info] <08/13/2020 14:39:09> Spawn monsters ...
+[Info] <08/13/2020 14:39:10> Spawn merchants ...
+[Info] <08/13/2020 14:39:10> Initialize 'HavenBagManager'
+[Info] <08/13/2020 14:39:10> Initialize 'PaddockManager'
+[Info] <08/13/2020 14:39:10> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 14:39:10> Synchronize id providers
+[Info] <08/13/2020 14:39:10> Initialize 'QuestManager'
+[Info] <08/13/2020 14:39:14> Initialize 'WebServer'
+[Info] <08/13/2020 14:39:14> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 14:39:14> Starting Console Handler Interface...
+[Info] <08/13/2020 14:39:14> Starting IPC Communications ...
+[Info] <08/13/2020 14:39:14> Start listening on port : 5556...
+[Info] <08/13/2020 14:39:24> Attempt connection
+[Info] <08/13/2020 14:39:24> IPC connection etablished
+[Debug] <08/13/2020 14:39:24> TaskPool 'IPCAccessor Task Pool' update lagged (153ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 14:39:24> Access to auth. server granted
+[Debug] <08/13/2020 14:39:24> TaskPool 'IPCAccessor Task Pool' update lagged (211ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 14:39:25> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 14:39:25> TaskPool 'IO Task Pool' update lagged (177ms) (msg:1, timers:1/4)
+[Debug] <08/13/2020 14:39:25> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 14:39:25> Client <127.0.0.1> connected
+[Debug] <08/13/2020 14:39:25> Client request ticket ZZQXSSADKWKBREDNTMMZDCAAJDOTCRLG
+[Debug] <08/13/2020 14:39:25> TaskPool 'IO Task Pool' update lagged (103ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 14:39:25> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 14:39:27> TaskPool 'IO Task Pool' update lagged (376ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 14:39:27> CharacterSelectionMessage
+[Info] <08/13/2020 14:39:27> Area '(not found) (15)' started
+[Debug] <08/13/2020 14:39:27> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 14:39:27> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 14:39:27> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 14:39:27> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 14:39:28> Area '(not found) (15)' update lagged (195ms) (msg:196ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 14:39:29> Received Unknown packet : HaapiApiKeyRequestMessage
+[Debug] <08/13/2020 14:39:35> Area '(not found) (15)' update lagged (3640ms) (msg:3641ms, timers:0ms, timerProc:5/11)
+[Debug] <08/13/2020 14:39:46> TaskPool 'IO Task Pool' update lagged (303ms) (msg:0, timers:1/4)
+[Warn] <08/13/2020 17:53:37> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 17:53:44> Initializing Configuration...
+[Warn] <08/13/2020 17:53:45> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 17:53:45> Initialize Task Pool
+[Info] <08/13/2020 17:53:45> Initializing Network Interfaces...
+[Info] <08/13/2020 17:53:45> Register Plugins...
+[Info] <08/13/2020 17:53:51> Loading Plugins...
+[Info] <08/13/2020 17:53:51> Initializing Database...
+[Info] <08/13/2020 17:53:51> Opening Database...
+[Info] <08/13/2020 17:53:52> Register Messages...
+[Info] <08/13/2020 17:53:52> Register Packet Handlers...
+[Info] <08/13/2020 17:53:52> Register Commands...
+[Info] <08/13/2020 17:53:52> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 17:53:52> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 17:53:52> Initialize 'ApproachHandler'
+[Info] <08/13/2020 17:53:52> Initialize 'ChatManager'
+[Info] <08/13/2020 17:53:52> Register id providers
+[Info] <08/13/2020 17:53:52> Initialize 'TextManager'
+[Info] <08/13/2020 17:53:54> Initialize DataManagers
+[Info] <08/13/2020 17:53:54> Initialize 'BreedManager'
+[Info] <08/13/2020 17:53:54> Initialize 'EffectManager'
+[Info] <08/13/2020 17:53:54> Initialize 'SpellManager'
+[Info] <08/13/2020 17:53:56> Initialize 'IncarnationManager'
+[Info] <08/13/2020 17:53:56> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 17:53:56> Initialize 'CranioManager'
+[Info] <08/13/2020 17:53:56> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 17:53:56> Initialize 'PlacementManager'
+[Info] <08/13/2020 17:53:56> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 17:53:56> Initialize 'ItemManager'
+[Info] <08/13/2020 17:53:58> Initialize 'PetManager'
+[Info] <08/13/2020 17:53:58> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 17:53:58> Initialize 'BidHouseManager'
+[Info] <08/13/2020 17:53:58> Initialize 'RuneManager'
+[Info] <08/13/2020 17:53:58> Initialize 'InteractiveManager'
+[Info] <08/13/2020 17:53:59> Initialize 'IdolManager'
+[Info] <08/13/2020 17:53:59> Initialize 'ChallengeManager'
+[Info] <08/13/2020 17:53:59> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 17:53:59> Initialize 'RankRewardManager'
+[Info] <08/13/2020 17:53:59> Initialize 'RankManager'
+[Info] <08/13/2020 17:53:59> Initialize 'ExperienceManager'
+[Info] <08/13/2020 17:53:59> Initialize 'TinselManager'
+[Info] <08/13/2020 17:53:59> Initialize 'BrainManager'
+[Info] <08/13/2020 17:53:59> Initialize 'Looger'
+[Info] <08/13/2020 17:53:59> Initialize 'MongoLogger'
+[Info] <08/13/2020 17:53:59> Initialize 'JobManager'
+[Info] <08/13/2020 17:53:59> Initialize 'RuneManager'
+[Info] <08/13/2020 17:53:59> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 17:54:00> Initialize 'ArenaManager'
+[Info] <08/13/2020 17:54:00> Initialize 'VersusManager'
+[Info] <08/13/2020 17:54:00> Initialize 'NpcManager'
+[Info] <08/13/2020 17:54:00> Initialize 'GuildManager'
+[Info] <08/13/2020 17:54:00> Initialize 'MountManager'
+[Info] <08/13/2020 17:54:00> Initialize 'MonsterManager'
+[Info] <08/13/2020 17:54:03> Initialize 'MerchantManager'
+[Info] <08/13/2020 17:54:03> Initialize 'AchievementManager'
+[Info] <08/13/2020 17:54:03> Initialize 'World'
+[Info] <08/13/2020 17:54:03> Load maps...
+[Info] <08/13/2020 17:54:19> Load sub areas...
+[Info] <08/13/2020 17:54:19> Load areas...
+[Info] <08/13/2020 17:54:19> Load super areas...
+[Info] <08/13/2020 17:54:19> Load graveyards...
+[Info] <08/13/2020 17:54:20> Spawn npcs ...
+[Info] <08/13/2020 17:54:20> Spawn interactives ...
+[Debug] <08/13/2020 17:54:30> TaskPool 'Arena' update lagged (116ms) (msg:0, timers:1/1)
+[Info] <08/13/2020 17:54:30> Spawn cell triggers ...
+[Info] <08/13/2020 17:54:30> Spawn monsters ...
+[Info] <08/13/2020 17:54:34> Spawn merchants ...
+[Info] <08/13/2020 17:54:35> Initialize 'HavenBagManager'
+[Info] <08/13/2020 17:54:35> Initialize 'PaddockManager'
+[Info] <08/13/2020 17:54:35> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 17:54:35> Synchronize id providers
+[Info] <08/13/2020 17:54:35> Initialize 'QuestManager'
+[Info] <08/13/2020 17:54:40> Initialize 'WebServer'
+[Info] <08/13/2020 17:54:41> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 17:54:41> Starting Console Handler Interface...
+[Info] <08/13/2020 17:54:41> Starting IPC Communications ...
+[Info] <08/13/2020 17:54:41> Start listening on port : 5556...
+[Info] <08/13/2020 17:54:51> Attempt connection
+[Info] <08/13/2020 17:54:51> IPC connection etablished
+[Debug] <08/13/2020 17:54:51> TaskPool 'IPCAccessor Task Pool' update lagged (212ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 17:54:52> Access to auth. server granted
+[Debug] <08/13/2020 17:54:52> TaskPool 'IPCAccessor Task Pool' update lagged (218ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 17:54:52> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 17:54:52> TaskPool 'IO Task Pool' update lagged (190ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 17:54:52> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 17:54:53> Client <127.0.0.1> connected
+[Debug] <08/13/2020 17:54:54> Client request ticket UYPDTHOEPTRQTPLFRZMBCHCUHKCBYVFX
+[Debug] <08/13/2020 17:54:54> TaskPool 'IO Task Pool' update lagged (247ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 17:54:54> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 17:54:55> TaskPool 'IO Task Pool' update lagged (64ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 17:54:55> CharactersListRequestMessage
+[Debug] <08/13/2020 17:54:58> TaskPool 'IO Task Pool' update lagged (609ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 17:54:58> CharacterSelectionMessage
+[Info] <08/13/2020 17:54:59> Area '(not found) (15)' started
+[Debug] <08/13/2020 17:54:59> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 17:54:59> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 17:54:59> Area '(not found) (15)' update lagged (52ms) (msg:24ms, timers:27ms, timerProc:6/11)
+[Debug] <08/13/2020 17:54:59> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 17:55:00> Area '(not found) (15)' update lagged (239ms) (msg:239ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 17:55:02> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 17:55:11> Received Unknown packet : HaapiApiKeyRequestMessage
+[Debug] <08/13/2020 17:55:21> Area '(not found) (15)' update lagged (3384ms) (msg:3383ms, timers:0ms, timerProc:5/6)
+[Warn] <08/13/2020 17:58:01> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 17:58:05> Initializing Configuration...
+[Warn] <08/13/2020 17:58:06> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 17:58:06> Initialize Task Pool
+[Info] <08/13/2020 17:58:06> Initializing Network Interfaces...
+[Info] <08/13/2020 17:58:06> Register Plugins...
+[Info] <08/13/2020 17:58:11> Loading Plugins...
+[Info] <08/13/2020 17:58:11> Initializing Database...
+[Info] <08/13/2020 17:58:11> Opening Database...
+[Info] <08/13/2020 17:58:11> Register Messages...
+[Info] <08/13/2020 17:58:12> Register Packet Handlers...
+[Info] <08/13/2020 17:58:12> Register Commands...
+[Info] <08/13/2020 17:58:12> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 17:58:12> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 17:58:12> Initialize 'ApproachHandler'
+[Info] <08/13/2020 17:58:12> Initialize 'ChatManager'
+[Info] <08/13/2020 17:58:12> Register id providers
+[Info] <08/13/2020 17:58:12> Initialize 'TextManager'
+[Info] <08/13/2020 17:58:13> Initialize DataManagers
+[Info] <08/13/2020 17:58:13> Initialize 'BreedManager'
+[Info] <08/13/2020 17:58:13> Initialize 'EffectManager'
+[Info] <08/13/2020 17:58:14> Initialize 'SpellManager'
+[Info] <08/13/2020 17:58:15> Initialize 'IncarnationManager'
+[Info] <08/13/2020 17:58:15> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 17:58:15> Initialize 'CranioManager'
+[Info] <08/13/2020 17:58:15> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 17:58:15> Initialize 'PlacementManager'
+[Info] <08/13/2020 17:58:15> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 17:58:15> Initialize 'ItemManager'
+[Info] <08/13/2020 17:58:17> Initialize 'PetManager'
+[Info] <08/13/2020 17:58:17> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 17:58:17> Initialize 'BidHouseManager'
+[Info] <08/13/2020 17:58:17> Initialize 'RuneManager'
+[Info] <08/13/2020 17:58:17> Initialize 'InteractiveManager'
+[Info] <08/13/2020 17:58:17> Initialize 'IdolManager'
+[Info] <08/13/2020 17:58:17> Initialize 'ChallengeManager'
+[Info] <08/13/2020 17:58:17> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 17:58:17> Initialize 'RankRewardManager'
+[Info] <08/13/2020 17:58:18> Initialize 'RankManager'
+[Info] <08/13/2020 17:58:18> Initialize 'ExperienceManager'
+[Info] <08/13/2020 17:58:18> Initialize 'TinselManager'
+[Info] <08/13/2020 17:58:18> Initialize 'BrainManager'
+[Info] <08/13/2020 17:58:18> Initialize 'Looger'
+[Info] <08/13/2020 17:58:18> Initialize 'MongoLogger'
+[Info] <08/13/2020 17:58:18> Initialize 'JobManager'
+[Info] <08/13/2020 17:58:18> Initialize 'RuneManager'
+[Info] <08/13/2020 17:58:18> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 17:58:18> Initialize 'ArenaManager'
+[Info] <08/13/2020 17:58:18> Initialize 'VersusManager'
+[Info] <08/13/2020 17:58:18> Initialize 'NpcManager'
+[Info] <08/13/2020 17:58:18> Initialize 'GuildManager'
+[Info] <08/13/2020 17:58:18> Initialize 'MountManager'
+[Info] <08/13/2020 17:58:18> Initialize 'MonsterManager'
+[Info] <08/13/2020 17:58:20> Initialize 'MerchantManager'
+[Info] <08/13/2020 17:58:20> Initialize 'AchievementManager'
+[Info] <08/13/2020 17:58:20> Initialize 'World'
+[Info] <08/13/2020 17:58:20> Load maps...
+[Info] <08/13/2020 17:58:28> Load sub areas...
+[Info] <08/13/2020 17:58:28> Load areas...
+[Info] <08/13/2020 17:58:28> Load super areas...
+[Info] <08/13/2020 17:58:28> Load graveyards...
+[Info] <08/13/2020 17:58:28> Spawn npcs ...
+[Info] <08/13/2020 17:58:28> Spawn interactives ...
+[Info] <08/13/2020 17:58:35> Spawn cell triggers ...
+[Info] <08/13/2020 17:58:35> Spawn monsters ...
+[Info] <08/13/2020 17:58:36> Spawn merchants ...
+[Info] <08/13/2020 17:58:36> Initialize 'HavenBagManager'
+[Info] <08/13/2020 17:58:36> Initialize 'PaddockManager'
+[Info] <08/13/2020 17:58:36> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 17:58:36> Synchronize id providers
+[Info] <08/13/2020 17:58:36> Initialize 'QuestManager'
+[Info] <08/13/2020 17:58:40> Initialize 'WebServer'
+[Info] <08/13/2020 17:58:40> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 17:58:40> Starting Console Handler Interface...
+[Info] <08/13/2020 17:58:40> Starting IPC Communications ...
+[Info] <08/13/2020 17:58:40> Start listening on port : 5556...
+[Info] <08/13/2020 17:58:50> Attempt connection
+[Info] <08/13/2020 17:58:50> IPC connection etablished
+[Debug] <08/13/2020 17:58:50> TaskPool 'IPCAccessor Task Pool' update lagged (164ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 17:58:50> Access to auth. server granted
+[Debug] <08/13/2020 17:58:51> TaskPool 'IPCAccessor Task Pool' update lagged (232ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 17:58:51> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 17:58:51> TaskPool 'IO Task Pool' update lagged (231ms) (msg:1, timers:1/4)
+[Debug] <08/13/2020 17:58:51> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 17:58:58> Client <127.0.0.1> connected
+[Debug] <08/13/2020 17:58:58> Client request ticket GYWALKGVMCUWNTEQJJEHBQXTRQIVCAVJ
+[Debug] <08/13/2020 17:58:58> TaskPool 'IO Task Pool' update lagged (145ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 17:58:58> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 17:59:00> TaskPool 'IO Task Pool' update lagged (405ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 17:59:01> CharacterSelectionMessage
+[Info] <08/13/2020 17:59:01> Area '(not found) (15)' started
+[Debug] <08/13/2020 17:59:01> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 17:59:01> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 17:59:01> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 17:59:01> Area '(not found) (15)' update lagged (177ms) (msg:177ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 17:59:01> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 17:59:02> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 18:01:41> Saving world ...
+[Info] <08/13/2020 18:01:41> World server saved ! (231 ms)
+[Debug] <08/13/2020 18:01:41> TaskPool 'IO Task Pool' update lagged (255ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:04:41> Saving world ...
+[Info] <08/13/2020 18:04:41> World server saved ! (182 ms)
+[Debug] <08/13/2020 18:04:41> TaskPool 'IO Task Pool' update lagged (214ms) (msg:0, timers:1/4)
+[Warn] <08/13/2020 18:05:55> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 18:05:59> Initializing Configuration...
+[Warn] <08/13/2020 18:05:59> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 18:05:59> Initialize Task Pool
+[Info] <08/13/2020 18:05:59> Initializing Network Interfaces...
+[Info] <08/13/2020 18:05:59> Register Plugins...
+[Info] <08/13/2020 18:06:04> Loading Plugins...
+[Info] <08/13/2020 18:06:04> Initializing Database...
+[Info] <08/13/2020 18:06:04> Opening Database...
+[Info] <08/13/2020 18:06:04> Register Messages...
+[Info] <08/13/2020 18:06:05> Register Packet Handlers...
+[Info] <08/13/2020 18:06:05> Register Commands...
+[Info] <08/13/2020 18:06:05> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 18:06:05> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 18:06:05> Initialize 'ApproachHandler'
+[Info] <08/13/2020 18:06:05> Initialize 'ChatManager'
+[Info] <08/13/2020 18:06:05> Register id providers
+[Info] <08/13/2020 18:06:05> Initialize 'TextManager'
+[Info] <08/13/2020 18:06:06> Initialize DataManagers
+[Info] <08/13/2020 18:06:06> Initialize 'BreedManager'
+[Info] <08/13/2020 18:06:06> Initialize 'EffectManager'
+[Info] <08/13/2020 18:06:06> Initialize 'SpellManager'
+[Info] <08/13/2020 18:06:08> Initialize 'IncarnationManager'
+[Info] <08/13/2020 18:06:08> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 18:06:08> Initialize 'CranioManager'
+[Info] <08/13/2020 18:06:08> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 18:06:08> Initialize 'PlacementManager'
+[Info] <08/13/2020 18:06:08> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 18:06:08> Initialize 'ItemManager'
+[Info] <08/13/2020 18:06:09> Initialize 'PetManager'
+[Info] <08/13/2020 18:06:09> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 18:06:09> Initialize 'BidHouseManager'
+[Info] <08/13/2020 18:06:10> Initialize 'RuneManager'
+[Info] <08/13/2020 18:06:10> Initialize 'InteractiveManager'
+[Info] <08/13/2020 18:06:10> Initialize 'IdolManager'
+[Info] <08/13/2020 18:06:10> Initialize 'ChallengeManager'
+[Info] <08/13/2020 18:06:10> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 18:06:10> Initialize 'RankRewardManager'
+[Info] <08/13/2020 18:06:10> Initialize 'RankManager'
+[Info] <08/13/2020 18:06:10> Initialize 'ExperienceManager'
+[Info] <08/13/2020 18:06:10> Initialize 'TinselManager'
+[Info] <08/13/2020 18:06:10> Initialize 'BrainManager'
+[Info] <08/13/2020 18:06:10> Initialize 'Looger'
+[Info] <08/13/2020 18:06:10> Initialize 'MongoLogger'
+[Info] <08/13/2020 18:06:10> Initialize 'JobManager'
+[Info] <08/13/2020 18:06:10> Initialize 'RuneManager'
+[Info] <08/13/2020 18:06:10> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 18:06:10> Initialize 'ArenaManager'
+[Info] <08/13/2020 18:06:10> Initialize 'VersusManager'
+[Info] <08/13/2020 18:06:10> Initialize 'NpcManager'
+[Info] <08/13/2020 18:06:11> Initialize 'GuildManager'
+[Info] <08/13/2020 18:06:11> Initialize 'MountManager'
+[Info] <08/13/2020 18:06:11> Initialize 'MonsterManager'
+[Info] <08/13/2020 18:06:12> Initialize 'MerchantManager'
+[Info] <08/13/2020 18:06:12> Initialize 'AchievementManager'
+[Info] <08/13/2020 18:06:12> Initialize 'World'
+[Info] <08/13/2020 18:06:12> Load maps...
+[Info] <08/13/2020 18:21:21> Initializing Configuration...
+[Warn] <08/13/2020 18:21:21> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 18:21:21> Initialize Task Pool
+[Info] <08/13/2020 18:21:21> Initializing Network Interfaces...
+[Info] <08/13/2020 18:21:21> Register Plugins...
+[Info] <08/13/2020 18:21:29> Loading Plugins...
+[Info] <08/13/2020 18:21:29> Initializing Database...
+[Info] <08/13/2020 18:21:29> Opening Database...
+[Info] <08/13/2020 18:21:29> Register Messages...
+[Info] <08/13/2020 18:21:30> Register Packet Handlers...
+[Info] <08/13/2020 18:21:30> Register Commands...
+[Info] <08/13/2020 18:21:30> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 18:21:30> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 18:21:30> Initialize 'ApproachHandler'
+[Info] <08/13/2020 18:21:30> Initialize 'ChatManager'
+[Info] <08/13/2020 18:21:30> Register id providers
+[Info] <08/13/2020 18:21:30> Initialize 'TextManager'
+[Info] <08/13/2020 18:21:31> Initialize DataManagers
+[Info] <08/13/2020 18:21:31> Initialize 'BreedManager'
+[Info] <08/13/2020 18:21:31> Initialize 'EffectManager'
+[Info] <08/13/2020 18:21:31> Initialize 'SpellManager'
+[Info] <08/13/2020 18:21:32> Initialize 'IncarnationManager'
+[Info] <08/13/2020 18:21:33> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 18:21:33> Initialize 'CranioManager'
+[Info] <08/13/2020 18:21:33> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 18:21:33> Initialize 'PlacementManager'
+[Info] <08/13/2020 18:21:33> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 18:21:33> Initialize 'ItemManager'
+[Info] <08/13/2020 18:21:35> Initialize 'PetManager'
+[Info] <08/13/2020 18:21:35> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 18:21:35> Initialize 'BidHouseManager'
+[Info] <08/13/2020 18:21:35> Initialize 'RuneManager'
+[Info] <08/13/2020 18:21:35> Initialize 'InteractiveManager'
+[Info] <08/13/2020 18:21:35> Initialize 'IdolManager'
+[Info] <08/13/2020 18:21:35> Initialize 'ChallengeManager'
+[Info] <08/13/2020 18:21:35> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 18:21:35> Initialize 'RankRewardManager'
+[Info] <08/13/2020 18:21:35> Initialize 'RankManager'
+[Info] <08/13/2020 18:21:35> Initialize 'ExperienceManager'
+[Info] <08/13/2020 18:21:35> Initialize 'TinselManager'
+[Info] <08/13/2020 18:21:35> Initialize 'BrainManager'
+[Info] <08/13/2020 18:21:35> Initialize 'Looger'
+[Info] <08/13/2020 18:21:35> Initialize 'MongoLogger'
+[Info] <08/13/2020 18:21:35> Initialize 'JobManager'
+[Info] <08/13/2020 18:21:35> Initialize 'RuneManager'
+[Info] <08/13/2020 18:21:35> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 18:21:35> Initialize 'ArenaManager'
+[Info] <08/13/2020 18:21:35> Initialize 'VersusManager'
+[Info] <08/13/2020 18:21:35> Initialize 'NpcManager'
+[Info] <08/13/2020 18:21:36> Initialize 'GuildManager'
+[Info] <08/13/2020 18:21:36> Initialize 'MountManager'
+[Info] <08/13/2020 18:21:36> Initialize 'MonsterManager'
+[Info] <08/13/2020 18:21:37> Initialize 'MerchantManager'
+[Info] <08/13/2020 18:21:37> Initialize 'AchievementManager'
+[Info] <08/13/2020 18:21:37> Initialize 'World'
+[Info] <08/13/2020 18:21:37> Load maps...
+[Info] <08/13/2020 18:21:42> Load sub areas...
+[Info] <08/13/2020 18:21:42> Load areas...
+[Info] <08/13/2020 18:21:42> Load super areas...
+[Info] <08/13/2020 18:21:43> Load graveyards...
+[Info] <08/13/2020 18:21:43> Spawn npcs ...
+[Info] <08/13/2020 18:21:43> Spawn interactives ...
+[Info] <08/13/2020 18:21:47> Spawn cell triggers ...
+[Info] <08/13/2020 18:21:47> Spawn monsters ...
+[Info] <08/13/2020 18:21:48> Spawn merchants ...
+[Info] <08/13/2020 18:21:48> Initialize 'HavenBagManager'
+[Info] <08/13/2020 18:21:48> Initialize 'PaddockManager'
+[Info] <08/13/2020 18:21:48> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 18:21:48> Synchronize id providers
+[Info] <08/13/2020 18:21:48> Initialize 'QuestManager'
+[Info] <08/13/2020 18:21:51> Initialize 'WebServer'
+[Info] <08/13/2020 18:21:51> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 18:21:51> Starting Console Handler Interface...
+[Info] <08/13/2020 18:21:51> Starting IPC Communications ...
+[Info] <08/13/2020 18:21:51> Start listening on port : 5556...
+[Info] <08/13/2020 18:22:01> Attempt connection
+[Info] <08/13/2020 18:22:01> IPC connection etablished
+[Debug] <08/13/2020 18:22:01> TaskPool 'IPCAccessor Task Pool' update lagged (232ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 18:22:02> Access to auth. server granted
+[Debug] <08/13/2020 18:22:02> TaskPool 'IPCAccessor Task Pool' update lagged (229ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 18:22:02> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 18:22:02> TaskPool 'IO Task Pool' update lagged (163ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:22:02> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 18:22:27> Client <127.0.0.1> connected
+[Debug] <08/13/2020 18:22:27> Client request ticket NLHMJICXTZJXYSTXZISCWEIHPHYKEUUH
+[Debug] <08/13/2020 18:22:27> TaskPool 'IO Task Pool' update lagged (195ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:22:27> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 18:22:28> TaskPool 'IO Task Pool' update lagged (128ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:22:28> CharactersListRequestMessage
+[Debug] <08/13/2020 18:23:06> TaskPool 'IO Task Pool' update lagged (270ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:23:06> CharacterSelectionMessage
+[Info] <08/13/2020 18:23:07> Area '(not found) (15)' started
+[Debug] <08/13/2020 18:23:07> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 18:23:07> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 18:23:07> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 18:23:07> Area '(not found) (15)' update lagged (115ms) (msg:116ms, timers:0ms, timerProc:0/6)
+[Debug] <08/13/2020 18:23:09> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 18:23:13> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 18:24:52> Saving world ...
+[Info] <08/13/2020 18:24:52> World server saved ! (242 ms)
+[Debug] <08/13/2020 18:24:52> TaskPool 'IO Task Pool' update lagged (279ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 18:24:55> Area '(not found) (15)' update lagged (70ms) (msg:70ms, timers:0ms, timerProc:0/6)
+[Warn] <08/13/2020 18:28:55> Exceptions not handled cause Debugger is attatched
+[Info] <08/13/2020 18:28:59> Initializing Configuration...
+[Warn] <08/13/2020 18:29:00> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 18:29:00> Initialize Task Pool
+[Info] <08/13/2020 18:29:00> Initializing Network Interfaces...
+[Info] <08/13/2020 18:29:00> Register Plugins...
+[Info] <08/13/2020 18:29:06> Loading Plugins...
+[Info] <08/13/2020 18:29:06> Initializing Database...
+[Info] <08/13/2020 18:29:06> Opening Database...
+[Info] <08/13/2020 18:29:06> Register Messages...
+[Info] <08/13/2020 18:29:07> Register Packet Handlers...
+[Info] <08/13/2020 18:29:07> Register Commands...
+[Info] <08/13/2020 18:29:07> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 18:29:07> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 18:29:07> Initialize 'ApproachHandler'
+[Info] <08/13/2020 18:29:07> Initialize 'ChatManager'
+[Info] <08/13/2020 18:29:07> Register id providers
+[Info] <08/13/2020 18:29:07> Initialize 'TextManager'
+[Info] <08/13/2020 18:29:09> Initialize DataManagers
+[Info] <08/13/2020 18:29:09> Initialize 'BreedManager'
+[Info] <08/13/2020 18:29:09> Initialize 'EffectManager'
+[Info] <08/13/2020 18:29:09> Initialize 'SpellManager'
+[Info] <08/13/2020 18:29:10> Initialize 'IncarnationManager'
+[Info] <08/13/2020 18:29:10> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 18:29:10> Initialize 'CranioManager'
+[Info] <08/13/2020 18:29:10> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 18:29:10> Initialize 'PlacementManager'
+[Info] <08/13/2020 18:29:10> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 18:29:10> Initialize 'ItemManager'
+[Info] <08/13/2020 18:29:12> Initialize 'PetManager'
+[Info] <08/13/2020 18:29:12> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 18:29:12> Initialize 'BidHouseManager'
+[Info] <08/13/2020 18:29:12> Initialize 'RuneManager'
+[Info] <08/13/2020 18:29:12> Initialize 'InteractiveManager'
+[Info] <08/13/2020 18:29:13> Initialize 'IdolManager'
+[Info] <08/13/2020 18:29:13> Initialize 'ChallengeManager'
+[Info] <08/13/2020 18:29:13> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 18:29:13> Initialize 'RankRewardManager'
+[Info] <08/13/2020 18:29:13> Initialize 'RankManager'
+[Info] <08/13/2020 18:29:13> Initialize 'ExperienceManager'
+[Info] <08/13/2020 18:29:13> Initialize 'TinselManager'
+[Info] <08/13/2020 18:29:13> Initialize 'BrainManager'
+[Info] <08/13/2020 18:29:13> Initialize 'Looger'
+[Info] <08/13/2020 18:29:13> Initialize 'MongoLogger'
+[Info] <08/13/2020 18:29:13> Initialize 'JobManager'
+[Info] <08/13/2020 18:29:13> Initialize 'RuneManager'
+[Info] <08/13/2020 18:29:13> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 18:29:13> Initialize 'ArenaManager'
+[Info] <08/13/2020 18:29:13> Initialize 'VersusManager'
+[Info] <08/13/2020 18:29:13> Initialize 'NpcManager'
+[Info] <08/13/2020 18:29:13> Initialize 'GuildManager'
+[Info] <08/13/2020 18:29:13> Initialize 'MountManager'
+[Info] <08/13/2020 18:29:13> Initialize 'MonsterManager'
+[Info] <08/13/2020 18:29:14> Initialize 'MerchantManager'
+[Info] <08/13/2020 18:29:14> Initialize 'AchievementManager'
+[Info] <08/13/2020 18:29:15> Initialize 'World'
+[Info] <08/13/2020 18:29:15> Load maps...
+[Info] <08/13/2020 18:29:22> Load sub areas...
+[Info] <08/13/2020 18:29:22> Load areas...
+[Info] <08/13/2020 18:29:22> Load super areas...
+[Info] <08/13/2020 18:29:22> Load graveyards...
+[Info] <08/13/2020 18:29:23> Spawn npcs ...
+[Info] <08/13/2020 18:29:23> Spawn interactives ...
+[Info] <08/13/2020 18:29:29> Spawn cell triggers ...
+[Info] <08/13/2020 18:29:29> Spawn monsters ...
+[Info] <08/13/2020 18:29:30> Spawn merchants ...
+[Info] <08/13/2020 18:29:30> Initialize 'HavenBagManager'
+[Info] <08/13/2020 18:29:30> Initialize 'PaddockManager'
+[Info] <08/13/2020 18:29:30> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 18:29:30> Synchronize id providers
+[Info] <08/13/2020 18:29:30> Initialize 'QuestManager'
+[Info] <08/13/2020 18:29:34> Initialize 'WebServer'
+[Info] <08/13/2020 18:29:34> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 18:29:34> Starting Console Handler Interface...
+[Info] <08/13/2020 18:29:34> Starting IPC Communications ...
+[Info] <08/13/2020 18:29:34> Start listening on port : 5556...
+[Info] <08/13/2020 18:29:44> Attempt connection
+[Info] <08/13/2020 18:29:44> IPC connection etablished
+[Debug] <08/13/2020 18:29:44> TaskPool 'IPCAccessor Task Pool' update lagged (197ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 18:29:45> Access to auth. server granted
+[Debug] <08/13/2020 18:29:45> TaskPool 'IPCAccessor Task Pool' update lagged (209ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 18:29:45> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 18:29:45> TaskPool 'IO Task Pool' update lagged (206ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:29:45> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 18:30:13> Client <127.0.0.1> connected
+[Debug] <08/13/2020 18:30:13> Client request ticket CEJAEQWJHGVCRRXFNUHGTYGSYSQGKWEX
+[Debug] <08/13/2020 18:30:14> TaskPool 'IO Task Pool' update lagged (211ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:30:14> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 18:30:18> TaskPool 'IO Task Pool' update lagged (356ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:30:18> CharacterSelectionMessage
+[Info] <08/13/2020 18:30:19> Area '(not found) (15)' started
+[Debug] <08/13/2020 18:30:19> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 18:30:19> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 18:30:19> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 18:30:19> Area '(not found) (15)' update lagged (51ms) (msg:24ms, timers:26ms, timerProc:11/6)
+[Debug] <08/13/2020 18:30:19> Area '(not found) (15)' update lagged (168ms) (msg:169ms, timers:0ms, timerProc:0/6)
+[Debug] <08/13/2020 18:30:19> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 18:30:20> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 18:32:35> Saving world ...
+[Info] <08/13/2020 18:32:35> World server saved ! (216 ms)
+[Debug] <08/13/2020 18:32:35> TaskPool 'IO Task Pool' update lagged (237ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:35:35> Saving world ...
+[Info] <08/13/2020 18:35:35> World server saved ! (71 ms)
+[Debug] <08/13/2020 18:35:35> TaskPool 'IO Task Pool' update lagged (90ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:38:35> Saving world ...
+[Info] <08/13/2020 18:38:35> World server saved ! (87 ms)
+[Debug] <08/13/2020 18:38:35> TaskPool 'IO Task Pool' update lagged (116ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:41:35> Saving world ...
+[Info] <08/13/2020 18:41:35> World server saved ! (73 ms)
+[Debug] <08/13/2020 18:41:35> TaskPool 'IO Task Pool' update lagged (113ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:44:35> Saving world ...
+[Info] <08/13/2020 18:44:36> World server saved ! (72 ms)
+[Debug] <08/13/2020 18:44:36> TaskPool 'IO Task Pool' update lagged (95ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:47:36> Saving world ...
+[Info] <08/13/2020 18:47:36> World server saved ! (81 ms)
+[Debug] <08/13/2020 18:47:36> TaskPool 'IO Task Pool' update lagged (100ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:50:36> Saving world ...
+[Info] <08/13/2020 18:50:36> World server saved ! (60 ms)
+[Debug] <08/13/2020 18:50:36> TaskPool 'IO Task Pool' update lagged (77ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:53:36> Saving world ...
+[Info] <08/13/2020 18:53:36> World server saved ! (72 ms)
+[Debug] <08/13/2020 18:53:36> TaskPool 'IO Task Pool' update lagged (89ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:56:36> Saving world ...
+[Info] <08/13/2020 18:56:36> World server saved ! (83 ms)
+[Debug] <08/13/2020 18:56:36> TaskPool 'IO Task Pool' update lagged (103ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 18:59:32> Client <127.0.0.1> (aze) disconnected
+[Info] <08/13/2020 18:59:32> Area '(not found) (15)' stopped
+[Debug] <08/13/2020 18:59:32> TaskPool 'IO Task Pool' update lagged (56ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 18:59:32> Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.<PerformLoggout>b__863_0
+[Info] <08/13/2020 18:59:36> Saving world ...
+[Info] <08/13/2020 18:59:36> World server saved ! (56 ms)
+[Debug] <08/13/2020 18:59:36> TaskPool 'IO Task Pool' update lagged (77ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:02:53> Initializing Configuration...
+[Warn] <08/13/2020 19:02:54> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 19:02:54> Initialize Task Pool
+[Info] <08/13/2020 19:02:54> Initializing Network Interfaces...
+[Info] <08/13/2020 19:02:54> Register Plugins...
+[Info] <08/13/2020 19:03:00> Loading Plugins...
+[Info] <08/13/2020 19:03:00> Initializing Database...
+[Info] <08/13/2020 19:03:00> Opening Database...
+[Info] <08/13/2020 19:03:00> Register Messages...
+[Info] <08/13/2020 19:03:00> Register Packet Handlers...
+[Info] <08/13/2020 19:03:00> Register Commands...
+[Info] <08/13/2020 19:03:01> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 19:03:01> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 19:03:01> Initialize 'ApproachHandler'
+[Info] <08/13/2020 19:03:01> Initialize 'ChatManager'
+[Info] <08/13/2020 19:03:01> Register id providers
+[Info] <08/13/2020 19:03:01> Initialize 'TextManager'
+[Info] <08/13/2020 19:03:04> Initialize DataManagers
+[Info] <08/13/2020 19:03:04> Initialize 'BreedManager'
+[Info] <08/13/2020 19:03:04> Initialize 'EffectManager'
+[Info] <08/13/2020 19:03:04> Initialize 'SpellManager'
+[Info] <08/13/2020 19:03:05> Initialize 'IncarnationManager'
+[Info] <08/13/2020 19:03:05> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 19:03:05> Initialize 'CranioManager'
+[Info] <08/13/2020 19:03:05> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 19:03:05> Initialize 'PlacementManager'
+[Info] <08/13/2020 19:03:05> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 19:03:05> Initialize 'ItemManager'
+[Info] <08/13/2020 19:03:07> Initialize 'PetManager'
+[Info] <08/13/2020 19:03:07> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 19:03:07> Initialize 'BidHouseManager'
+[Info] <08/13/2020 19:03:07> Initialize 'RuneManager'
+[Info] <08/13/2020 19:03:07> Initialize 'InteractiveManager'
+[Info] <08/13/2020 19:03:08> Initialize 'IdolManager'
+[Info] <08/13/2020 19:03:08> Initialize 'ChallengeManager'
+[Info] <08/13/2020 19:03:08> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 19:03:08> Initialize 'RankRewardManager'
+[Info] <08/13/2020 19:03:08> Initialize 'RankManager'
+[Info] <08/13/2020 19:03:08> Initialize 'ExperienceManager'
+[Info] <08/13/2020 19:03:08> Initialize 'TinselManager'
+[Info] <08/13/2020 19:03:08> Initialize 'BrainManager'
+[Info] <08/13/2020 19:03:08> Initialize 'Looger'
+[Info] <08/13/2020 19:03:08> Initialize 'MongoLogger'
+[Info] <08/13/2020 19:03:08> Initialize 'JobManager'
+[Info] <08/13/2020 19:03:08> Initialize 'RuneManager'
+[Info] <08/13/2020 19:03:08> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 19:03:08> Initialize 'ArenaManager'
+[Info] <08/13/2020 19:03:08> Initialize 'VersusManager'
+[Info] <08/13/2020 19:03:08> Initialize 'NpcManager'
+[Info] <08/13/2020 19:03:08> Initialize 'GuildManager'
+[Info] <08/13/2020 19:03:09> Initialize 'MountManager'
+[Info] <08/13/2020 19:03:09> Initialize 'MonsterManager'
+[Info] <08/13/2020 19:03:09> Initialize 'MerchantManager'
+[Info] <08/13/2020 19:03:10> Initialize 'AchievementManager'
+[Info] <08/13/2020 19:03:10> Initialize 'World'
+[Info] <08/13/2020 19:03:10> Load maps...
+[Info] <08/13/2020 19:03:20> Load sub areas...
+[Info] <08/13/2020 19:03:20> Load areas...
+[Info] <08/13/2020 19:03:20> Load super areas...
+[Info] <08/13/2020 19:03:20> Load graveyards...
+[Info] <08/13/2020 19:03:20> Spawn npcs ...
+[Info] <08/13/2020 19:03:20> Spawn interactives ...
+[Info] <08/13/2020 19:03:23> Spawn cell triggers ...
+[Info] <08/13/2020 19:03:23> Spawn monsters ...
+[Info] <08/13/2020 19:03:25> Spawn merchants ...
+[Info] <08/13/2020 19:03:25> Initialize 'HavenBagManager'
+[Info] <08/13/2020 19:03:25> Initialize 'PaddockManager'
+[Info] <08/13/2020 19:03:25> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 19:03:25> Synchronize id providers
+[Info] <08/13/2020 19:03:25> Initialize 'QuestManager'
+[Info] <08/13/2020 19:03:27> Initialize 'WebServer'
+[Info] <08/13/2020 19:03:27> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 19:03:27> Starting Console Handler Interface...
+[Info] <08/13/2020 19:03:28> Starting IPC Communications ...
+[Info] <08/13/2020 19:03:28> Start listening on port : 5556...
+[Info] <08/13/2020 19:03:38> Attempt connection
+[Info] <08/13/2020 19:03:38> IPC connection etablished
+[Info] <08/13/2020 19:03:38> Access to auth. server granted
+[Debug] <08/13/2020 19:03:38> TaskPool 'IPCAccessor Task Pool' update lagged (222ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 19:03:38> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 19:03:39> TaskPool 'IO Task Pool' update lagged (225ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:03:39> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 19:03:43> Client <127.0.0.1> connected
+[Debug] <08/13/2020 19:03:43> Client request ticket HJVPCACRXVWKZYBUHRYKIPAFJRVLXWIY
+[Debug] <08/13/2020 19:03:44> TaskPool 'IO Task Pool' update lagged (90ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:03:44> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 19:03:46> TaskPool 'IO Task Pool' update lagged (350ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:03:46> CharacterSelectionMessage
+[Info] <08/13/2020 19:03:47> Area '(not found) (15)' started
+[Debug] <08/13/2020 19:03:47> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 19:03:47> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 19:03:48> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 19:03:48> Area '(not found) (15)' update lagged (138ms) (msg:139ms, timers:0ms, timerProc:0/11)
+[Debug] <08/13/2020 19:03:49> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 19:03:53> Received Unknown packet : HaapiApiKeyRequestMessage
+[Debug] <08/13/2020 19:04:12> Area '(not found) (15)' update lagged (87ms) (msg:88ms, timers:0ms, timerProc:0/6)
+[Info] <08/13/2020 19:05:49> Area '(not found) (15)' stopped
+[Info] <08/13/2020 19:05:49> Area '(not found) (50)' started
+[Debug] <08/13/2020 19:05:49> Area '(not found) (50)' update lagged (71ms) (msg:10ms, timers:60ms, timerProc:254/253)
+[Debug] <08/13/2020 19:06:01> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 19:06:01> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Info] <08/13/2020 19:06:03> Area '(not found) (50)' stopped
+[Info] <08/13/2020 19:06:03> Area '(not found) (15)' started
+[Debug] <08/13/2020 19:06:04> Received Unknown packet : PrismsListRegisterMessage
+[Info] <08/13/2020 19:06:28> Saving world ...
+[Info] <08/13/2020 19:06:28> World server saved ! (191 ms)
+[Debug] <08/13/2020 19:06:28> TaskPool 'IO Task Pool' update lagged (211ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:09:28> Saving world ...
+[Info] <08/13/2020 19:09:28> World server saved ! (75 ms)
+[Debug] <08/13/2020 19:09:28> TaskPool 'IO Task Pool' update lagged (94ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:09:55> Area '(not found) (15)' stopped
+[Info] <08/13/2020 19:09:55> Saving world ...
+[Info] <08/13/2020 19:09:55> Area (not found) (15) exit callback since it's disposed
+[Info] <08/13/2020 19:09:55> World server saved ! (84 ms)
+[Info] <08/13/2020 19:09:55> Client <127.0.0.1> (aze) disconnected
+[Warn] <08/13/2020 19:09:55> Pause state. Connection pending ...
+[Info] <08/13/2020 19:10:07> Initializing Configuration...
+[Warn] <08/13/2020 19:10:07> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <08/13/2020 19:10:07> Initialize Task Pool
+[Info] <08/13/2020 19:10:07> Initializing Network Interfaces...
+[Info] <08/13/2020 19:10:07> Register Plugins...
+[Info] <08/13/2020 19:10:12> Loading Plugins...
+[Info] <08/13/2020 19:10:12> Initializing Database...
+[Info] <08/13/2020 19:10:12> Opening Database...
+[Info] <08/13/2020 19:10:12> Register Messages...
+[Info] <08/13/2020 19:10:12> Register Packet Handlers...
+[Info] <08/13/2020 19:10:12> Register Commands...
+[Info] <08/13/2020 19:10:12> Initialize 'MonsterStarLoop'
+[Info] <08/13/2020 19:10:12> Initialize 'AutoAnnounceManager'
+[Info] <08/13/2020 19:10:13> Initialize 'ApproachHandler'
+[Info] <08/13/2020 19:10:13> Initialize 'ChatManager'
+[Info] <08/13/2020 19:10:13> Register id providers
+[Info] <08/13/2020 19:10:13> Initialize 'TextManager'
+[Info] <08/13/2020 19:10:14> Initialize DataManagers
+[Info] <08/13/2020 19:10:14> Initialize 'BreedManager'
+[Info] <08/13/2020 19:10:14> Initialize 'EffectManager'
+[Info] <08/13/2020 19:10:14> Initialize 'SpellManager'
+[Info] <08/13/2020 19:10:15> Initialize 'IncarnationManager'
+[Info] <08/13/2020 19:10:15> Initialize 'AlvoMapManager'
+[Info] <08/13/2020 19:10:15> Initialize 'CranioManager'
+[Info] <08/13/2020 19:10:15> Initialize 'WorldMapScrollActionManager'
+[Info] <08/13/2020 19:10:15> Initialize 'PlacementManager'
+[Info] <08/13/2020 19:10:15> Initialize 'CellTriggerManager'
+[Info] <08/13/2020 19:10:15> Initialize 'ItemManager'
+[Info] <08/13/2020 19:10:17> Initialize 'PetManager'
+[Info] <08/13/2020 19:10:17> Initialize 'TeleportPotionManager'
+[Info] <08/13/2020 19:10:17> Initialize 'BidHouseManager'
+[Info] <08/13/2020 19:10:17> Initialize 'RuneManager'
+[Info] <08/13/2020 19:10:17> Initialize 'InteractiveManager'
+[Info] <08/13/2020 19:10:17> Initialize 'IdolManager'
+[Info] <08/13/2020 19:10:17> Initialize 'ChallengeManager'
+[Info] <08/13/2020 19:10:17> Initialize 'DungeonItemsManager'
+[Info] <08/13/2020 19:10:17> Initialize 'RankRewardManager'
+[Info] <08/13/2020 19:10:17> Initialize 'RankManager'
+[Info] <08/13/2020 19:10:17> Initialize 'ExperienceManager'
+[Info] <08/13/2020 19:10:17> Initialize 'TinselManager'
+[Info] <08/13/2020 19:10:17> Initialize 'BrainManager'
+[Info] <08/13/2020 19:10:17> Initialize 'Looger'
+[Info] <08/13/2020 19:10:17> Initialize 'MongoLogger'
+[Info] <08/13/2020 19:10:17> Initialize 'JobManager'
+[Info] <08/13/2020 19:10:17> Initialize 'RuneManager'
+[Info] <08/13/2020 19:10:17> Initialize 'MonsterNaniManager'
+[Info] <08/13/2020 19:10:17> Initialize 'ArenaManager'
+[Info] <08/13/2020 19:10:17> Initialize 'VersusManager'
+[Info] <08/13/2020 19:10:18> Initialize 'NpcManager'
+[Info] <08/13/2020 19:10:18> Initialize 'GuildManager'
+[Info] <08/13/2020 19:10:18> Initialize 'MountManager'
+[Info] <08/13/2020 19:10:18> Initialize 'MonsterManager'
+[Info] <08/13/2020 19:10:19> Initialize 'MerchantManager'
+[Info] <08/13/2020 19:10:19> Initialize 'AchievementManager'
+[Info] <08/13/2020 19:10:19> Initialize 'World'
+[Info] <08/13/2020 19:10:19> Load maps...
+[Info] <08/13/2020 19:10:25> Load sub areas...
+[Info] <08/13/2020 19:10:25> Load areas...
+[Info] <08/13/2020 19:10:25> Load super areas...
+[Info] <08/13/2020 19:10:25> Load graveyards...
+[Info] <08/13/2020 19:10:25> Spawn npcs ...
+[Info] <08/13/2020 19:10:25> Spawn interactives ...
+[Info] <08/13/2020 19:10:28> Spawn cell triggers ...
+[Info] <08/13/2020 19:10:28> Spawn monsters ...
+[Info] <08/13/2020 19:10:30> Spawn merchants ...
+[Info] <08/13/2020 19:10:30> Initialize 'HavenBagManager'
+[Info] <08/13/2020 19:10:30> Initialize 'PaddockManager'
+[Info] <08/13/2020 19:10:30> Initialize 'TaxCollectorManager'
+[Info] <08/13/2020 19:10:30> Synchronize id providers
+[Info] <08/13/2020 19:10:30> Initialize 'QuestManager'
+[Info] <08/13/2020 19:10:32> Initialize 'WebServer'
+[Info] <08/13/2020 19:10:32> Start Auto-Save Cyclic Task
+[Info] <08/13/2020 19:10:32> Starting Console Handler Interface...
+[Info] <08/13/2020 19:10:32> Starting IPC Communications ...
+[Info] <08/13/2020 19:10:33> Start listening on port : 5556...
+[Info] <08/13/2020 19:10:43> Attempt connection
+[Info] <08/13/2020 19:10:43> IPC connection etablished
+[Debug] <08/13/2020 19:10:43> TaskPool 'IPCAccessor Task Pool' update lagged (235ms) (msg:0, timers:1/3)
+[Info] <08/13/2020 19:10:43> Access to auth. server granted
+[Debug] <08/13/2020 19:10:43> TaskPool 'IPCAccessor Task Pool' update lagged (229ms) (msg:1, timers:0/3)
+[Debug] <08/13/2020 19:10:44> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <08/13/2020 19:10:44> TaskPool 'IO Task Pool' update lagged (83ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:10:44> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <08/13/2020 19:11:22> Client <127.0.0.1> connected
+[Debug] <08/13/2020 19:11:22> Client request ticket TQULIQBZMOOOBJEDITGPCJFHYYGCCJSG
+[Debug] <08/13/2020 19:11:22> TaskPool 'IO Task Pool' update lagged (189ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:11:22> Stump.Server.WorldServer.Handlers.Approach.ApproachHandler+<>c__DisplayClass5_1.<HandleAuthenticationTicketMessage>b__3
+[Debug] <08/13/2020 19:11:23> TaskPool 'IO Task Pool' update lagged (91ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:11:23> CharactersListRequestMessage
+[Debug] <08/13/2020 19:11:24> TaskPool 'IO Task Pool' update lagged (303ms) (msg:1, timers:0/4)
+[Debug] <08/13/2020 19:11:24> CharacterSelectionMessage
+[Info] <08/13/2020 19:11:25> Area '(not found) (15)' started
+[Debug] <08/13/2020 19:11:25> Received Unknown packet : AcquaintancesGetListMessage
+[Debug] <08/13/2020 19:11:25> Received Unknown packet : SpouseGetInformationsMessage
+[Debug] <08/13/2020 19:11:25> Received Unknown packet : ClientKeyMessage
+[Debug] <08/13/2020 19:11:25> Area '(not found) (15)' update lagged (141ms) (msg:141ms, timers:0ms, timerProc:0/6)
+[Debug] <08/13/2020 19:11:25> Received Unknown packet : SequenceNumberMessage
+[Debug] <08/13/2020 19:11:26> Received Unknown packet : HaapiApiKeyRequestMessage
+[Info] <08/13/2020 19:13:33> Saving world ...
+[Info] <08/13/2020 19:13:33> World server saved ! (244 ms)
+[Debug] <08/13/2020 19:13:33> TaskPool 'IO Task Pool' update lagged (270ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:16:33> Saving world ...
+[Info] <08/13/2020 19:16:34> World server saved ! (199 ms)
+[Debug] <08/13/2020 19:16:34> TaskPool 'IO Task Pool' update lagged (241ms) (msg:0, timers:1/4)
+[Debug] <08/13/2020 19:16:51> Area '(not found) (15)' update lagged (186ms) (msg:186ms, timers:0ms, timerProc:0/8)
+[Debug] <08/13/2020 19:16:54> Area '(not found) (15)' update lagged (208ms) (msg:209ms, timers:0ms, timerProc:0/8)
+[Debug] <08/13/2020 19:17:05> Area '(not found) (15)' update lagged (103ms) (msg:104ms, timers:0ms, timerProc:0/9)
+[Debug] <08/13/2020 19:17:10> Area '(not found) (15)' update lagged (100ms) (msg:101ms, timers:0ms, timerProc:0/9)
+[Debug] <08/13/2020 19:17:37> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 19:17:37> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Debug] <08/13/2020 19:17:56> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 19:18:14> Received Unknown packet : PrismsListRegisterMessage
+[Debug] <08/13/2020 19:18:14> Received Unknown packet : AnomalySubareaInformationRequestMessage
+[Debug] <08/13/2020 19:18:21> Received Unknown packet : PrismsListRegisterMessage
+[Info] <08/13/2020 19:19:34> Saving world ...
+[Info] <08/13/2020 19:19:34> World server saved ! (70 ms)
+[Debug] <08/13/2020 19:19:34> TaskPool 'IO Task Pool' update lagged (93ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:22:34> Saving world ...
+[Info] <08/13/2020 19:22:34> World server saved ! (80 ms)
+[Debug] <08/13/2020 19:22:34> TaskPool 'IO Task Pool' update lagged (100ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:25:34> Saving world ...
+[Info] <08/13/2020 19:25:34> World server saved ! (98 ms)
+[Debug] <08/13/2020 19:25:34> TaskPool 'IO Task Pool' update lagged (120ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:28:34> Saving world ...
+[Info] <08/13/2020 19:28:34> World server saved ! (63 ms)
+[Debug] <08/13/2020 19:28:34> TaskPool 'IO Task Pool' update lagged (82ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:31:34> Saving world ...
+[Info] <08/13/2020 19:31:34> World server saved ! (87 ms)
+[Debug] <08/13/2020 19:31:34> TaskPool 'IO Task Pool' update lagged (120ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:34:34> Saving world ...
+[Info] <08/13/2020 19:34:34> World server saved ! (64 ms)
+[Debug] <08/13/2020 19:34:34> TaskPool 'IO Task Pool' update lagged (85ms) (msg:0, timers:1/4)
+[Info] <08/13/2020 19:37:35> Saving world ...
+[Info] <08/13/2020 19:37:35> World server saved ! (63 ms)
+[Debug] <08/13/2020 19:37:35> TaskPool 'IO Task Pool' update lagged (81ms) (msg:0, timers:1/4)

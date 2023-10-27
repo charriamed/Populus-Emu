@@ -1,0 +1,99 @@
+-------------Error at 07/24/2020 19:10:54------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 07/24/2020 19:10:54------------- 
+
+-------------Fatal at 07/24/2020 19:10:56------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 07/24/2020 19:10:56------------- 
+
+-------------Fatal at 07/24/2020 19:10:56------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 07/24/2020 19:10:56------------- 
+
+-------------Fatal at 07/24/2020 19:10:56------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 07/24/2020 19:10:56------------- 
+
+-------------Error at 07/24/2020 19:11:51------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 07/24/2020 19:11:51------------- 
+
+-------------Fatal at 07/24/2020 19:11:54------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 07/24/2020 19:11:54------------- 
+
+-------------Fatal at 07/24/2020 19:11:54------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 07/24/2020 19:11:54------------- 
+
+-------------Fatal at 07/24/2020 19:11:54------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 07/24/2020 19:11:54------------- 
+
+-------------Error at 07/24/2020 19:12:23------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 07/24/2020 19:12:23------------- 
+

@@ -1,0 +1,29 @@
+-------------Error at 05/25/2021 04:20:44------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 13 
+-------------Error at 05/25/2021 04:20:44------------- 
+
+-------------Error at 05/25/2021 04:20:45------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 71 
+-------------Error at 05/25/2021 04:20:45------------- 
+
+-------------Error at 05/25/2021 04:20:47------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 22 
+-------------Error at 05/25/2021 04:20:47------------- 
+
+-------------Error at 05/25/2021 04:20:47------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message Length = 22 
+-------------Error at 05/25/2021 04:20:47------------- 
+
+-------------Error at 05/25/2021 04:20:47------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive -> 
+	Forced disconnection during reception : System.OverflowException: Arithmetic operation resulted in an overflow.
+   at Stump.Core.IO.FastBigEndianReader.ReadBytes(Int32 n) in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\IO\FastBigEndianReader.cs:line 253
+   at Stump.Server.BaseServer.IPC.IPCMessagePart.Build(IDataReader reader) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\IPC\IPCMessagePart.cs:line 100
+   at Stump.Server.AuthServer.IPC.IPCClient.BuildMessage(BufferSegment buffer) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\IPC\IPCClient.cs:line 210
+   at Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\IPC\IPCClient.cs:line 179 
+-------------Error at 05/25/2021 04:20:47------------- 
+

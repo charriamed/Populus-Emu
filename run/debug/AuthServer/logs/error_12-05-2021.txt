@@ -1,0 +1,57 @@
+-------------Error at 05/12/2021 15:05:26------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 05/12/2021 15:05:26------------- 
+
+-------------Fatal at 05/12/2021 15:05:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Stump.ORM.Database.OpenSharedConnection() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.ORM\PetaPoco.cs:line 243
+   at Stump.ORM.DatabaseAccessor.OpenConnection(Database database) in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.ORM\DatabaseAccessor.cs:line 106
+   at Stump.ORM.DatabaseAccessor.OpenConnection() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.ORM\DatabaseAccessor.cs:line 140
+   at Stump.Server.AuthServer.AuthServer.Initialize() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\AuthServer.cs:line 109 
+-------------Fatal at 05/12/2021 15:05:28------------- 
+
+-------------Fatal at 05/12/2021 15:05:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : One or more errors occurred.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 05/12/2021 15:05:28------------- 
+
+-------------Fatal at 05/12/2021 15:05:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : No connection could be made because the target machine actively refused it 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 05/12/2021 15:05:28------------- 
+
+-------------Error at 05/12/2021 15:07:19------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 05/12/2021 15:07:19------------- 
+
+-------------Error at 05/12/2021 15:21:42------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 05/12/2021 15:21:42------------- 
+

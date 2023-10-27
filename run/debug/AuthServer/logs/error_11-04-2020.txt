@@ -1,0 +1,57 @@
+-------------Error at 04/11/2020 11:38:20------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/11/2020 11:38:20------------- 
+
+-------------Error at 04/11/2020 11:56:51------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/11/2020 11:56:51------------- 
+
+-------------Error at 04/11/2020 11:57:39------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/11/2020 11:57:39------------- 
+
+-------------Error at 04/11/2020 12:32:07------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive -> 
+	Forced disconnection during reception : ProtoBuf.ProtoException: Invalid wire-type; this usually means you have over-written a file without truncating or setting the length; see https://stackoverflow.com/q/2152978/23354
+   à ProtoBuf.ProtoReader.ReadInt32()
+   à proto_47(Object , ProtoReader )
+   à ProtoBuf.Serializers.CompiledSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   à ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   à ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   à ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   à proto_54(Object , ProtoReader )
+   à ProtoBuf.Serializers.CompiledSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   à ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   à ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   à ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   à ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   à Stump.Server.BaseServer.IPC.IPCMessageSerializer.Deserialize(Byte[] buffer, Int32 offset, Int32 count) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\IPC\IPCMessageSerializer.cs:ligne 68
+   à Stump.Server.BaseServer.IPC.IPCMessageSerializer.Deserialize(Byte[] buffer) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\IPC\IPCMessageSerializer.cs:ligne 63
+   à Stump.Server.AuthServer.IPC.IPCClient.BuildMessage(BufferSegment buffer) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 225
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 179 
+-------------Error at 04/11/2020 12:32:07------------- 
+
+-------------Error at 04/11/2020 12:32:10------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive -> 
+	Forced disconnection during reception : ProtoBuf.ProtoException: No parameterless constructor found for Stump.Server.BaseServer.IPC.IPCMessage
+   à ProtoBuf.Meta.TypeModel.ThrowCannotCreateInstance(Type type)
+   à proto_54(Object , ProtoReader )
+   à ProtoBuf.Serializers.CompiledSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   à ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   à ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   à ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   à ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   à Stump.Server.BaseServer.IPC.IPCMessageSerializer.Deserialize(Byte[] buffer, Int32 offset, Int32 count) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\IPC\IPCMessageSerializer.cs:ligne 68
+   à Stump.Server.BaseServer.IPC.IPCMessageSerializer.Deserialize(Byte[] buffer) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\IPC\IPCMessageSerializer.cs:ligne 63
+   à Stump.Server.AuthServer.IPC.IPCClient.BuildMessage(BufferSegment buffer) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 225
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 179 
+-------------Error at 04/11/2020 12:32:10------------- 
+
+-------------Error at 04/11/2020 12:32:49------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/11/2020 12:32:49------------- 
+

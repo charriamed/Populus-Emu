@@ -1,0 +1,649 @@
+-------------Fatal at 06/26/2018 19:01:05------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:05------------- 
+
+-------------Fatal at 06/26/2018 19:01:05------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:05------------- 
+
+-------------Fatal at 06/26/2018 19:01:05------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:05------------- 
+
+-------------Fatal at 06/26/2018 19:01:09------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:09------------- 
+
+-------------Fatal at 06/26/2018 19:01:09------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:09------------- 
+
+-------------Fatal at 06/26/2018 19:01:09------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:09------------- 
+
+-------------Fatal at 06/26/2018 19:01:12------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:12------------- 
+
+-------------Fatal at 06/26/2018 19:01:12------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:12------------- 
+
+-------------Fatal at 06/26/2018 19:01:12------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:12------------- 
+
+-------------Fatal at 06/26/2018 19:01:16------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:16------------- 
+
+-------------Fatal at 06/26/2018 19:01:16------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:16------------- 
+
+-------------Fatal at 06/26/2018 19:01:16------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:16------------- 
+
+-------------Fatal at 06/26/2018 19:01:19------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:19------------- 
+
+-------------Fatal at 06/26/2018 19:01:19------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:19------------- 
+
+-------------Fatal at 06/26/2018 19:01:19------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:19------------- 
+
+-------------Fatal at 06/26/2018 19:01:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:23------------- 
+
+-------------Fatal at 06/26/2018 19:01:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:23------------- 
+
+-------------Fatal at 06/26/2018 19:01:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:23------------- 
+
+-------------Fatal at 06/26/2018 19:01:27------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:27------------- 
+
+-------------Fatal at 06/26/2018 19:01:27------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:27------------- 
+
+-------------Fatal at 06/26/2018 19:01:27------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:27------------- 
+
+-------------Fatal at 06/26/2018 19:01:30------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:01:30------------- 
+
+-------------Fatal at 06/26/2018 19:01:30------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:01:30------------- 
+
+-------------Fatal at 06/26/2018 19:01:30------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:01:30------------- 
+
+-------------Fatal at 06/26/2018 19:02:20------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:02:20------------- 
+
+-------------Fatal at 06/26/2018 19:02:20------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:02:20------------- 
+
+-------------Fatal at 06/26/2018 19:02:20------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:02:20------------- 
+
+-------------Fatal at 06/26/2018 19:02:21------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:02:21------------- 
+
+-------------Fatal at 06/26/2018 19:02:21------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:02:21------------- 
+
+-------------Fatal at 06/26/2018 19:02:21------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:02:21------------- 
+
+-------------Fatal at 06/26/2018 19:02:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:02:23------------- 
+
+-------------Fatal at 06/26/2018 19:02:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:02:23------------- 
+
+-------------Fatal at 06/26/2018 19:02:23------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:02:23------------- 
+
+-------------Fatal at 06/26/2018 19:02:25------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 96 
+-------------Fatal at 06/26/2018 19:02:25------------- 
+
+-------------Fatal at 06/26/2018 19:02:25------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 140
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 06/26/2018 19:02:25------------- 
+
+-------------Fatal at 06/26/2018 19:02:25------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 179
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 06/26/2018 19:02:25------------- 
+
+-------------Warn at 06/26/2018 22:49:41------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 22:49:41------------- 
+
+-------------Error at 06/26/2018 22:49:42------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 22:49:42------------- 
+
+-------------Error at 06/26/2018 22:49:42------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 22:49:42------------- 
+
+-------------Error at 06/26/2018 22:49:46------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 22:49:46------------- 
+
+-------------Warn at 06/26/2018 22:53:39------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 22:53:39------------- 
+
+-------------Error at 06/26/2018 22:53:41------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 22:53:41------------- 
+
+-------------Error at 06/26/2018 22:53:41------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 22:53:41------------- 
+
+-------------Error at 06/26/2018 22:53:44------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 22:53:44------------- 
+
+-------------Warn at 06/26/2018 22:54:33------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 22:54:33------------- 
+
+-------------Error at 06/26/2018 22:54:35------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 22:54:35------------- 
+
+-------------Error at 06/26/2018 22:54:35------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 22:54:35------------- 
+
+-------------Error at 06/26/2018 22:54:38------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 22:54:38------------- 
+
+-------------Warn at 06/26/2018 23:12:44------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 23:12:44------------- 
+
+-------------Error at 06/26/2018 23:12:46------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:12:46------------- 
+
+-------------Error at 06/26/2018 23:12:46------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:12:46------------- 
+
+-------------Error at 06/26/2018 23:12:50------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 23:12:50------------- 
+
+-------------Warn at 06/26/2018 23:15:40------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 23:15:40------------- 
+
+-------------Error at 06/26/2018 23:15:42------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:15:42------------- 
+
+-------------Error at 06/26/2018 23:15:42------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:15:42------------- 
+
+-------------Error at 06/26/2018 23:15:46------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 23:15:46------------- 
+
+-------------Warn at 06/26/2018 23:16:43------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 23:16:43------------- 
+
+-------------Error at 06/26/2018 23:16:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:16:45------------- 
+
+-------------Error at 06/26/2018 23:16:45------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:16:45------------- 
+
+-------------Error at 06/26/2018 23:16:49------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 23:16:49------------- 
+
+-------------Warn at 06/26/2018 23:18:15------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 23:18:15------------- 
+
+-------------Error at 06/26/2018 23:18:17------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:18:17------------- 
+
+-------------Error at 06/26/2018 23:18:17------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:18:17------------- 
+
+-------------Error at 06/26/2018 23:18:21------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 23:18:21------------- 
+
+-------------Warn at 06/26/2018 23:20:56------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 23:20:56------------- 
+
+-------------Error at 06/26/2018 23:20:58------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:20:58------------- 
+
+-------------Error at 06/26/2018 23:20:58------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:20:58------------- 
+
+-------------Error at 06/26/2018 23:21:02------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 23:21:02------------- 
+
+-------------Warn at 06/26/2018 23:28:41------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 06/26/2018 23:28:41------------- 
+
+-------------Error at 06/26/2018 23:28:43------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:28:43------------- 
+
+-------------Error at 06/26/2018 23:28:43------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 06/26/2018 23:28:43------------- 
+
+-------------Error at 06/26/2018 23:28:46------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/26/2018 23:28:46------------- 
+
+-------------Error at 06/26/2018 23:38:59------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void TimerTick(), Delay = 4500) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: La collection a été modifiée ; l'opération d'énumération peut ne pas s'exécuter.
+   à System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   à System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   à System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   à System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   à Stump.Server.AuthServer.Managers.AccountManager.TimerTick() dans D:\Ankado V2\server\Stump.Server.AuthServer\Managers\AccountManager.cs:ligne 80
+   à Stump.Core.Timers.TimedTimerEntry.Trigger() dans D:\Ankado V2\Core\Stump.Core\Timers\TimedTimerEntry.cs:ligne 128
+   à Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) dans D:\Ankado V2\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:ligne 223. 
+-------------Error at 06/26/2018 23:38:59------------- 
+

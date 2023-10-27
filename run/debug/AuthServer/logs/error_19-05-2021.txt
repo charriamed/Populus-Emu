@@ -1,0 +1,47 @@
+-------------Error at 05/19/2021 13:44:35------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 13 
+-------------Error at 05/19/2021 13:44:35------------- 
+
+-------------Error at 05/19/2021 13:44:36------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 71 
+-------------Error at 05/19/2021 13:44:36------------- 
+
+-------------Error at 05/19/2021 13:44:38------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 22 
+-------------Error at 05/19/2021 13:44:38------------- 
+
+-------------Error at 05/19/2021 13:44:38------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message Length = 22 
+-------------Error at 05/19/2021 13:44:38------------- 
+
+-------------Error at 05/19/2021 13:44:38------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive -> 
+	Forced disconnection during reception : System.OverflowException: Arithmetic operation resulted in an overflow.
+   at Stump.Core.IO.FastBigEndianReader.ReadBytes(Int32 n) in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\IO\FastBigEndianReader.cs:line 253
+   at Stump.Server.BaseServer.IPC.IPCMessagePart.Build(IDataReader reader) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\IPC\IPCMessagePart.cs:line 100
+   at Stump.Server.AuthServer.IPC.IPCClient.BuildMessage(BufferSegment buffer) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\IPC\IPCClient.cs:line 210
+   at Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\IPC\IPCClient.cs:line 179 
+-------------Error at 05/19/2021 13:44:38------------- 
+
+-------------Error at 05/19/2021 20:37:42------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void RefreshBans(), Delay = 60000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at Stump.ORM.Database.<Query>d__71`1.MoveNext() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.ORM\PetaPoco.cs:line 783
+   at System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   at System.Collections.Generic.List`1.AddRange(IEnumerable`1 collection)
+   at Stump.Server.AuthServer.Managers.AccountManager.RefreshBans() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.AuthServer\Managers\AccountManager.cs:line 96
+   at Stump.Core.Timers.TimedTimerEntry.Trigger() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Timers\TimedTimerEntry.cs:line 128
+   at Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:line 223. 
+-------------Error at 05/19/2021 20:37:42------------- 
+

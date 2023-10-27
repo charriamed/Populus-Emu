@@ -1,0 +1,59 @@
+-------------Error at 12/26/2018 06:02:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 12/26/2018 06:02:23------------- 
+
+-------------Error at 12/26/2018 06:02:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 12/26/2018 06:02:23------------- 
+
+-------------Error at 12/26/2018 06:02:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 12/26/2018 06:02:23------------- 
+
+-------------Error at 12/26/2018 06:02:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 12/26/2018 06:02:23------------- 
+
+-------------Error at 12/26/2018 06:02:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 12/26/2018 06:02:23------------- 
+
+-------------Error at 12/26/2018 06:02:27------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/26/2018 06:02:27------------- 
+
+-------------Error at 12/26/2018 06:02:33------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Level cannot exceed 200 (protocol constraint) 
+-------------Error at 12/26/2018 06:02:33------------- 
+
+-------------Fatal at 12/26/2018 06:02:33------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Se produjo una excepción en el destino de la invocación.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   en System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   en Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method)
+   en Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass)
+   en Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll()
+   en Stump.Server.WorldServer.WorldServer.Initialize()
+   en Stump.GUI.WorldConsole.Program.Main(String[] args) 
+-------------Fatal at 12/26/2018 06:02:33------------- 
+
+-------------Fatal at 12/26/2018 06:02:33------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Level cannot exceed 200 (protocol constraint)
+ Source: Stump.Server.WorldServer -> Void Initialize()
+ Stack Trace:
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.ExperienceManager.Initialize() 
+-------------Fatal at 12/26/2018 06:02:33------------- 
+

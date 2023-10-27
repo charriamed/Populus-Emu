@@ -1,0 +1,23 @@
+-------------Error at 01/22/2019 08:37:35------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/22/2019 08:37:35------------- 
+
+-------------Error at 01/22/2019 08:51:58------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.Managers.AccountManager.Void TimerTick(), Delay = 4500) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.InvalidOperationException: Colección modificada; puede que no se ejecute la operación de enumeración.
+   en System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   en System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   en System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   en System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   en System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   en Stump.Server.AuthServer.Managers.AccountManager.TimerTick() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.AuthServer\Managers\AccountManager.cs:línea 81
+   en Stump.Core.Timers.TimedTimerEntry.Trigger() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Timers\TimedTimerEntry.cs:línea 128
+   en Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:línea 223. 
+-------------Error at 01/22/2019 08:51:58------------- 
+
+-------------Error at 01/22/2019 14:16:12------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/22/2019 14:16:12------------- 
+

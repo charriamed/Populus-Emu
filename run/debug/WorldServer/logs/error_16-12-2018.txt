@@ -1,0 +1,317 @@
+-------------Warn at 12/16/2018 19:56:09------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/16/2018 19:56:09------------- 
+
+-------------Error at 12/16/2018 19:56:35------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 12/16/2018 19:56:35------------- 
+
+-------------Error at 12/16/2018 19:56:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 12/16/2018 19:56:36------------- 
+
+-------------Error at 12/16/2018 19:56:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 12/16/2018 19:56:36------------- 
+
+-------------Error at 12/16/2018 19:56:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 12/16/2018 19:56:36------------- 
+
+-------------Error at 12/16/2018 19:56:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 12/16/2018 19:56:36------------- 
+
+-------------Error at 12/16/2018 19:57:44------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/16/2018 19:57:44------------- 
+
+-------------Error at 12/16/2018 20:01:45------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : CharacterSelectionMessage] Force disconnection of client <25.33.114.161> (test) : System.Exception: String reference not set to an instance of a String.
+Parameter name: s(InventoryContentMessage) ---> System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at Stump.Core.IO.BigEndianWriter.WriteUTF(String str) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\IO\BigEndianWriter.cs:line 333
+   at Stump.DofusProtocol.Types.ObjectEffectMount.Serialize(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Types\Types\Game\Data\Items\Effects\ObjectEffectMount.cs:line 66
+   at Stump.DofusProtocol.Types.ObjectItem.Serialize(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Types\Types\Game\Data\Items\ObjectItem.cs:line 44
+   at Stump.DofusProtocol.Messages.InventoryContentMessage.Serialize(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Messages\Messages\Game\Inventory\Items\InventoryContentMessage.cs:line 34
+   at Stump.DofusProtocol.Messages.Message.Pack(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Messages\Message.cs:line 36
+   at Stump.Server.BaseServer.Network.BaseClient.Send(Message message) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 105
+   --- End of inner exception stack trace ---
+   at Stump.Server.BaseServer.Network.BaseClient.Send(Message message) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 110
+   at Stump.Server.WorldServer.Handlers.Inventory.InventoryHandler.SendInventoryContentMessage(WorldClient client) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Handlers\Inventory\InventoryItemsHandler.cs:line 503
+   at Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.CommonCharacterSelection(WorldClient client, CharacterRecord character) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Handlers\Characters\CharacterChoiceHandler.cs:line 224
+   at Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.HandleCharacterSelectionMessage(WorldClient client, CharacterSelectionMessage message) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Handlers\Characters\CharacterChoiceHandler.cs:line 57
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 12/16/2018 20:01:45------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:21------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:21------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:22------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:22------------- 
+
+-------------Warn at 12/16/2018 20:03:23------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:23------------- 
+
+-------------Warn at 12/16/2018 20:03:23------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 12/16/2018 20:03:23------------- 
+
+-------------Error at 12/16/2018 20:03:58------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : GameActionFightCastRequestMessage] Force disconnection of client <25.33.114.161> (test) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Actors.Fight.AIFighter..ctor(FightTeam team, IEnumerable`1 spells, Int32 identifier, MonsterGrade template) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Actors\Fight\AIFighter.cs:line 35
+   at Stump.Server.WorldServer.Game.Actors.Fight.SummonedFighter..ctor(Int32 id, FightTeam team, IEnumerable`1 spells, FightActor summoner, Cell cell, Int32 identifier, MonsterGrade template) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Actors\Fight\SummonedFighter.cs:line 28
+   at Stump.Server.WorldServer.Game.Actors.Fight.SummonedMonster..ctor(Int32 id, FightTeam team, FightActor summoner, MonsterGrade template, Cell cell) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Actors\Fight\SummonedMonster.cs:line 19
+   at Stump.Server.WorldServer.Game.Effects.Handlers.Spells.Summon.Summon.InternalApply() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Effects\Handlers\Spells\Summon\Summon.cs:line 57
+   at Stump.Server.WorldServer.Game.Effects.Handlers.EffectHandler.Apply() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Effects\Handlers\EffectHandler.cs:line 41
+   at Stump.Server.WorldServer.Game.Spells.Casts.DefaultSpellCastHandler.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Spells\Casts\DefaultSpellCastHandler.cs:line 120
+   at Stump.Server.WorldServer.Game.Actors.Fight.FightActor.CastSpell(SpellCastInformations cast) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Actors\Fight\FightActor.cs:line 828
+   at Stump.Server.WorldServer.Game.Actors.Fight.CharacterFighter.CastSpell(SpellCastInformations cast) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Actors\Fight\CharacterFighter.cs:line 199
+   at Stump.Server.WorldServer.Game.Actors.Fight.FightActor.CastSpell(Spell spell, Cell cell) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Game\Actors\Fight\FightActor.cs:line 775
+   at Stump.Server.WorldServer.Handlers.Context.ContextHandler.HandleGameActionFightCastRequestMessage(WorldClient client, GameActionFightCastRequestMessage message) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\stump.server.worldserver\Handlers\Context\ContextFightHandler.cs:line 53
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 12/16/2018 20:03:58------------- 
+
+-------------Error at 12/16/2018 20:09:08------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : CharacterSelectionMessage] Force disconnection of client <25.33.114.161> (test) : System.Exception: String reference not set to an instance of a String.
+Parameter name: s(InventoryContentMessage) ---> System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at Stump.Core.IO.BigEndianWriter.WriteUTF(String str) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\IO\BigEndianWriter.cs:line 333
+   at Stump.DofusProtocol.Types.ObjectEffectMount.Serialize(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Types\Types\Game\Data\Items\Effects\ObjectEffectMount.cs:line 66
+   at Stump.DofusProtocol.Types.ObjectItem.Serialize(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Types\Types\Game\Data\Items\ObjectItem.cs:line 44
+   at Stump.DofusProtocol.Messages.InventoryContentMessage.Serialize(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Messages\Messages\Game\Inventory\Items\InventoryContentMessage.cs:line 34
+   at Stump.DofusProtocol.Messages.Message.Pack(IDataWriter writer) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\DofusProtocol\Messages\Message.cs:line 36
+   at Stump.Server.BaseServer.Network.BaseClient.Send(Message message) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 105
+   --- End of inner exception stack trace ---
+   at Stump.Server.BaseServer.Network.BaseClient.Send(Message message) in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 110
+   at Stump.Server.WorldServer.Handlers.Inventory.InventoryHandler.SendInventoryContentMessage(WorldClient client)
+   at Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.CommonCharacterSelection(WorldClient client, CharacterRecord character)
+   at Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.HandleCharacterSelectionMessage(WorldClient client, CharacterSelectionMessage message)
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Axcel\Documents\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 12/16/2018 20:09:08------------- 
+

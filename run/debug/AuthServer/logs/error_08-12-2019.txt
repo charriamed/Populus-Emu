@@ -1,0 +1,213 @@
+-------------Error at 12/08/2019 13:41:54------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 13:41:54------------- 
+
+-------------Fatal at 12/08/2019 13:41:56------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 12/08/2019 13:41:56------------- 
+
+-------------Fatal at 12/08/2019 13:41:56------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 12/08/2019 13:41:56------------- 
+
+-------------Fatal at 12/08/2019 13:41:56------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 12/08/2019 13:41:56------------- 
+
+-------------Error at 12/08/2019 13:42:17------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 13:42:17------------- 
+
+-------------Fatal at 12/08/2019 13:42:19------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 12/08/2019 13:42:19------------- 
+
+-------------Fatal at 12/08/2019 13:42:19------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 12/08/2019 13:42:19------------- 
+
+-------------Fatal at 12/08/2019 13:42:19------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 12/08/2019 13:42:19------------- 
+
+-------------Error at 12/08/2019 13:42:39------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 13:42:39------------- 
+
+-------------Fatal at 12/08/2019 13:42:41------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 12/08/2019 13:42:41------------- 
+
+-------------Fatal at 12/08/2019 13:42:41------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 12/08/2019 13:42:41------------- 
+
+-------------Fatal at 12/08/2019 13:42:41------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 12/08/2019 13:42:41------------- 
+
+-------------Error at 12/08/2019 13:43:13------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 13:43:13------------- 
+
+-------------Fatal at 12/08/2019 13:43:16------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 12/08/2019 13:43:16------------- 
+
+-------------Fatal at 12/08/2019 13:43:16------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 12/08/2019 13:43:16------------- 
+
+-------------Fatal at 12/08/2019 13:43:16------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 12/08/2019 13:43:16------------- 
+
+-------------Error at 12/08/2019 13:43:36------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 13:43:36------------- 
+
+-------------Error at 12/08/2019 14:04:04------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 14:04:04------------- 
+
+-------------Error at 12/08/2019 16:33:13------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 16:33:13------------- 
+
+-------------Error at 12/08/2019 18:57:50------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 18:57:50------------- 
+
+-------------Error at 12/08/2019 21:06:57------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/08/2019 21:06:57------------- 
+

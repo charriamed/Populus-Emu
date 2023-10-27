@@ -1,0 +1,26 @@
+-------------Error at 06/11/2021 02:46:29------------- 
+ Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback -> 
+	Exception raised when processing TimerEntry Stump.Core.Timers.TimedTimerEntry (Callback = Stump.Server.AuthServer.AuthServer.Void DisconnectAfkClient(), Delay = 225000) in Stump.Server.BaseServer.Benchmark.BenchmarkedTaskPool : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Core.Collections.LimitedStack`1.Peek() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Collections\LimitedStack.cs:line 37
+   at Stump.Server.BaseServer.Network.BaseClient.get_LastActivity() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 96
+   at Stump.Server.BaseServer.ServerBase.<>c.<DisconnectAfkClient>b__112_0(BaseClient client) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\ServerBase.cs:line 484
+   at Stump.Server.BaseServer.Network.ClientManager.<>c__DisplayClass58_0.<FindAll>b__0(BaseClient entry) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\ClientManager.cs:line 340
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Stump.Server.BaseServer.Network.ClientManager.FindAll(Predicate`1 predicate) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\ClientManager.cs:line 340
+   at Stump.Server.BaseServer.ServerBase.DisconnectAfkClient() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\ServerBase.cs:line 483
+   at Stump.Core.Timers.TimedTimerEntry.Trigger() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Timers\TimedTimerEntry.cs:line 128
+   at Stump.Core.Threading.SelfRunningTaskPool.ProcessCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\SelfRunningTaskPool.cs:line 223. 
+-------------Error at 06/11/2021 02:46:29------------- 
+
+-------------Error at 06/11/2021 04:37:09------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 06/11/2021 04:37:09------------- 
+
+-------------Error at 06/11/2021 04:41:13------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : {0} 
+-------------Error at 06/11/2021 04:41:13------------- 
+

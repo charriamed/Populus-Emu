@@ -1,0 +1,8 @@
+-------------Error at 05/21/2021 18:14:49------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <194.61.25.4> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:192> doesn't exist
+   at Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) in C:\Users\Administrator\Desktop\httpdocs\ff\DofusProtocol\Messages\MessageReceiver.cs:line 74
+   at Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 314
+   at Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\BaseClient.cs:line 226 
+-------------Error at 05/21/2021 18:14:49------------- 
+

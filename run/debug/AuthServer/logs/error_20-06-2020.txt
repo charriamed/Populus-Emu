@@ -1,0 +1,44 @@
+-------------Error at 06/20/2020 18:46:27------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/20/2020 18:46:27------------- 
+
+-------------Error at 06/20/2020 23:37:11------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/20/2020 23:37:11------------- 
+
+-------------Error at 06/20/2020 23:48:57------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/20/2020 23:48:57------------- 
+
+-------------Fatal at 06/20/2020 23:49:01------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 06/20/2020 23:49:01------------- 
+
+-------------Error at 06/20/2020 23:49:19------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 06/20/2020 23:49:19------------- 
+
+-------------Fatal at 06/20/2020 23:49:25------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\Populus 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 06/20/2020 23:49:25------------- 
+

@@ -1,0 +1,37 @@
+-------------Error at 11/17/2019 13:17:47------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/17/2019 13:17:47------------- 
+
+-------------Error at 11/17/2019 13:54:53------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/17/2019 13:54:53------------- 
+
+-------------Error at 11/17/2019 22:24:59------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/17/2019 22:24:59------------- 
+
+-------------Error at 11/17/2019 22:33:03------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/17/2019 22:33:03------------- 
+
+-------------Error at 11/17/2019 22:41:10------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 11/17/2019 22:41:10------------- 
+
+-------------Fatal at 11/17/2019 22:41:13------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.AuthServer.IPC.IPCHost.Start() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\IPC\IPCHost.cs:ligne 121
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 155
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 11/17/2019 22:41:13------------- 
+

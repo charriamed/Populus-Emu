@@ -1,0 +1,330 @@
+-------------Error at 04/04/2020 10:17:00------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 10:17:00------------- 
+
+-------------Fatal at 04/04/2020 10:17:02------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 04/04/2020 10:17:02------------- 
+
+-------------Fatal at 04/04/2020 10:17:02------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 04/04/2020 10:17:02------------- 
+
+-------------Fatal at 04/04/2020 10:17:02------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 04/04/2020 10:17:02------------- 
+
+-------------Error at 04/04/2020 10:17:16------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 10:17:16------------- 
+
+-------------Error at 04/04/2020 12:27:05------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 12:27:05------------- 
+
+-------------Error at 04/04/2020 14:57:26------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 14:57:26------------- 
+
+-------------Fatal at 04/04/2020 14:57:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 109 
+-------------Fatal at 04/04/2020 14:57:28------------- 
+
+-------------Fatal at 04/04/2020 14:57:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 04/04/2020 14:57:28------------- 
+
+-------------Fatal at 04/04/2020 14:57:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 04/04/2020 14:57:28------------- 
+
+-------------Error at 04/04/2020 14:57:44------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 14:57:44------------- 
+
+-------------Error at 04/04/2020 17:12:36------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 17:12:36------------- 
+
+-------------Fatal at 04/04/2020 18:58:09------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/04/2020 18:58:09------------- 
+
+-------------Fatal at 04/04/2020 18:58:09------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 146
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 04/04/2020 18:58:09------------- 
+
+-------------Fatal at 04/04/2020 18:58:09------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 04/04/2020 18:58:09------------- 
+
+-------------Fatal at 04/04/2020 18:58:13------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/04/2020 18:58:13------------- 
+
+-------------Fatal at 04/04/2020 18:58:13------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 146
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 04/04/2020 18:58:13------------- 
+
+-------------Fatal at 04/04/2020 18:58:13------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 04/04/2020 18:58:13------------- 
+
+-------------Error at 04/04/2020 19:01:02------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 19:01:02------------- 
+
+-------------Fatal at 04/04/2020 19:04:01------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/04/2020 19:04:01------------- 
+
+-------------Fatal at 04/04/2020 19:04:01------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 146
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 04/04/2020 19:04:01------------- 
+
+-------------Fatal at 04/04/2020 19:04:01------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 04/04/2020 19:04:01------------- 
+
+-------------Fatal at 04/04/2020 19:04:02------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/04/2020 19:04:02------------- 
+
+-------------Fatal at 04/04/2020 19:04:02------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 146
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 04/04/2020 19:04:02------------- 
+
+-------------Fatal at 04/04/2020 19:04:02------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Ordinateur\Desktop\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 04/04/2020 19:04:02------------- 
+
+-------------Warn at 04/04/2020 19:05:31------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 04/04/2020 19:05:31------------- 
+
+-------------Fatal at 04/04/2020 19:05:31------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/04/2020 19:05:31------------- 
+
+-------------Warn at 04/04/2020 19:06:00------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 04/04/2020 19:06:00------------- 
+
+-------------Fatal at 04/04/2020 19:06:00------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\Ordinateur\Desktop\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/04/2020 19:06:00------------- 
+
+-------------Warn at 04/04/2020 19:11:24------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 04/04/2020 19:11:24------------- 
+
+-------------Warn at 04/04/2020 19:12:09------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 04/04/2020 19:12:09------------- 
+
+-------------Error at 04/04/2020 19:13:53------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/04/2020 19:13:53------------- 
+

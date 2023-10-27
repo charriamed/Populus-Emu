@@ -1,0 +1,154 @@
+-------------Warn at 12/27/2017 03:38:48------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/27/2017 03:38:48------------- 
+
+-------------Error at 12/27/2017 03:38:51------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 03:38:51------------- 
+
+-------------Error at 12/27/2017 03:38:51------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 03:38:51------------- 
+
+-------------Error at 12/27/2017 03:38:55------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/27/2017 03:38:55------------- 
+
+-------------Warn at 12/27/2017 15:35:51------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/27/2017 15:35:51------------- 
+
+-------------Error at 12/27/2017 15:45:07------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 15:45:07------------- 
+
+-------------Error at 12/27/2017 15:45:07------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 15:45:07------------- 
+
+-------------Error at 12/27/2017 15:45:10------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/27/2017 15:45:10------------- 
+
+-------------Error at 12/27/2017 15:45:11------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Unknown database 'calistya_logs' 
+-------------Error at 12/27/2017 15:45:11------------- 
+
+-------------Fatal at 12/27/2017 15:45:11------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une exception a été levée par la cible d'un appel.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   à System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   à System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   à System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   à Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) dans E:\Erosis\new server\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 125
+   à Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) dans E:\Erosis\new server\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 157
+   à Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() dans E:\Erosis\new server\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:ligne 149
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans E:\Erosis\new server\server\Stump.Server.AuthServer\AuthServer.cs:ligne 131 
+-------------Fatal at 12/27/2017 15:45:11------------- 
+
+-------------Fatal at 12/27/2017 15:45:11------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Unknown database 'calistya_logs'
+ Source: MySql.Data -> Void AuthenticationFailed(System.Exception)
+ Stack Trace:
+   à MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   à MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   à MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   à MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.Server.BaseServer.Logging.Looger.Initialize() dans E:\Erosis\new server\server\Stump.Server.BaseServer\Logging\Looger.cs:ligne 43 
+-------------Fatal at 12/27/2017 15:45:11------------- 
+
+-------------Fatal at 12/27/2017 15:45:11------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unknown database 'calistya_logs'
+ Source: MySql.Data -> MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+ Stack Trace:
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket() 
+-------------Fatal at 12/27/2017 15:45:11------------- 
+
+-------------Warn at 12/27/2017 15:45:44------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/27/2017 15:45:44------------- 
+
+-------------Error at 12/27/2017 15:45:50------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 15:45:50------------- 
+
+-------------Error at 12/27/2017 15:45:50------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 15:45:50------------- 
+
+-------------Error at 12/27/2017 15:45:53------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/27/2017 15:45:53------------- 
+
+-------------Warn at 12/27/2017 17:16:38------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/27/2017 17:16:38------------- 
+
+-------------Error at 12/27/2017 17:16:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 17:16:39------------- 
+
+-------------Error at 12/27/2017 17:16:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 17:16:39------------- 
+
+-------------Error at 12/27/2017 17:16:43------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/27/2017 17:16:43------------- 
+
+-------------Warn at 12/27/2017 20:04:58------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/27/2017 20:04:58------------- 
+
+-------------Warn at 12/27/2017 20:12:12------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 12/27/2017 20:12:12------------- 
+
+-------------Error at 12/27/2017 20:12:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 20:12:13------------- 
+
+-------------Error at 12/27/2017 20:12:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 12/27/2017 20:12:13------------- 
+
+-------------Error at 12/27/2017 20:12:17------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 12/27/2017 20:12:17------------- 
+

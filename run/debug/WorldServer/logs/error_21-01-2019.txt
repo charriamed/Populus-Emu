@@ -1,0 +1,2424 @@
+-------------Error at 01/21/2019 02:34:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:34:22------------- 
+
+-------------Error at 01/21/2019 02:34:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:34:23------------- 
+
+-------------Error at 01/21/2019 02:34:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:34:23------------- 
+
+-------------Error at 01/21/2019 02:34:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:34:23------------- 
+
+-------------Error at 01/21/2019 02:34:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:34:23------------- 
+
+-------------Error at 01/21/2019 02:34:28------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:34:28------------- 
+
+-------------Error at 01/21/2019 02:34:37------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Índice fuera de los límites de la matriz. 
+-------------Error at 01/21/2019 02:34:37------------- 
+
+-------------Fatal at 01/21/2019 02:34:37------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Se produjo una excepción en el destino de la invocación.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   en System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   en Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 125
+   en Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 157
+   en Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 149
+   en Stump.Server.WorldServer.WorldServer.Initialize() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\WorldServer.cs:línea 128
+   en Stump.GUI.WorldConsole.Program.Main(String[] args) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\GUI\Stump.GUI.WorldConsole\Program.cs:línea 19 
+-------------Fatal at 01/21/2019 02:34:37------------- 
+
+-------------Fatal at 01/21/2019 02:34:37------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Índice fuera de los límites de la matriz.
+ Source: Stump.Server.WorldServer -> Void set_CompressedCells(Byte[])
+ Stack Trace:
+   en Stump.Server.WorldServer.Database.World.Maps.MapRecord.set_CompressedCells(Byte[] value) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Database\World\Maps\MapRecord.cs:línea 239
+   en petapoco_factory_0(IDataReader )
+   en petapoco_multipoco_factory(MultiPocoFactory , IDataReader , Object )
+   en Stump.ORM.Database.<Query>d__104`1.MoveNext() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.ORM\PetaPoco.cs:línea 1095
+   en System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   en System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   en Stump.Server.WorldServer.Game.World.LoadSpaces() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 112
+   en Stump.Server.WorldServer.Game.World.Initialize() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 93 
+-------------Fatal at 01/21/2019 02:34:37------------- 
+
+-------------Error at 01/21/2019 02:35:24------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:35:24------------- 
+
+-------------Error at 01/21/2019 02:35:24------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:35:24------------- 
+
+-------------Error at 01/21/2019 02:35:24------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:35:24------------- 
+
+-------------Error at 01/21/2019 02:35:24------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:35:24------------- 
+
+-------------Error at 01/21/2019 02:35:24------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:35:24------------- 
+
+-------------Error at 01/21/2019 02:35:28------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:35:28------------- 
+
+-------------Error at 01/21/2019 02:35:43------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Referencia a objeto no establecida como instancia de un objeto. 
+-------------Error at 01/21/2019 02:35:43------------- 
+
+-------------Fatal at 01/21/2019 02:35:43------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Se produjo una excepción en el destino de la invocación.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   en System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   en Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 125
+   en Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 157
+   en Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 149
+   en Stump.Server.WorldServer.WorldServer.Initialize() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\WorldServer.cs:línea 128
+   en Stump.GUI.WorldConsole.Program.Main(String[] args) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\GUI\Stump.GUI.WorldConsole\Program.cs:línea 19 
+-------------Fatal at 01/21/2019 02:35:43------------- 
+
+-------------Fatal at 01/21/2019 02:35:43------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Referencia a objeto no establecida como instancia de un objeto.
+ Source: Stump.Server.WorldServer -> Stump.Server.WorldServer.Game.Actors.Look.ActorLook get_Look()
+ Stack Trace:
+   en Stump.Server.WorldServer.Database.Npcs.NpcSpawn.get_Look() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Database\Npcs\NpcSpawn.cs:línea 91
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Npcs.Npc..ctor(Int32 id, NpcSpawn spawn) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Npcs\Npc.cs:línea 32
+   en Stump.Server.WorldServer.Game.Maps.Map.SpawnNpc(NpcSpawn spawn) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Maps\Map.cs:línea 637
+   en Stump.Server.WorldServer.Game.World.SpawnNpcs() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 221
+   en Stump.Server.WorldServer.Game.World.SpawnSpaces() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 140
+   en Stump.Server.WorldServer.Game.World.Initialize() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 94 
+-------------Fatal at 01/21/2019 02:35:43------------- 
+
+-------------Error at 01/21/2019 02:35:56------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:35:56------------- 
+
+-------------Error at 01/21/2019 02:35:56------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:35:56------------- 
+
+-------------Error at 01/21/2019 02:35:56------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:35:56------------- 
+
+-------------Error at 01/21/2019 02:35:56------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:35:56------------- 
+
+-------------Error at 01/21/2019 02:35:56------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:35:56------------- 
+
+-------------Error at 01/21/2019 02:36:00------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:36:00------------- 
+
+-------------Error at 01/21/2019 02:36:15------------- 
+ Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod -> 
+	Referencia a objeto no establecida como instancia de un objeto. 
+-------------Error at 01/21/2019 02:36:15------------- 
+
+-------------Fatal at 01/21/2019 02:36:15------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Se produjo una excepción en el destino de la invocación.
+ Source: mscorlib -> System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+ Stack Trace:
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   en System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   en Stump.Server.BaseServer.Initialization.InitializationManager.ExecuteInitializationMethod(InitializationMethod method) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 125
+   en Stump.Server.BaseServer.Initialization.InitializationManager.Initialize(InitializationPass pass) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 157
+   en Stump.Server.BaseServer.Initialization.InitializationManager.InitializeAll() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Initialization\InitializationManager.cs:línea 149
+   en Stump.Server.WorldServer.WorldServer.Initialize() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\WorldServer.cs:línea 128
+   en Stump.GUI.WorldConsole.Program.Main(String[] args) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\GUI\Stump.GUI.WorldConsole\Program.cs:línea 19 
+-------------Fatal at 01/21/2019 02:36:15------------- 
+
+-------------Fatal at 01/21/2019 02:36:15------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Referencia a objeto no establecida como instancia de un objeto.
+ Source: Stump.Server.WorldServer -> Stump.Server.WorldServer.Game.Actors.Look.ActorLook get_Look()
+ Stack Trace:
+   en Stump.Server.WorldServer.Database.Npcs.NpcSpawn.get_Look() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Database\Npcs\NpcSpawn.cs:línea 91
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Npcs.Npc..ctor(Int32 id, NpcSpawn spawn) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Npcs\Npc.cs:línea 32
+   en Stump.Server.WorldServer.Game.Maps.Map.SpawnNpc(NpcSpawn spawn) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Maps\Map.cs:línea 637
+   en Stump.Server.WorldServer.Game.World.SpawnNpcs() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 221
+   en Stump.Server.WorldServer.Game.World.SpawnSpaces() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 140
+   en Stump.Server.WorldServer.Game.World.Initialize() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\World.cs:línea 94 
+-------------Fatal at 01/21/2019 02:36:15------------- 
+
+-------------Error at 01/21/2019 02:36:25------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:36:25------------- 
+
+-------------Error at 01/21/2019 02:36:25------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:36:25------------- 
+
+-------------Error at 01/21/2019 02:36:25------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:36:25------------- 
+
+-------------Error at 01/21/2019 02:36:25------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:36:25------------- 
+
+-------------Error at 01/21/2019 02:36:25------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:36:25------------- 
+
+-------------Error at 01/21/2019 02:36:29------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:36:29------------- 
+
+-------------Error at 01/21/2019 02:36:44------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:36:44------------- 
+
+-------------Error at 01/21/2019 02:36:44------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:36:44------------- 
+
+-------------Error at 01/21/2019 02:36:44------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 02:36:44------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:36:45------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:36:45------------- 
+
+-------------Error at 01/21/2019 02:37:24------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : CharacterSelectionMessage] Force disconnection of client <25.71.172.178> (jomisoac) : System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Stump.Server.WorldServer.Game.Items.ItemManager.CreateItemInstance(Character character, PlayerItemRecord record) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Items\ItemManager.cs:línea 183
+   en Stump.Server.WorldServer.Game.Items.ItemManager.LoadPlayerItem(Character owner, PlayerItemRecord record) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Items\ItemManager.cs:línea 167
+   en Stump.Server.WorldServer.Game.Items.Player.Inventory.<LoadInventory>b__42_0(PlayerItemRecord entry) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Items\Player\Inventory.cs:línea 235
+   en System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   en System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   en System.Linq.Enumerable.ToDictionary[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   en Stump.Server.WorldServer.Game.Items.Player.Inventory.LoadInventory() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Items\Player\Inventory.cs:línea 235
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.LoadRecord() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\Character.cs:línea 4708
+   en Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.CommonCharacterSelection(WorldClient client, CharacterRecord character) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Handlers\Characters\CharacterChoiceHandler.cs:línea 214
+   en Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.HandleCharacterSelectionMessage(WorldClient client, CharacterSelectionMessage message) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Handlers\Characters\CharacterChoiceHandler.cs:línea 57
+   en (Object , WorldClient , Message )
+   en Stump.Core.Threading.Message3`3.Execute() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\Messages.cs:línea 389
+   en Stump.Server.BaseServer.Network.HandledMessage`1.Execute() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\HandledMessage.cs:línea 26 
+-------------Error at 01/21/2019 02:37:24------------- 
+
+-------------Error at 01/21/2019 02:37:46------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : CharacterCreationRequestMessage] Force disconnection of client <25.71.172.178> (jomisoac) : System.Exception: Level 0 not found
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.ExperienceManager.GetCharacterLevelExperience(UInt16 level) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\ExperienceManager.cs:línea 41
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.CharacterManager.CreateCharacter(WorldClient client, String name, SByte breedId, Boolean sex, IEnumerable`1 colors, Int32 headId, Action successCallback, Action`1 failCallback) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\CharacterManager.cs:línea 145
+   en Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.HandleCharacterCreationRequestMessage(WorldClient client, CharacterCreationRequestMessage message) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Handlers\Characters\CharacterCreationHandler.cs:línea 26
+   en (Object , WorldClient , Message )
+   en Stump.Core.Threading.Message3`3.Execute() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\Messages.cs:línea 389
+   en Stump.Server.BaseServer.Network.HandledMessage`1.Execute() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\HandledMessage.cs:línea 26 
+-------------Error at 01/21/2019 02:37:46------------- 
+
+-------------Error at 01/21/2019 02:39:06------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : CharacterCreationRequestMessage] Force disconnection of client <25.71.172.178> (jomisoac) : System.Exception: Level 0 not found
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.ExperienceManager.GetCharacterLevelExperience(UInt16 level) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\ExperienceManager.cs:línea 41
+   en Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.CharacterManager.CreateCharacter(WorldClient client, String name, SByte breedId, Boolean sex, IEnumerable`1 colors, Int32 headId, Action successCallback, Action`1 failCallback) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\CharacterManager.cs:línea 145
+   en Stump.Server.WorldServer.Handlers.Characters.CharacterHandler.HandleCharacterCreationRequestMessage(WorldClient client, CharacterCreationRequestMessage message) en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale - copia\server\stump.server.worldserver\Handlers\Characters\CharacterCreationHandler.cs:línea 26
+   en (Object , WorldClient , Message )
+   en Stump.Core.Threading.Message3`3.Execute() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\Core\Stump.Core\Threading\Messages.cs:línea 389
+   en Stump.Server.BaseServer.Network.HandledMessage`1.Execute() en G:\Documentos ssd\MEGAsync Downloads\Emu nexeption\Émulateur opale\server\Stump.Server.BaseServer\Network\HandledMessage.cs:línea 26 
+-------------Error at 01/21/2019 02:39:06------------- 
+
+-------------Error at 01/21/2019 02:39:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:39:15------------- 
+
+-------------Error at 01/21/2019 02:39:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:39:15------------- 
+
+-------------Error at 01/21/2019 02:39:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:39:15------------- 
+
+-------------Error at 01/21/2019 02:39:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:39:15------------- 
+
+-------------Error at 01/21/2019 02:39:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:39:15------------- 
+
+-------------Error at 01/21/2019 02:39:19------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:39:19------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Error at 01/21/2019 02:39:35------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:39:35------------- 
+
+-------------Warn at 01/21/2019 02:39:52------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Cannot add 1 character to 1 account  
+-------------Warn at 01/21/2019 02:39:52------------- 
+
+-------------Warn at 01/21/2019 02:39:52------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : DELETE FROM `characters` WHERE `ID`=@0 
+-------------Warn at 01/21/2019 02:39:52------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Warn at 01/21/2019 02:41:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:41:20------------- 
+
+-------------Error at 01/21/2019 02:43:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:43:13------------- 
+
+-------------Error at 01/21/2019 02:43:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:43:13------------- 
+
+-------------Error at 01/21/2019 02:43:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:43:13------------- 
+
+-------------Error at 01/21/2019 02:43:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:43:13------------- 
+
+-------------Error at 01/21/2019 02:43:13------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:43:13------------- 
+
+-------------Error at 01/21/2019 02:43:18------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:43:18------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:43:37------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:43:37------------- 
+
+-------------Error at 01/21/2019 02:52:12------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 02:52:12------------- 
+
+-------------Error at 01/21/2019 02:52:12------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 02:52:12------------- 
+
+-------------Error at 01/21/2019 02:52:12------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 02:52:12------------- 
+
+-------------Error at 01/21/2019 02:52:12------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 02:52:12------------- 
+
+-------------Error at 01/21/2019 02:52:12------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 02:52:12------------- 
+
+-------------Error at 01/21/2019 02:52:16------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 02:52:16------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Error at 01/21/2019 02:52:33------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 02:52:33------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Warn at 01/21/2019 02:54:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 01/21/2019 02:54:13------------- 
+
+-------------Error at 01/21/2019 09:24:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 09:24:52------------- 
+
+-------------Error at 01/21/2019 09:24:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 09:24:52------------- 
+
+-------------Error at 01/21/2019 09:24:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 09:24:52------------- 
+
+-------------Error at 01/21/2019 09:24:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 09:24:52------------- 
+
+-------------Error at 01/21/2019 09:24:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 09:24:52------------- 
+
+-------------Error at 01/21/2019 09:24:56------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 09:24:56------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Error at 01/21/2019 09:25:13------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:25:13------------- 
+
+-------------Warn at 01/21/2019 09:29:32------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/21/2019 09:29:32------------- 
+
+-------------Error at 01/21/2019 09:29:35------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 09:29:35------------- 
+
+-------------Error at 01/21/2019 09:29:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 09:29:36------------- 
+
+-------------Error at 01/21/2019 09:29:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 09:29:36------------- 
+
+-------------Error at 01/21/2019 09:29:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 09:29:36------------- 
+
+-------------Error at 01/21/2019 09:29:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 09:29:36------------- 
+
+-------------Error at 01/21/2019 09:29:40------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 09:29:40------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:30:18------------- 
+
+-------------Error at 01/21/2019 09:30:32------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:30:32------------- 
+
+-------------Error at 01/21/2019 09:30:43------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:30:43------------- 
+
+-------------Error at 01/21/2019 09:30:54------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:30:54------------- 
+
+-------------Error at 01/21/2019 09:31:06------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:31:06------------- 
+
+-------------Error at 01/21/2019 09:31:17------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:31:17------------- 
+
+-------------Error at 01/21/2019 09:31:28------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:31:28------------- 
+
+-------------Error at 01/21/2019 09:31:39------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:31:39------------- 
+
+-------------Error at 01/21/2019 09:31:50------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:31:50------------- 
+
+-------------Error at 01/21/2019 09:32:01------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:32:01------------- 
+
+-------------Error at 01/21/2019 09:32:12------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:32:12------------- 
+
+-------------Error at 01/21/2019 09:32:23------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:32:23------------- 
+
+-------------Error at 01/21/2019 09:32:34------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:32:34------------- 
+
+-------------Error at 01/21/2019 09:32:45------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:32:45------------- 
+
+-------------Error at 01/21/2019 09:32:56------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:32:56------------- 
+
+-------------Error at 01/21/2019 09:33:08------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:33:08------------- 
+
+-------------Error at 01/21/2019 09:33:19------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:33:19------------- 
+
+-------------Error at 01/21/2019 09:33:30------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:33:30------------- 
+
+-------------Error at 01/21/2019 09:33:41------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:33:41------------- 
+
+-------------Error at 01/21/2019 09:33:52------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:33:52------------- 
+
+-------------Error at 01/21/2019 09:34:03------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:34:03------------- 
+
+-------------Error at 01/21/2019 09:34:14------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:34:14------------- 
+
+-------------Error at 01/21/2019 09:34:25------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:34:25------------- 
+
+-------------Error at 01/21/2019 09:34:36------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:34:36------------- 
+
+-------------Error at 01/21/2019 09:34:47------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:34:47------------- 
+
+-------------Error at 01/21/2019 09:34:58------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:34:58------------- 
+
+-------------Error at 01/21/2019 09:35:09------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:35:09------------- 
+
+-------------Error at 01/21/2019 09:35:20------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:35:20------------- 
+
+-------------Error at 01/21/2019 09:35:32------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:35:32------------- 
+
+-------------Error at 01/21/2019 09:35:43------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:35:43------------- 
+
+-------------Error at 01/21/2019 09:35:54------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:35:54------------- 
+
+-------------Error at 01/21/2019 09:36:05------------- 
+ Stump.Server.WorldServer.Core.IPC.IPCAccessor.Tick -> 
+	Connection to 25.71.172.178:9100 failed. Try again in 10s 
+-------------Error at 01/21/2019 09:36:05------------- 
+
+-------------Warn at 01/21/2019 09:43:08------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/21/2019 09:43:08------------- 
+
+-------------Error at 01/21/2019 09:43:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 09:43:11------------- 
+
+-------------Error at 01/21/2019 09:43:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 09:43:11------------- 
+
+-------------Error at 01/21/2019 09:43:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 09:43:11------------- 
+
+-------------Error at 01/21/2019 09:43:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 09:43:11------------- 
+
+-------------Error at 01/21/2019 09:43:11------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 09:43:11------------- 
+
+-------------Error at 01/21/2019 09:43:15------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 09:43:15------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Error at 01/21/2019 09:43:53------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:43:53------------- 
+
+-------------Warn at 01/21/2019 09:52:41------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/21/2019 09:52:41------------- 
+
+-------------Error at 01/21/2019 09:52:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 09:52:44------------- 
+
+-------------Error at 01/21/2019 09:52:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 09:52:44------------- 
+
+-------------Error at 01/21/2019 09:52:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 09:52:44------------- 
+
+-------------Error at 01/21/2019 09:52:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 09:52:44------------- 
+
+-------------Error at 01/21/2019 09:52:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 09:52:44------------- 
+
+-------------Error at 01/21/2019 09:52:49------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 09:52:49------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Error at 01/21/2019 09:53:25------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 09:53:25------------- 
+
+-------------Warn at 01/21/2019 10:09:33------------- 
+ Stump.Server.BaseServer.ServerBase.Initialize -> 
+	Exceptions not handled cause Debugger is attatched 
+-------------Warn at 01/21/2019 10:09:33------------- 
+
+-------------Error at 01/21/2019 10:09:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 01/21/2019 10:09:36------------- 
+
+-------------Error at 01/21/2019 10:09:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 01/21/2019 10:09:36------------- 
+
+-------------Error at 01/21/2019 10:09:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 01/21/2019 10:09:36------------- 
+
+-------------Error at 01/21/2019 10:09:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 01/21/2019 10:09:36------------- 
+
+-------------Error at 01/21/2019 10:09:36------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 01/21/2019 10:09:36------------- 
+
+-------------Error at 01/21/2019 10:09:40------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 01/21/2019 10:09:40------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 434044 interactive () : Type bound to discriminator 'Decraft' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.Interactives.InteractiveObject.GenerateSkills -> 
+	Cannot generate skills of spawn 481521 interactive () : Type bound to discriminator 'AllianceCreation' not found (Stump.Server.WorldServer.Game.Interactives.Skills.Skill) 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.BaseServer.Database.DiscriminatorManager`2.Initialize -> 
+	No constructor for type Stump.Server.WorldServer.Game.Interactives.Skills.SkillConsultMerchant 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513128 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513125 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513134 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513146 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513136 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513139 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513149 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513145 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513150 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513152 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513153 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513144 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513131 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513148 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513143 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513138 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513151 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513133 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513147 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513142 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513130 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513141 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513132 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513127 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513137 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513129 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513135 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513140 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+
+-------------Error at 01/21/2019 10:10:18------------- 
+ Stump.Server.WorldServer.Game.World.SpawnInteractives -> 
+	Cannot spawn interactive id=513126 : map 191630338 doesn't exist 
+-------------Error at 01/21/2019 10:10:18------------- 
+

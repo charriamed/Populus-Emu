@@ -1,0 +1,1996 @@
+-------------Warn at 05/28/2021 03:54:40------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 03:54:40------------- 
+
+-------------Warn at 05/28/2021 03:55:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 03:55:38------------- 
+
+-------------Error at 05/28/2021 04:29:45------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : NpcDialogReplyMessage] Force disconnection of client <95.138.81.126> (Wilfried2) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Commands.Commands.FollowLeadCommand.OnEnterMap(ContextActor actor, Map map) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Commands\Commands\FollowLeadCommand.cs:line 116
+   at Stump.Server.WorldServer.Game.Actors.RolePlay.RolePlayActor.OnEnterMap(Map map) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Actors\RolePlay\RolePlayActor.cs:line 25
+   at Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.OnEnterMap(Map map) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\Character.cs:line 3789
+   at Stump.Server.WorldServer.Game.Maps.Map.OnEnter(RolePlayActor actor) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Map.cs:line 1425
+   at Stump.Server.WorldServer.Game.Maps.Map.OnActorEnter(RolePlayActor actor) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Map.cs:line 78
+   at Stump.Server.WorldServer.Game.Maps.Map.Enter(RolePlayActor actor) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Map.cs:line 1246
+   at Stump.Server.WorldServer.Game.Actors.RolePlay.RolePlayActor.<>c__DisplayClass21_0.<Teleport>b__0() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Actors\RolePlay\RolePlayActor.cs:line 159
+   at Stump.Server.WorldServer.Game.Maps.Area.ExecuteInContext(Action action) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 217
+   at Stump.Server.WorldServer.Game.Actors.RolePlay.RolePlayActor.Teleport(ObjectPosition destination, Boolean performCheck) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Actors\RolePlay\RolePlayActor.cs:line 156
+   at Stump.Server.WorldServer.Database.Npcs.Replies.TeleportReply.Execute(Npc npc, Character character) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Database\Npcs\Replies\TeleportReply.cs:line 138
+   at Stump.Server.WorldServer.Game.Dialogs.Npcs.NpcDialog.Reply(NpcReply reply) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Dialogs\Npcs\NpcDialog.cs:line 75
+   at Stump.Server.WorldServer.Game.Dialogs.Npcs.NpcDialog.Reply(Int32 replyId) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Dialogs\Npcs\NpcDialog.cs:line 65
+   at Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.Character.ReplyToNpc(Int32 replyId) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\Character.cs:line 4010
+   at Stump.Server.WorldServer.Handlers.Context.RolePlay.ContextRoleplayHandler.HandleNpcDialogReplyMessage(WorldClient client, NpcDialogReplyMessage message) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Handlers\Context\RolePlay\ContextRoleplayNpcHandler.cs:line 40
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 05/28/2021 04:29:45------------- 
+
+-------------Warn at 05/28/2021 04:32:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 04:32:06------------- 
+
+-------------Warn at 05/28/2021 04:32:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 04:32:13------------- 
+
+-------------Warn at 05/28/2021 04:38:53------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 04:38:53------------- 
+
+-------------Warn at 05/28/2021 06:50:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 06:50:44------------- 
+
+-------------Warn at 05/28/2021 07:34:10------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 07:34:10------------- 
+
+-------------Warn at 05/28/2021 07:35:04------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 07:35:04------------- 
+
+-------------Warn at 05/28/2021 07:54:27------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (62) 
+-------------Warn at 05/28/2021 07:54:27------------- 
+
+-------------Error at 05/28/2021 08:01:59------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (12) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 08:01:59------------- 
+
+-------------Warn at 05/28/2021 08:30:41------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (12) 
+-------------Warn at 05/28/2021 08:30:41------------- 
+
+-------------Error at 05/28/2021 08:32:09------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : NpcGenericActionRequestMessage] Force disconnection of client <196.75.56.133> (mehdille) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Handlers.Context.RolePlay.ContextRoleplayHandler.HandleNpcGenericActionRequestMessage(WorldClient client, NpcGenericActionRequestMessage message) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Handlers\Context\RolePlay\ContextRoleplayNpcHandler.cs:line 23
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 05/28/2021 08:32:09------------- 
+
+-------------Warn at 05/28/2021 08:33:54------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 08:33:54------------- 
+
+-------------Error at 05/28/2021 08:39:12------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : NpcGenericActionRequestMessage] Force disconnection of client <45.189.205.32> (deir5010) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Handlers.Context.RolePlay.ContextRoleplayHandler.HandleNpcGenericActionRequestMessage(WorldClient client, NpcGenericActionRequestMessage message) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Handlers\Context\RolePlay\ContextRoleplayNpcHandler.cs:line 23
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 05/28/2021 08:39:12------------- 
+
+-------------Warn at 05/28/2021 08:40:20------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:20------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:46------------- 
+
+-------------Warn at 05/28/2021 08:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:40:59------------- 
+
+-------------Warn at 05/28/2021 08:41:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:13------------- 
+
+-------------Warn at 05/28/2021 08:41:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:13------------- 
+
+-------------Warn at 05/28/2021 08:41:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:13------------- 
+
+-------------Warn at 05/28/2021 08:41:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:13------------- 
+
+-------------Warn at 05/28/2021 08:41:13------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:13------------- 
+
+-------------Warn at 05/28/2021 08:41:23------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:23------------- 
+
+-------------Warn at 05/28/2021 08:41:55------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:55------------- 
+
+-------------Warn at 05/28/2021 08:41:57------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 08:41:57------------- 
+
+-------------Warn at 05/28/2021 08:53:54------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	2 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 08:53:54------------- 
+
+-------------Warn at 05/28/2021 08:58:11------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 08:58:11------------- 
+
+-------------Warn at 05/28/2021 09:23:54------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	5 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 09:23:54------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:36:24------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : DELETE FROM `characters_shortcuts_spells` WHERE `ID`=@0 
+-------------Warn at 05/28/2021 09:36:24------------- 
+
+-------------Warn at 05/28/2021 09:48:55------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 09:48:55------------- 
+
+-------------Warn at 05/28/2021 09:51:04------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (62) 
+-------------Warn at 05/28/2021 09:51:04------------- 
+
+-------------Warn at 05/28/2021 09:53:55------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 09:53:55------------- 
+
+-------------Warn at 05/28/2021 10:01:47------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (12) 
+-------------Warn at 05/28/2021 10:01:47------------- 
+
+-------------Error at 05/28/2021 10:05:30------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (8) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 10:05:30------------- 
+
+-------------Warn at 05/28/2021 10:11:16------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:11:16------------- 
+
+-------------Warn at 05/28/2021 10:15:27------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	4 disconnected characters removed from (not found) (54) 
+-------------Warn at 05/28/2021 10:15:27------------- 
+
+-------------Error at 05/28/2021 10:19:51------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (0) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 10:19:51------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:25------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:25------------- 
+
+-------------Warn at 05/28/2021 10:20:26------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:26------------- 
+
+-------------Warn at 05/28/2021 10:20:26------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:26------------- 
+
+-------------Warn at 05/28/2021 10:20:26------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:20:26------------- 
+
+-------------Error at 05/28/2021 10:21:32------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (0) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 10:21:32------------- 
+
+-------------Warn at 05/28/2021 10:48:28------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:48:28------------- 
+
+-------------Warn at 05/28/2021 10:48:53------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:48:53------------- 
+
+-------------Warn at 05/28/2021 10:49:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:49:01------------- 
+
+-------------Warn at 05/28/2021 10:49:09------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:49:09------------- 
+
+-------------Warn at 05/28/2021 10:49:23------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:49:23------------- 
+
+-------------Warn at 05/28/2021 10:49:28------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:49:28------------- 
+
+-------------Warn at 05/28/2021 10:49:42------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:49:42------------- 
+
+-------------Warn at 05/28/2021 10:49:47------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 10:49:47------------- 
+
+-------------Warn at 05/28/2021 11:06:47------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (12) 
+-------------Warn at 05/28/2021 11:06:47------------- 
+
+-------------Warn at 05/28/2021 11:53:56------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 11:53:56------------- 
+
+-------------Warn at 05/28/2021 12:16:33------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 12:16:33------------- 
+
+-------------Warn at 05/28/2021 12:25:28------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	8 disconnected characters removed from (not found) (54) 
+-------------Warn at 05/28/2021 12:25:28------------- 
+
+-------------Error at 05/28/2021 12:41:04------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (18) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 12:41:04------------- 
+
+-------------Warn at 05/28/2021 12:48:56------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 12:48:56------------- 
+
+-------------Error at 05/28/2021 12:49:23------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (45) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 12:49:23------------- 
+
+-------------Warn at 05/28/2021 12:51:27------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 12:51:27------------- 
+
+-------------Warn at 05/28/2021 12:51:28------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 12:51:28------------- 
+
+-------------Error at 05/28/2021 13:01:50------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (18) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 13:01:50------------- 
+
+-------------Warn at 05/28/2021 13:08:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:08:46------------- 
+
+-------------Warn at 05/28/2021 13:08:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:08:46------------- 
+
+-------------Warn at 05/28/2021 13:08:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:08:46------------- 
+
+-------------Warn at 05/28/2021 13:08:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:08:46------------- 
+
+-------------Warn at 05/28/2021 13:08:47------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:08:47------------- 
+
+-------------Warn at 05/28/2021 13:09:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 13:09:00------------- 
+
+-------------Warn at 05/28/2021 13:09:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:46------------- 
+
+-------------Warn at 05/28/2021 13:09:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:46------------- 
+
+-------------Warn at 05/28/2021 13:09:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:46------------- 
+
+-------------Warn at 05/28/2021 13:09:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:46------------- 
+
+-------------Warn at 05/28/2021 13:09:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:46------------- 
+
+-------------Warn at 05/28/2021 13:09:46------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:46------------- 
+
+-------------Warn at 05/28/2021 13:09:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:59------------- 
+
+-------------Warn at 05/28/2021 13:09:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:09:59------------- 
+
+-------------Warn at 05/28/2021 13:10:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:00------------- 
+
+-------------Warn at 05/28/2021 13:10:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:00------------- 
+
+-------------Warn at 05/28/2021 13:10:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:00------------- 
+
+-------------Warn at 05/28/2021 13:10:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:00------------- 
+
+-------------Warn at 05/28/2021 13:10:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:31------------- 
+
+-------------Warn at 05/28/2021 13:10:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:38------------- 
+
+-------------Warn at 05/28/2021 13:10:41------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:41------------- 
+
+-------------Warn at 05/28/2021 13:10:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:10:44------------- 
+
+-------------Warn at 05/28/2021 13:20:46------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (61) 
+-------------Warn at 05/28/2021 13:20:46------------- 
+
+-------------Error at 05/28/2021 13:22:59------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (61) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 13:22:59------------- 
+
+-------------Warn at 05/28/2021 13:23:18------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 13:23:18------------- 
+
+-------------Warn at 05/28/2021 13:37:42------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (50) 
+-------------Warn at 05/28/2021 13:37:42------------- 
+
+-------------Error at 05/28/2021 13:45:46------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (18) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 13:45:46------------- 
+
+-------------Warn at 05/28/2021 13:48:56------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 13:48:56------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:30------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:30------------- 
+
+-------------Warn at 05/28/2021 14:25:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:31------------- 
+
+-------------Warn at 05/28/2021 14:25:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:31------------- 
+
+-------------Warn at 05/28/2021 14:25:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:31------------- 
+
+-------------Warn at 05/28/2021 14:25:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:25:31------------- 
+
+-------------Warn at 05/28/2021 14:29:39------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 14:29:39------------- 
+
+-------------Warn at 05/28/2021 14:30:29------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 14:30:29------------- 
+
+-------------Warn at 05/28/2021 14:31:49------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 14:31:49------------- 
+
+-------------Warn at 05/28/2021 14:40:47------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (61) 
+-------------Warn at 05/28/2021 14:40:47------------- 
+
+-------------Warn at 05/28/2021 14:44:13------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 14:44:13------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_items` SET `ItemTemplateId` = @0, `ItemGuid` = @1, `OwnerId` = @2, `Slot` = @3 WHERE `ID` = @4 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Warn at 05/28/2021 14:45:31------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 14:45:31------------- 
+
+-------------Error at 05/28/2021 15:14:07------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (61) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 15:14:07------------- 
+
+-------------Warn at 05/28/2021 15:14:28------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 15:14:28------------- 
+
+-------------Warn at 05/28/2021 15:24:28------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 15:24:28------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:37------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : DELETE FROM `characters_shortcuts_spells` WHERE `ID`=@0 
+-------------Warn at 05/28/2021 15:27:37------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:27:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:27:38------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:43------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:43------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : DELETE FROM `characters_shortcuts_spells` WHERE `ID`=@0 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:29:44------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : DELETE FROM `characters_shortcuts_spells` WHERE `ID`=@0 
+-------------Warn at 05/28/2021 15:29:44------------- 
+
+-------------Warn at 05/28/2021 15:36:11------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (18) 
+-------------Warn at 05/28/2021 15:36:11------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:00------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:00------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:01------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:01------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:06------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:06------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:36------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:36------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : INSERT INTO `characters_shortcuts_spells` (`SpellId`,`OwnerId`,`Slot`) VALUES (@0,@1,@2);
+SELECT @@IDENTITY AS NewID; 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:40:59------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:40:59------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:41:03------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 15:41:03------------- 
+
+-------------Warn at 05/28/2021 15:44:28------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	3 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 15:44:28------------- 
+
+-------------Warn at 05/28/2021 16:05:57------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (48) 
+-------------Warn at 05/28/2021 16:05:57------------- 
+
+-------------Warn at 05/28/2021 16:07:34------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (62) 
+-------------Warn at 05/28/2021 16:07:34------------- 
+
+-------------Error at 05/28/2021 16:09:37------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (12) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 16:09:37------------- 
+
+-------------Warn at 05/28/2021 16:13:21------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:13:21------------- 
+
+-------------Warn at 05/28/2021 16:13:21------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:13:21------------- 
+
+-------------Warn at 05/28/2021 16:13:21------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:13:21------------- 
+
+-------------Warn at 05/28/2021 16:13:23------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:13:23------------- 
+
+-------------Warn at 05/28/2021 16:13:25------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:13:25------------- 
+
+-------------Warn at 05/28/2021 16:13:41------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:13:41------------- 
+
+-------------Warn at 05/28/2021 16:17:10------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:17:10------------- 
+
+-------------Warn at 05/28/2021 16:17:22------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:17:22------------- 
+
+-------------Warn at 05/28/2021 16:22:13------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:22:13------------- 
+
+-------------Warn at 05/28/2021 16:30:05------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 16:30:05------------- 
+
+-------------Warn at 05/28/2021 16:59:29------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 16:59:29------------- 
+
+-------------Warn at 05/28/2021 17:29:29------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_items` SET `ItemTemplateId` = @0, `ItemGuid` = @1, `OwnerId` = @2, `Slot` = @3 WHERE `ID` = @4 
+-------------Warn at 05/28/2021 17:29:29------------- 
+
+-------------Warn at 05/28/2021 17:29:29------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:29------------- 
+
+-------------Warn at 05/28/2021 17:29:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_items` SET `ItemTemplateId` = @0, `ItemGuid` = @1, `OwnerId` = @2, `Slot` = @3 WHERE `ID` = @4 
+-------------Warn at 05/28/2021 17:29:38------------- 
+
+-------------Warn at 05/28/2021 17:29:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:38------------- 
+
+-------------Warn at 05/28/2021 17:29:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:38------------- 
+
+-------------Warn at 05/28/2021 17:29:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:38------------- 
+
+-------------Warn at 05/28/2021 17:29:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:38------------- 
+
+-------------Warn at 05/28/2021 17:29:38------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:38------------- 
+
+-------------Warn at 05/28/2021 17:29:40------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_items` SET `ItemTemplateId` = @0, `ItemGuid` = @1, `OwnerId` = @2, `Slot` = @3 WHERE `ID` = @4 
+-------------Warn at 05/28/2021 17:29:40------------- 
+
+-------------Warn at 05/28/2021 17:29:40------------- 
+ Stump.Server.WorldServer.WorldServer.OnExecutingDBCommand -> 
+	Execute DB command out the IO task pool : UPDATE `characters_shortcuts_spells` SET `SpellId` = @0, `OwnerId` = @1, `Slot` = @2 WHERE `ID` = @3 
+-------------Warn at 05/28/2021 17:29:40------------- 
+
+-------------Warn at 05/28/2021 17:30:43------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 17:30:43------------- 
+
+-------------Warn at 05/28/2021 17:32:34------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (62) 
+-------------Warn at 05/28/2021 17:32:34------------- 
+
+-------------Warn at 05/28/2021 17:34:29------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	2 disconnected characters removed from (not found) (0) 
+-------------Warn at 05/28/2021 17:34:29------------- 
+
+-------------Warn at 05/28/2021 18:16:09------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 18:16:09------------- 
+
+-------------Error at 05/28/2021 18:19:58------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (0) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 18:19:58------------- 
+
+-------------Error at 05/28/2021 18:20:36------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (0) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 18:20:36------------- 
+
+-------------Error at 05/28/2021 18:21:35------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (0) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 18:21:35------------- 
+
+-------------Error at 05/28/2021 18:26:41------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (0) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 18:26:41------------- 
+
+-------------Warn at 05/28/2021 18:33:07------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	2 disconnected characters removed from (not found) (46) 
+-------------Warn at 05/28/2021 18:33:07------------- 
+
+-------------Warn at 05/28/2021 18:35:30------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (59) 
+-------------Warn at 05/28/2021 18:35:30------------- 
+
+-------------Warn at 05/28/2021 18:58:16------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (51) 
+-------------Warn at 05/28/2021 18:58:16------------- 
+
+-------------Warn at 05/28/2021 19:43:26------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 19:43:26------------- 
+
+-------------Error at 05/28/2021 19:48:07------------- 
+ Stump.Server.BaseServer.Network.HandledMessage`1.Execute -> 
+	[Handler : QuestObjectiveValidationMessage] Force disconnection of client <142.122.28.105> (Darkggamer200) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Handlers.Context.RolePlay.ContextRoleplayHandler.HandleQuestObjectiveValidationMessage(WorldClient client, QuestObjectiveValidationMessage message) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Handlers\Context\RolePlay\ContextRoleplayQuestHandler.cs:line 39
+   at (Object , WorldClient , Message )
+   at Stump.Core.Threading.Message3`3.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 389
+   at Stump.Server.BaseServer.Network.HandledMessage`1.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\server\Stump.Server.BaseServer\Network\HandledMessage.cs:line 26 
+-------------Error at 05/28/2021 19:48:07------------- 
+
+-------------Warn at 05/28/2021 20:01:26------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	2 disconnected characters removed from (not found) (62) 
+-------------Warn at 05/28/2021 20:01:26------------- 
+
+-------------Error at 05/28/2021 20:31:14------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback -> 
+	Exception raised when processing Message in (not found) (61) : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stump.Server.WorldServer.Game.Parties.Party.<>c__DisplayClass107_0.<OnContextChanged>b__1() in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Parties\Party.cs:line 508
+   at Stump.Core.Threading.Message.Execute() in C:\Users\Administrator\Desktop\httpdocs\ff\Core\Stump.Core\Threading\Messages.cs:line 70
+   at Stump.Server.WorldServer.Game.Maps.Area.UpdateCallback(Object state) in C:\Users\Administrator\Desktop\httpdocs\ff\server\stump.server.worldserver\Game\Maps\Area.cs:line 368. 
+-------------Error at 05/28/2021 20:31:14------------- 
+
+-------------Warn at 05/28/2021 20:44:15------------- 
+ Stump.Server.WorldServer.Game.Maps.Area.CheckDC -> 
+	1 disconnected characters removed from (not found) (61) 
+-------------Warn at 05/28/2021 20:44:15------------- 
+
+-------------Warn at 05/28/2021 22:27:59------------- 
+ Stump.Server.BaseServer.IPC.IPCRequest`1.ProcessMessage -> 
+	IPC Error on message recv Request Stump.Server.BaseServer.IPC.Messages.TokenMessage timed out  
+-------------Warn at 05/28/2021 22:27:59------------- 
+

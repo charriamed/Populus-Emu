@@ -1,0 +1,24 @@
+-------------Error at 05/04/2021 10:42:03------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 22 
+-------------Error at 05/04/2021 10:42:03------------- 
+
+-------------Error at 05/04/2021 10:42:04------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message Length = 22 
+-------------Error at 05/04/2021 10:42:04------------- 
+
+-------------Error at 05/04/2021 10:42:04------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive -> 
+	Forced disconnection during reception : System.OverflowException: L'opération arithmétique a provoqué un dépassement de capacité.
+   à Stump.Core.IO.FastBigEndianReader.ReadBytes(Int32 n) dans F:\emulateur 2.51 debug\Core\Stump.Core\IO\FastBigEndianReader.cs:ligne 253
+   à Stump.Server.BaseServer.IPC.IPCMessagePart.Build(IDataReader reader) dans C:\Users\Administrateur\Desktop\emu Mahmoud\server\Stump.Server.BaseServer\IPC\IPCMessagePart.cs:ligne 100
+   à Stump.Server.AuthServer.IPC.IPCClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\ff\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 210
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessReceive(Object sender, SocketAsyncEventArgs e) dans C:\Users\Administrateur\Desktop\ff\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 179 
+-------------Error at 05/04/2021 10:42:04------------- 
+
+-------------Error at 05/04/2021 10:42:05------------- 
+ Stump.Server.BaseServer.IPC.IPCMessagePart.Build -> 
+	Invalid message LengthBytesCount = 71 
+-------------Error at 05/04/2021 10:42:05------------- 
+

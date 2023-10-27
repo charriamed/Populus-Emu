@@ -1,0 +1,551 @@
+-------------Error at 02/18/2018 03:01:24------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <155.94.88.138> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 03:01:24------------- 
+
+-------------Error at 02/18/2018 04:36:44------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <71.6.202.204> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 04:36:44------------- 
+
+-------------Error at 02/18/2018 09:53:50------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : MySql.Data.MySqlClient.MySqlException (0x80004005): There is already an open DataReader associated with this Connection which must be closed first.
+   à MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   à MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   à MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   à Stump.ORM.Database.Update(String tableName, String primaryKeyName, Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\PetaPoco.cs:ligne 1457
+   à Stump.ORM.Database.Update(Object poco, Object primaryKeyValue, IEnumerable`1 columns) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\PetaPoco.cs:ligne 1488
+   à Stump.ORM.Database.Update(Object poco) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\PetaPoco.cs:ligne 1478
+   à Stump.Server.AuthServer.IPC.IPCOperations.Handle(ServerUpdateMessage message) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\IPC\IPCOperations.cs:ligne 218
+   à (Object , IPCMessage )
+   à Stump.Server.AuthServer.IPC.IPCOperations.HandleMessage(IPCMessage message) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\IPC\IPCOperations.cs:ligne 110
+   à Stump.Server.AuthServer.IPC.IPCClient.ProcessRequest(IPCMessage request) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\IPC\IPCClient.cs:ligne 337 
+-------------Error at 02/18/2018 09:53:50------------- 
+
+-------------Error at 02/18/2018 10:15:36------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : The first received packet should be a HandshakeMessage not Stump.Server.BaseServer.IPC.Messages.UpdateAccountMessage 
+-------------Error at 02/18/2018 10:15:36------------- 
+
+-------------Error at 02/18/2018 10:19:14------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <83.149.127.139> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 10:19:14------------- 
+
+-------------Error at 02/18/2018 11:05:11------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : The first received packet should be a HandshakeMessage not Stump.Server.BaseServer.IPC.Messages.UpdateAccountMessage 
+-------------Error at 02/18/2018 11:05:11------------- 
+
+-------------Error at 02/18/2018 11:21:36------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : The first received packet should be a HandshakeMessage not Stump.Server.BaseServer.IPC.Messages.UpdateAccountMessage 
+-------------Error at 02/18/2018 11:21:36------------- 
+
+-------------Error at 02/18/2018 12:16:52------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : The first received packet should be a HandshakeMessage not Stump.Server.BaseServer.IPC.Messages.UpdateAccountMessage 
+-------------Error at 02/18/2018 12:16:52------------- 
+
+-------------Error at 02/18/2018 13:15:44------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <141.212.122.160> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 13:15:44------------- 
+
+-------------Error at 02/18/2018 14:21:05------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <74.82.47.4> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 14:21:05------------- 
+
+-------------Error at 02/18/2018 16:26:35------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <139.162.78.135> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 16:26:35------------- 
+
+-------------Error at 02/18/2018 16:26:36------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <139.162.78.135> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:4561> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 16:26:36------------- 
+
+-------------Error at 02/18/2018 17:53:38------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <60.191.38.77> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 17:53:38------------- 
+
+-------------Error at 02/18/2018 18:05:57------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:05:57------------- 
+
+-------------Error at 02/18/2018 18:05:57------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:05:57------------- 
+
+-------------Error at 02/18/2018 18:06:15------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:06:15------------- 
+
+-------------Error at 02/18/2018 18:28:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:28:52------------- 
+
+-------------Error at 02/18/2018 18:28:52------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:28:52------------- 
+
+-------------Error at 02/18/2018 18:29:11------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:29:11------------- 
+
+-------------Error at 02/18/2018 18:37:05------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:37:05------------- 
+
+-------------Error at 02/18/2018 18:37:05------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:37:05------------- 
+
+-------------Error at 02/18/2018 18:37:20------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:37:20------------- 
+
+-------------Fatal at 02/18/2018 18:37:22------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:37:22------------- 
+
+-------------Error at 02/18/2018 18:37:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:37:39------------- 
+
+-------------Error at 02/18/2018 18:37:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:37:39------------- 
+
+-------------Error at 02/18/2018 18:37:58------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:37:58------------- 
+
+-------------Fatal at 02/18/2018 18:38:00------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:38:00------------- 
+
+-------------Error at 02/18/2018 18:38:17------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:38:17------------- 
+
+-------------Error at 02/18/2018 18:38:17------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:38:17------------- 
+
+-------------Error at 02/18/2018 18:38:37------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:38:37------------- 
+
+-------------Fatal at 02/18/2018 18:38:39------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:38:39------------- 
+
+-------------Error at 02/18/2018 18:38:57------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:38:57------------- 
+
+-------------Error at 02/18/2018 18:38:57------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:38:57------------- 
+
+-------------Error at 02/18/2018 18:39:15------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:39:15------------- 
+
+-------------Fatal at 02/18/2018 18:39:17------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:39:17------------- 
+
+-------------Error at 02/18/2018 18:39:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:39:33------------- 
+
+-------------Error at 02/18/2018 18:39:33------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:39:33------------- 
+
+-------------Error at 02/18/2018 18:39:51------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:39:51------------- 
+
+-------------Fatal at 02/18/2018 18:39:53------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:39:53------------- 
+
+-------------Error at 02/18/2018 18:40:10------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:40:10------------- 
+
+-------------Error at 02/18/2018 18:40:10------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:40:10------------- 
+
+-------------Error at 02/18/2018 18:40:26------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:40:26------------- 
+
+-------------Fatal at 02/18/2018 18:40:28------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:40:28------------- 
+
+-------------Error at 02/18/2018 18:40:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:40:44------------- 
+
+-------------Error at 02/18/2018 18:40:44------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:40:44------------- 
+
+-------------Error at 02/18/2018 18:40:58------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:40:58------------- 
+
+-------------Fatal at 02/18/2018 18:41:00------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:41:00------------- 
+
+-------------Error at 02/18/2018 18:41:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:41:15------------- 
+
+-------------Error at 02/18/2018 18:41:15------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:41:15------------- 
+
+-------------Error at 02/18/2018 18:41:28------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:41:28------------- 
+
+-------------Fatal at 02/18/2018 18:41:29------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:41:29------------- 
+
+-------------Error at 02/18/2018 18:41:46------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:41:46------------- 
+
+-------------Error at 02/18/2018 18:41:46------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:41:46------------- 
+
+-------------Error at 02/18/2018 18:42:05------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:42:05------------- 
+
+-------------Fatal at 02/18/2018 18:42:07------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:42:07------------- 
+
+-------------Error at 02/18/2018 18:42:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:42:23------------- 
+
+-------------Error at 02/18/2018 18:42:23------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:42:23------------- 
+
+-------------Error at 02/18/2018 18:42:37------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:42:37------------- 
+
+-------------Fatal at 02/18/2018 18:42:39------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:42:39------------- 
+
+-------------Error at 02/18/2018 18:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:42:54------------- 
+
+-------------Error at 02/18/2018 18:42:54------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:42:54------------- 
+
+-------------Error at 02/18/2018 18:43:06------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:43:06------------- 
+
+-------------Fatal at 02/18/2018 18:43:08------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée
+ Source: System -> Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+ Stack Trace:
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Stump.Server.BaseServer.Network.ClientManager.Start(String address, Int32 port) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\ClientManager.cs:ligne 167
+   à Stump.Server.AuthServer.AuthServer.Start() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.AuthServer\AuthServer.cs:ligne 157
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\Administrateur\Desktop\calistya\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 21 
+-------------Fatal at 02/18/2018 18:43:08------------- 
+
+-------------Error at 02/18/2018 18:46:34------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:46:34------------- 
+
+-------------Error at 02/18/2018 18:46:34------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:46:34------------- 
+
+-------------Error at 02/18/2018 18:46:52------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:46:52------------- 
+
+-------------Error at 02/18/2018 18:54:27------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot ping SQL connection : MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Impossible de lire les données de la connexion de transport : Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte. ---> System.Net.Sockets.SocketException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+   à System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   à MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   à MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   à MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   à MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   à MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   à Stump.ORM.Database.Execute(String sql, Object[] args) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\PetaPoco.cs:ligne 553
+   à Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 461 
+-------------Error at 02/18/2018 18:54:27------------- 
+
+-------------Warn at 02/18/2018 18:54:28------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Try to Re-open the connection 
+-------------Warn at 02/18/2018 18:54:28------------- 
+
+-------------Error at 02/18/2018 18:54:29------------- 
+ Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive -> 
+	Cannot reopen the SQL connection : MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---> System.AggregateException: Une ou plusieurs erreurs se sont produites. ---> System.Net.Sockets.SocketException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+---> (Exception interne #0) System.Net.Sockets.SocketException (0x80004005): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\Administrateur\Desktop\calistya\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.BaseServer.ServerBase.KeepSQLConnectionAlive() dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\ServerBase.cs:ligne 470 
+-------------Error at 02/18/2018 18:54:29------------- 
+
+-------------Error at 02/18/2018 18:55:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:55:29------------- 
+
+-------------Error at 02/18/2018 18:55:29------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.BaseServer.Logging.MongoLogger', is the assembly loaded ? 
+-------------Error at 02/18/2018 18:55:29------------- 
+
+-------------Error at 02/18/2018 18:55:42------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 02/18/2018 18:55:42------------- 
+
+-------------Error at 02/18/2018 19:49:10------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <60.191.38.77> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 19:49:10------------- 
+
+-------------Error at 02/18/2018 22:18:41------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <83.149.127.139> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 22:18:41------------- 
+
+-------------Error at 02/18/2018 22:36:24------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <192.81.128.37> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 22:36:24------------- 
+
+-------------Error at 02/18/2018 23:55:01------------- 
+ Stump.Server.BaseServer.Network.BaseClient.ProcessReceive -> 
+	Forced disconnection <54.152.124.59> : Stump.DofusProtocol.Messages.MessageReceiver+MessageNotFoundException: Message <id:1408> doesn't exist
+   à Stump.DofusProtocol.Messages.MessageReceiver.BuildMessage(UInt32 id, IDataReader reader) dans C:\Users\Administrateur\Desktop\calistya\DofusProtocol\Messages\MessageReceiver.cs:ligne 74
+   à Stump.Server.BaseServer.Network.BaseClient.BuildMessage(BufferSegment buffer) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 279
+   à Stump.Server.BaseServer.Network.BaseClient.ProcessReceive(Object sender, SocketAsyncEventArgs args) dans C:\Users\Administrateur\Desktop\calistya\server\Stump.Server.BaseServer\Network\BaseClient.cs:ligne 223 
+-------------Error at 02/18/2018 23:55:01------------- 
+

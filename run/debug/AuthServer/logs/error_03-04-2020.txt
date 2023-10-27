@@ -1,0 +1,86 @@
+-------------Fatal at 04/03/2020 20:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/03/2020 20:30:32------------- 
+
+-------------Fatal at 04/03/2020 20:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 146
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 04/03/2020 20:30:32------------- 
+
+-------------Fatal at 04/03/2020 20:30:32------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 04/03/2020 20:30:32------------- 
+
+-------------Fatal at 04/03/2020 20:30:35------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Impossible de charger le fichier ou l'assembly 'MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou une de ses dépendances. La définition trouvée du manifeste de l'assembly ne correspond pas à la référence de l'assembly. (Exception de HRESULT : 0x80131040)
+ Source: mscorlib -> System.Reflection.RuntimeAssembly _nLoad(System.Reflection.AssemblyName, System.String, System.Security.Policy.Evidence, System.Reflection.RuntimeAssembly, System.Threading.StackCrawlMark ByRef, IntPtr, Boolean, Boolean, Boolean)
+ Stack Trace:
+   à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   à System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   à Stump.Server.BaseServer.ServerBase.<>c.<PreLoadReferences>b__98_1(AssemblyName assemblyName) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   à Stump.Server.BaseServer.ServerBase.PreLoadReferences(Assembly executingAssembly) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 350
+   à Stump.Server.BaseServer.ServerBase.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 225
+   à Stump.Server.BaseServer.ServerBase`1.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 578
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 98 
+-------------Fatal at 04/03/2020 20:30:35------------- 
+
+-------------Fatal at 04/03/2020 20:30:35------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.Server.AuthServer.AuthServer.Initialize() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 146
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 20 
+-------------Fatal at 04/03/2020 20:30:35------------- 
+
+-------------Fatal at 04/03/2020 20:30:35------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : La référence d'objet n'est pas définie à une instance d'un objet.
+ Source: Stump.Server.AuthServer -> Void OnShutdown()
+ Stack Trace:
+   à Stump.Server.AuthServer.AuthServer.OnShutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.AuthServer\AuthServer.cs:ligne 185
+   à Stump.Server.BaseServer.ServerBase.Shutdown() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\Stump.Server.BaseServer\ServerBase.cs:ligne 534
+   à Stump.GUI.AuthConsole.Program.Main(String[] args) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\GUI\Stump.GUI.AuthConsole\Program.cs:ligne 36 
+-------------Fatal at 04/03/2020 20:30:35------------- 
+
+-------------Error at 04/03/2020 20:33:15------------- 
+ Stump.Server.BaseServer.Plugins.PluginManager.LoadAllPlugins -> 
+	Cannot load unexistant plugin path ./plugins/ 
+-------------Error at 04/03/2020 20:33:15------------- 
+
+-------------Error at 04/03/2020 23:06:59------------- 
+ Stump.Server.AuthServer.IPC.IPCClient.SendError -> 
+	IPC error : The first received packet should be a HandshakeMessage not Stump.Server.BaseServer.IPC.Messages.ServerUpdateMessage 
+-------------Error at 04/03/2020 23:06:59------------- 
+

@@ -1,0 +1,227 @@
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Custom.PetItem.MealsPerBonus' doesn't exist 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Warn at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392 
+-------------Warn at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.WebAPI.WebServer', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Error at 10/26/2020 10:31:22------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.WebAPI.WebServer', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:22------------- 
+
+-------------Fatal at 10/26/2020 10:31:27------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Emu 2.51 debug\server\stump.server.worldserver\WorldServer.cs:ligne 112
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Emu 2.51 debug\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 10/26/2020 10:31:27------------- 
+
+-------------Fatal at 10/26/2020 10:31:27------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 10/26/2020 10:31:27------------- 
+
+-------------Fatal at 10/26/2020 10:31:27------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 10/26/2020 10:31:27------------- 
+
+-------------Error at 10/26/2020 10:31:38------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:38------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Custom.PetItem.MealsPerBonus' doesn't exist 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Warn at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392 
+-------------Warn at 10/26/2020 10:31:39------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.WebAPI.WebServer', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Error at 10/26/2020 10:31:39------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.WebAPI.WebServer', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:39------------- 
+
+-------------Fatal at 10/26/2020 10:31:44------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Unable to connect to any of the specified MySQL hosts.
+ Source: MySql.Data -> Void Open()
+ Stack Trace:
+   à MySql.Data.MySqlClient.NativeDriver.Open()
+   à MySql.Data.MySqlClient.Driver.Open()
+   à MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   à MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   à MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   à MySql.Data.MySqlClient.MySqlConnection.Open()
+   à Stump.ORM.Database.OpenSharedConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.ORM\PetaPoco.cs:ligne 243
+   à Stump.ORM.DatabaseAccessor.OpenConnection(Database database) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 106
+   à Stump.ORM.DatabaseAccessor.OpenConnection() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.ORM\DatabaseAccessor.cs:ligne 140
+   à Stump.Server.WorldServer.WorldServer.Initialize() dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Emu 2.51 debug\server\stump.server.worldserver\WorldServer.cs:ligne 112
+   à Stump.GUI.WorldConsole.Program.Main(String[] args) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Emu 2.51 debug\GUI\Stump.GUI.WorldConsole\Program.cs:ligne 19 
+-------------Fatal at 10/26/2020 10:31:44------------- 
+
+-------------Fatal at 10/26/2020 10:31:44------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Une ou plusieurs erreurs se sont produites.
+ Source: mscorlib -> Void ThrowIfExceptional(Boolean)
+ Stack Trace:
+   à System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   à System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   à MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   à MySql.Data.MySqlClient.NativeDriver.Open() 
+-------------Fatal at 10/26/2020 10:31:44------------- 
+
+-------------Fatal at 10/26/2020 10:31:44------------- 
+ Stump.Server.BaseServer.ServerBase.HandleCrashException -> 
+	 Crash Exception : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:3306
+ Source: System -> Void InternalEndConnect(System.IAsyncResult)
+ Stack Trace:
+   à System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   à System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   à System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization) 
+-------------Fatal at 10/26/2020 10:31:44------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.Commands.Commands.ItemListCommand', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Idols.IdolInventory.MaxActiveIdols' doesn't exist 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Bank.PricePerItem' doesn't exist 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxInventoryKamas' doesn't exist 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Inventory.MaxPresets' doesn't exist 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Field or property 'Stump.Server.WorldServer.Game.Items.Player.Custom.PetItem.MealsPerBonus' doesn't exist 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Warn at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vince\OneDrive\Bureau\Code\dofus\2.51\Populus 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392 
+-------------Warn at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.WebAPI.WebServer', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:55------------- 
+
+-------------Error at 10/26/2020 10:31:55------------- 
+ Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes -> 
+	Cannot found the class 'Stump.Server.WorldServer.WebAPI.WebServer', is the assembly loaded ? 
+-------------Error at 10/26/2020 10:31:55------------- 
+

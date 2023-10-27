@@ -1,0 +1,377 @@
+[Warn] <12/06/2019 19:35:44> Exceptions not handled cause Debugger is attatched
+[Warn] <12/06/2019 20:00:57> Exceptions not handled cause Debugger is attatched
+[Info] <12/06/2019 20:01:07> Initializing Configuration...
+[Warn] <12/06/2019 20:01:08> Cannot define the variable Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager.PrestigeTitles : System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager'. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'SingletonAllocator'. ---> System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.Server.WorldServer.Game.Effects.EffectManager'. ---> System.ArgumentException: Un élément avec la même clé a déjà été ajouté.
+   à System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   à System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   à Stump.Server.WorldServer.Game.Effects.EffectManager..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 33
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.Server.WorldServer.Game.Effects.EffectManager..ctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   à System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   à System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   à System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   à System.Activator.CreateInstance(Type type)
+   à Stump.Core.Reflection.Singleton`1.SingletonAllocator.CreateInstance(Type type) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 34
+   à Stump.Core.Reflection.Singleton`1.SingletonAllocator..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 25
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.Core.Reflection.Singleton`1.get_Instance() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 13
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase..ctor(EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 74
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase..ctor(Int16 id, EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 100
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger..ctor(Int16 id, Int32 value, EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 25
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger..ctor(EffectsEnum id, Int32 value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 31
+   à Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\PrestigeManager.cs:ligne 26
+   --- Fin de la trace de la pile d'exception interne ---
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.RuntimeFieldHandle.SetValue(RtFieldInfo field, Object obj, Object value, RuntimeType fieldType, FieldAttributes fieldAttr, RuntimeType declaringType, Boolean& domainInitialized)
+   à System.Reflection.RtFieldInfo.InternalSetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture, StackCrawlMark& stackMark)
+   à System.Reflection.RtFieldInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture)
+   à System.Reflection.FieldInfo.SetValue(Object obj, Object value)
+   à Stump.Core.Xml.Config.XmlConfigNode.SetValue(Object value, Boolean alreadyRunning) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 190
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 416
+[Warn] <12/06/2019 20:01:09> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:01:09> Initialize Task Pool
+[Info] <12/06/2019 20:01:09> Initializing Network Interfaces...
+[Info] <12/06/2019 20:01:09> Register Plugins...
+[Warn] <12/06/2019 20:02:26> Exceptions not handled cause Debugger is attatched
+[Info] <12/06/2019 20:02:30> Initializing Configuration...
+[Warn] <12/06/2019 20:02:31> Cannot define the variable Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager.PrestigeTitles : System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager'. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'SingletonAllocator'. ---> System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.Server.WorldServer.Game.Effects.EffectManager'. ---> System.ArgumentException: Un élément avec la même clé a déjà été ajouté.
+   à System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   à System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   à Stump.Server.WorldServer.Game.Effects.EffectManager..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 33
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.Server.WorldServer.Game.Effects.EffectManager..ctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   à System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   à System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   à System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   à System.Activator.CreateInstance(Type type)
+   à Stump.Core.Reflection.Singleton`1.SingletonAllocator.CreateInstance(Type type) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 34
+   à Stump.Core.Reflection.Singleton`1.SingletonAllocator..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 25
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.Core.Reflection.Singleton`1.get_Instance() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 13
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase..ctor(EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 74
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase..ctor(Int16 id, EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 100
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger..ctor(Int16 id, Int32 value, EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 25
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger..ctor(EffectsEnum id, Int32 value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 31
+   à Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\PrestigeManager.cs:ligne 26
+   --- Fin de la trace de la pile d'exception interne ---
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.RuntimeFieldHandle.SetValue(RtFieldInfo field, Object obj, Object value, RuntimeType fieldType, FieldAttributes fieldAttr, RuntimeType declaringType, Boolean& domainInitialized)
+   à System.Reflection.RtFieldInfo.InternalSetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture, StackCrawlMark& stackMark)
+   à System.Reflection.RtFieldInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture)
+   à System.Reflection.FieldInfo.SetValue(Object obj, Object value)
+   à Stump.Core.Xml.Config.XmlConfigNode.SetValue(Object value, Boolean alreadyRunning) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 190
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 416
+[Warn] <12/06/2019 20:02:31> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:02:31> Initialize Task Pool
+[Info] <12/06/2019 20:02:32> Initializing Network Interfaces...
+[Info] <12/06/2019 20:02:32> Register Plugins...
+[Info] <12/06/2019 20:04:35> Initializing Configuration...
+[Warn] <12/06/2019 20:04:36> Cannot define the variable Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager.PrestigeTitles : System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager'. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'SingletonAllocator'. ---> System.Reflection.TargetInvocationException: Une exception a été levée par la cible d'un appel. ---> System.TypeInitializationException: Une exception a été levée par l'initialiseur de type pour 'Stump.Server.WorldServer.Game.Effects.EffectManager'. ---> System.ArgumentException: Un élément avec la même clé a déjà été ajouté.
+   à System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   à System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   à System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   à Stump.Server.WorldServer.Game.Effects.EffectManager..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\EffectManager.cs:ligne 33
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.Server.WorldServer.Game.Effects.EffectManager..ctor()
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   à System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   à System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   à System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   à System.Activator.CreateInstance(Type type)
+   à Stump.Core.Reflection.Singleton`1.SingletonAllocator.CreateInstance(Type type) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 34
+   à Stump.Core.Reflection.Singleton`1.SingletonAllocator..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 25
+   --- Fin de la trace de la pile d'exception interne ---
+   à Stump.Core.Reflection.Singleton`1.get_Instance() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Reflection\Singleton.cs:ligne 13
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase..ctor(EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 74
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectBase..ctor(Int16 id, EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectBase.cs:ligne 100
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger..ctor(Int16 id, Int32 value, EffectBase effect) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 25
+   à Stump.Server.WorldServer.Game.Effects.Instances.EffectInteger..ctor(EffectsEnum id, Int32 value) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Effects\Instances\EffectInteger.cs:ligne 31
+   à Stump.Server.WorldServer.Game.Actors.RolePlay.Characters.PrestigeManager..cctor() dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\server\stump.server.worldserver\Game\Actors\RolePlay\Characters\PrestigeManager.cs:ligne 26
+   --- Fin de la trace de la pile d'exception interne ---
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.RuntimeFieldHandle.SetValue(RtFieldInfo field, Object obj, Object value, RuntimeType fieldType, FieldAttributes fieldAttr, RuntimeType declaringType, Boolean& domainInitialized)
+   à System.Reflection.RtFieldInfo.InternalSetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture, StackCrawlMark& stackMark)
+   à System.Reflection.RtFieldInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture)
+   à System.Reflection.FieldInfo.SetValue(Object obj, Object value)
+   à Stump.Core.Xml.Config.XmlConfigNode.SetValue(Object value, Boolean alreadyRunning) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 190
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 416
+[Warn] <12/06/2019 20:04:36> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:04:36> Initialize Task Pool
+[Info] <12/06/2019 20:04:36> Initializing Network Interfaces...
+[Info] <12/06/2019 20:04:36> Register Plugins...
+[Warn] <12/06/2019 20:08:30> Exceptions not handled cause Debugger is attatched
+[Info] <12/06/2019 20:08:37> Initializing Configuration...
+[Warn] <12/06/2019 20:08:38> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:08:38> Initialize Task Pool
+[Info] <12/06/2019 20:08:38> Initializing Network Interfaces...
+[Info] <12/06/2019 20:08:38> Register Plugins...
+[Info] <12/06/2019 20:09:12> Initializing Configuration...
+[Warn] <12/06/2019 20:09:12> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:09:12> Initialize Task Pool
+[Info] <12/06/2019 20:09:12> Initializing Network Interfaces...
+[Info] <12/06/2019 20:09:12> Register Plugins...
+[Info] <12/06/2019 20:09:26> Initializing Configuration...
+[Warn] <12/06/2019 20:09:26> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:09:26> Initialize Task Pool
+[Info] <12/06/2019 20:09:26> Initializing Network Interfaces...
+[Info] <12/06/2019 20:09:26> Register Plugins...
+[Info] <12/06/2019 20:09:40> Initializing Configuration...
+[Warn] <12/06/2019 20:09:40> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:09:40> Initialize Task Pool
+[Info] <12/06/2019 20:09:40> Initializing Network Interfaces...
+[Info] <12/06/2019 20:09:40> Register Plugins...
+[Info] <12/06/2019 20:09:54> Initializing Configuration...
+[Warn] <12/06/2019 20:09:54> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:09:54> Initialize Task Pool
+[Info] <12/06/2019 20:09:54> Initializing Network Interfaces...
+[Info] <12/06/2019 20:09:54> Register Plugins...
+[Info] <12/06/2019 20:10:08> Initializing Configuration...
+[Warn] <12/06/2019 20:10:08> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:10:08> Initialize Task Pool
+[Info] <12/06/2019 20:10:08> Initializing Network Interfaces...
+[Info] <12/06/2019 20:10:08> Register Plugins...
+[Warn] <12/06/2019 20:13:14> Exceptions not handled cause Debugger is attatched
+[Info] <12/06/2019 20:13:19> Initializing Configuration...
+[Warn] <12/06/2019 20:13:20> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:13:20> Initialize Task Pool
+[Info] <12/06/2019 20:13:20> Initializing Network Interfaces...
+[Info] <12/06/2019 20:13:20> Register Plugins...
+[Warn] <12/06/2019 20:16:48> Exceptions not handled cause Debugger is attatched
+[Info] <12/06/2019 20:16:56> Initializing Configuration...
+[Warn] <12/06/2019 20:16:57> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:16:57> Initialize Task Pool
+[Info] <12/06/2019 20:16:57> Initializing Network Interfaces...
+[Info] <12/06/2019 20:16:57> Register Plugins...
+[Info] <12/06/2019 20:18:22> Loading Plugins...
+[Info] <12/06/2019 20:18:22> Initializing Database...
+[Info] <12/06/2019 20:18:22> Opening Database...
+[Info] <12/06/2019 20:18:32> Register Messages...
+[Info] <12/06/2019 20:18:32> Register Packet Handlers...
+[Info] <12/06/2019 20:18:32> Register Commands...
+[Info] <12/06/2019 20:18:32> Initialize 'AutoAnnounceManager'
+[Info] <12/06/2019 20:18:32> Initialize 'ApproachHandler'
+[Info] <12/06/2019 20:18:32> Initialize 'ChatManager'
+[Info] <12/06/2019 20:18:32> Register id providers
+[Info] <12/06/2019 20:18:32> Initialize 'TextManager'
+[Info] <12/06/2019 20:18:36> Initialize DataManagers
+[Info] <12/06/2019 20:18:36> Initialize 'BreedManager'
+[Info] <12/06/2019 20:18:36> Initialize 'EffectManager'
+[Info] <12/06/2019 20:18:36> Initialize 'SpellManager'
+[Info] <12/06/2019 20:18:38> Initialize 'IncarnationManager'
+[Info] <12/06/2019 20:18:38> Initialize 'AlvoMapManager'
+[Info] <12/06/2019 20:18:38> Initialize 'CranioManager'
+[Info] <12/06/2019 20:18:38> Initialize 'WorldMapScrollActionManager'
+[Info] <12/06/2019 20:18:38> Initialize 'PlacementManager'
+[Info] <12/06/2019 20:18:38> Initialize 'CellTriggerManager'
+[Info] <12/06/2019 20:18:38> Initialize 'ItemManager'
+[Info] <12/06/2019 20:18:41> Initialize 'PetManager'
+[Info] <12/06/2019 20:18:41> Initialize 'TeleportPotionManager'
+[Info] <12/06/2019 20:18:41> Initialize 'BidHouseManager'
+[Info] <12/06/2019 20:18:41> Initialize 'RuneManager'
+[Info] <12/06/2019 20:18:41> Initialize 'InteractiveManager'
+[Info] <12/06/2019 20:18:42> Initialize 'IdolManager'
+[Info] <12/06/2019 20:18:42> Initialize 'ChallengeManager'
+[Info] <12/06/2019 20:18:42> Initialize 'DungeonItemsManager'
+[Info] <12/06/2019 20:18:42> Initialize 'RankRewardManager'
+[Info] <12/06/2019 20:18:42> Initialize 'RankManager'
+[Info] <12/06/2019 20:18:42> Initialize 'ExperienceManager'
+[Info] <12/06/2019 20:18:42> Initialize 'TinselManager'
+[Info] <12/06/2019 20:18:42> Initialize 'BrainManager'
+[Info] <12/06/2019 20:18:42> Initialize 'Looger'
+[Info] <12/06/2019 20:18:42> Initialize 'MongoLogger'
+[Info] <12/06/2019 20:18:43> Initialize 'JobManager'
+[Info] <12/06/2019 20:18:43> Initialize 'RuneManager'
+[Info] <12/06/2019 20:18:43> Initialize 'MonsterNaniManager'
+[Info] <12/06/2019 20:18:43> Initialize 'ArenaManager'
+[Info] <12/06/2019 20:18:43> Initialize 'VersusManager'
+[Info] <12/06/2019 20:18:43> Initialize 'NpcManager'
+[Info] <12/06/2019 20:18:44> Initialize 'GuildManager'
+[Info] <12/06/2019 20:18:44> Initialize 'MountManager'
+[Info] <12/06/2019 20:18:44> Initialize 'MonsterManager'
+[Info] <12/06/2019 20:18:47> Initialize 'MerchantManager'
+[Info] <12/06/2019 20:18:47> Initialize 'World'
+[Info] <12/06/2019 20:18:47> Load maps...
+[Info] <12/06/2019 20:19:01> Load sub areas...
+[Info] <12/06/2019 20:19:01> Load areas...
+[Info] <12/06/2019 20:19:01> Load super areas...
+[Info] <12/06/2019 20:19:01> Load graveyards...
+[Info] <12/06/2019 20:19:01> Spawn npcs ...
+[Info] <12/06/2019 20:19:02> Spawn interactives ...
+[Debug] <12/06/2019 20:19:13> TaskPool 'Arena' update lagged (122ms) (msg:0, timers:1/1)
+[Info] <12/06/2019 20:19:23> Spawn cell triggers ...
+[Info] <12/06/2019 20:19:23> Spawn monsters ...
+[Info] <12/06/2019 20:19:25> Spawn merchants ...
+[Info] <12/06/2019 20:19:26> Initialize 'HavenBagManager'
+[Info] <12/06/2019 20:19:26> Initialize 'PaddockManager'
+[Info] <12/06/2019 20:19:26> Initialize 'TaxCollectorManager'
+[Info] <12/06/2019 20:19:26> Synchronize id providers
+[Info] <12/06/2019 20:19:26> Initialize 'QuestManager'
+[Info] <12/06/2019 20:19:26> Initialize 'WebServer'
+[Info] <12/06/2019 20:19:27> Start Auto-Save Cyclic Task
+[Info] <12/06/2019 20:19:27> Starting Console Handler Interface...
+[Info] <12/06/2019 20:19:27> Starting IPC Communications ...
+[Info] <12/06/2019 20:19:27> Start listening on port : 5555...
+[Info] <12/06/2019 20:19:37> Attempt connection
+[Info] <12/06/2019 20:19:37> IPC connection etablished
+[Debug] <12/06/2019 20:19:38> TaskPool 'IPCAccessor Task Pool' update lagged (1053ms) (msg:0, timers:1/3)
+[Info] <12/06/2019 20:19:39> Access to auth. server granted
+[Debug] <12/06/2019 20:19:39> TaskPool 'IPCAccessor Task Pool' update lagged (274ms) (msg:1, timers:0/3)
+[Debug] <12/06/2019 20:19:40> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <12/06/2019 20:19:40> TaskPool 'IO Task Pool' update lagged (491ms) (msg:1, timers:0/4)
+[Debug] <12/06/2019 20:19:40> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Info] <12/06/2019 20:22:28> Saving world ...
+[Info] <12/06/2019 20:22:28> World server saved ! (141 ms)
+[Debug] <12/06/2019 20:22:28> TaskPool 'IO Task Pool' update lagged (199ms) (msg:0, timers:1/4)
+[Info] <12/06/2019 20:23:33> Initializing Configuration...
+[Warn] <12/06/2019 20:23:34> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:23:34> Initialize Task Pool
+[Info] <12/06/2019 20:23:34> Initializing Network Interfaces...
+[Info] <12/06/2019 20:23:34> Register Plugins...
+[Info] <12/06/2019 20:23:41> Loading Plugins...
+[Info] <12/06/2019 20:23:41> Initializing Database...
+[Info] <12/06/2019 20:23:41> Opening Database...
+[Info] <12/06/2019 20:23:42> Register Messages...
+[Info] <12/06/2019 20:23:42> Register Packet Handlers...
+[Info] <12/06/2019 20:23:42> Register Commands...
+[Info] <12/06/2019 20:23:42> Initialize 'AutoAnnounceManager'
+[Info] <12/06/2019 20:23:42> Initialize 'ApproachHandler'
+[Info] <12/06/2019 20:23:42> Initialize 'ChatManager'
+[Info] <12/06/2019 20:23:42> Register id providers
+[Info] <12/06/2019 20:23:42> Initialize 'TextManager'
+[Info] <12/06/2019 20:23:45> Initialize DataManagers
+[Info] <12/06/2019 20:23:45> Initialize 'BreedManager'
+[Info] <12/06/2019 20:23:45> Initialize 'EffectManager'
+[Info] <12/06/2019 20:23:45> Initialize 'SpellManager'
+[Info] <12/06/2019 20:23:47> Initialize 'IncarnationManager'
+[Info] <12/06/2019 20:23:47> Initialize 'AlvoMapManager'
+[Info] <12/06/2019 20:23:47> Initialize 'CranioManager'
+[Info] <12/06/2019 20:23:47> Initialize 'WorldMapScrollActionManager'
+[Info] <12/06/2019 20:23:47> Initialize 'PlacementManager'
+[Info] <12/06/2019 20:23:47> Initialize 'CellTriggerManager'
+[Info] <12/06/2019 20:23:47> Initialize 'ItemManager'
+[Info] <12/06/2019 20:23:50> Initialize 'PetManager'
+[Info] <12/06/2019 20:23:50> Initialize 'TeleportPotionManager'
+[Info] <12/06/2019 20:23:50> Initialize 'BidHouseManager'
+[Info] <12/06/2019 20:23:50> Initialize 'RuneManager'
+[Info] <12/06/2019 20:23:50> Initialize 'InteractiveManager'
+[Info] <12/06/2019 20:23:51> Initialize 'IdolManager'
+[Info] <12/06/2019 20:23:51> Initialize 'ChallengeManager'
+[Info] <12/06/2019 20:23:51> Initialize 'DungeonItemsManager'
+[Info] <12/06/2019 20:23:51> Initialize 'RankRewardManager'
+[Info] <12/06/2019 20:23:51> Initialize 'RankManager'
+[Info] <12/06/2019 20:23:51> Initialize 'ExperienceManager'
+[Info] <12/06/2019 20:23:51> Initialize 'TinselManager'
+[Info] <12/06/2019 20:23:51> Initialize 'BrainManager'
+[Info] <12/06/2019 20:23:51> Initialize 'Looger'
+[Info] <12/06/2019 20:23:51> Initialize 'MongoLogger'
+[Info] <12/06/2019 20:23:51> Initialize 'JobManager'
+[Info] <12/06/2019 20:23:51> Initialize 'RuneManager'
+[Info] <12/06/2019 20:23:51> Initialize 'MonsterNaniManager'
+[Info] <12/06/2019 20:23:51> Initialize 'ArenaManager'
+[Info] <12/06/2019 20:23:51> Initialize 'VersusManager'
+[Info] <12/06/2019 20:23:51> Initialize 'NpcManager'
+[Info] <12/06/2019 20:23:52> Initialize 'GuildManager'
+[Info] <12/06/2019 20:23:52> Initialize 'MountManager'
+[Info] <12/06/2019 20:23:52> Initialize 'MonsterManager'
+[Info] <12/06/2019 20:23:54> Initialize 'MerchantManager'
+[Info] <12/06/2019 20:23:54> Initialize 'World'
+[Info] <12/06/2019 20:23:54> Load maps...
+[Info] <12/06/2019 20:24:03> Load sub areas...
+[Info] <12/06/2019 20:24:03> Load areas...
+[Info] <12/06/2019 20:24:03> Load super areas...
+[Info] <12/06/2019 20:24:03> Load graveyards...
+[Info] <12/06/2019 20:24:03> Spawn npcs ...
+[Info] <12/06/2019 20:24:03> Spawn interactives ...
+[Info] <12/06/2019 20:24:15> Spawn cell triggers ...
+[Info] <12/06/2019 20:24:15> Spawn monsters ...
+[Info] <12/06/2019 20:24:17> Spawn merchants ...
+[Info] <12/06/2019 20:24:17> Initialize 'HavenBagManager'
+[Info] <12/06/2019 20:24:17> Initialize 'PaddockManager'
+[Info] <12/06/2019 20:24:17> Initialize 'TaxCollectorManager'
+[Info] <12/06/2019 20:24:17> Synchronize id providers
+[Info] <12/06/2019 20:24:17> Initialize 'QuestManager'
+[Info] <12/06/2019 20:24:17> Initialize 'WebServer'
+[Info] <12/06/2019 20:24:18> Start Auto-Save Cyclic Task
+[Info] <12/06/2019 20:24:18> Starting Console Handler Interface...
+[Info] <12/06/2019 20:24:18> Starting IPC Communications ...
+[Info] <12/06/2019 20:24:18> Start listening on port : 5555...
+[Info] <12/06/2019 20:24:28> Attempt connection
+[Info] <12/06/2019 20:24:28> IPC connection etablished
+[Debug] <12/06/2019 20:24:29> TaskPool 'IPCAccessor Task Pool' update lagged (464ms) (msg:0, timers:1/3)
+[Info] <12/06/2019 20:24:29> Access to auth. server granted
+[Debug] <12/06/2019 20:24:29> TaskPool 'IPCAccessor Task Pool' update lagged (236ms) (msg:1, timers:0/3)
+[Debug] <12/06/2019 20:24:29> Stump.Server.WorldServer.Core.IPC.IPCAccessor+<>c__DisplayClass79_0.<BuildMessage>b__0
+[Debug] <12/06/2019 20:24:29> TaskPool 'IO Task Pool' update lagged (187ms) (msg:1, timers:0/4)
+[Debug] <12/06/2019 20:24:29> Stump.Server.WorldServer.Game.Accounts.AccountManager.LoadUserGroups
+[Warn] <12/06/2019 20:34:49> Exceptions not handled cause Debugger is attatched
+[Warn] <12/06/2019 20:39:03> Exceptions not handled cause Debugger is attatched
+[Warn] <12/06/2019 20:40:04> Exceptions not handled cause Debugger is attatched
+[Warn] <12/06/2019 20:43:35> Exceptions not handled cause Debugger is attatched
+[Warn] <12/06/2019 20:48:32> Exceptions not handled cause Debugger is attatched
+[Info] <12/06/2019 20:51:08> Initializing Configuration...
+[Warn] <12/06/2019 20:51:09> Cannot define the variable Stump.Server.WorldServer.Game.Maps.Map.MaxMerchantsPerMap : System.Exception: MaxMerchantsPerMap has no variable attribute
+   à Stump.Core.Xml.Config.XmlConfigNode.BindToField(FieldInfo fieldInfo) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfigNode.cs:ligne 136
+   à Stump.Core.Xml.Config.XmlConfig.AssignValuesFromNodes(Boolean reload) dans C:\Users\vincentpoirier\Desktop\dofus\2.51\Decay 2.51\Core\Stump.Core\Xml\Config\XmlConfig.cs:ligne 392
+[Info] <12/06/2019 20:51:09> Initialize Task Pool
+[Info] <12/06/2019 20:51:09> Initializing Network Interfaces...
+[Info] <12/06/2019 20:51:09> Register Plugins...
+[Info] <12/06/2019 20:51:18> Loading Plugins...
+[Info] <12/06/2019 20:51:18> Initializing Database...
+[Info] <12/06/2019 20:51:18> Opening Database...
+[Info] <12/06/2019 20:51:19> Register Messages...
+[Info] <12/06/2019 20:51:19> Register Packet Handlers...
+[Info] <12/06/2019 20:51:19> Register Commands...
+[Info] <12/06/2019 20:51:20> Initialize 'AutoAnnounceManager'
+[Info] <12/06/2019 20:51:20> Initialize 'ApproachHandler'
+[Info] <12/06/2019 20:51:20> Initialize 'ChatManager'
+[Info] <12/06/2019 20:51:20> Register id providers
+[Info] <12/06/2019 20:51:20> Initialize 'TextManager'
+[Info] <12/06/2019 20:51:22> Initialize DataManagers
+[Info] <12/06/2019 20:51:23> Initialize 'BreedManager'
+[Info] <12/06/2019 20:51:23> Initialize 'EffectManager'
+[Info] <12/06/2019 20:51:23> Initialize 'SpellManager'
+[Info] <12/06/2019 20:51:24> Initialize 'IncarnationManager'
+[Info] <12/06/2019 20:51:24> Initialize 'AlvoMapManager'
+[Info] <12/06/2019 20:51:24> Initialize 'CranioManager'
+[Info] <12/06/2019 20:51:24> Initialize 'WorldMapScrollActionManager'
+[Info] <12/06/2019 20:51:24> Initialize 'PlacementManager'
+[Info] <12/06/2019 20:51:25> Initialize 'CellTriggerManager'
+[Info] <12/06/2019 20:51:25> Initialize 'ItemManager'
+[Info] <12/06/2019 20:51:27> Initialize 'PetManager'
+[Info] <12/06/2019 20:51:27> Initialize 'TeleportPotionManager'
+[Info] <12/06/2019 20:51:27> Initialize 'BidHouseManager'
+[Info] <12/06/2019 20:51:27> Initialize 'RuneManager'
+[Info] <12/06/2019 20:51:27> Initialize 'InteractiveManager'
+[Info] <12/06/2019 20:51:28> Initialize 'IdolManager'
+[Info] <12/06/2019 20:51:28> Initialize 'ChallengeManager'
